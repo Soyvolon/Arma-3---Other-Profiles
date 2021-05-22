@@ -1,0 +1,26 @@
+version=54;
+name="CX-C Keryl Fob Submission";
+author="Keryl";
+category="442_fob";
+requiredAddons[]=
+{
+	"3AS_Prop_FOB",
+	"TaunusObjects",
+	"3AS_Prop_Crates",
+	"CUP_Buildings_Config",
+	"CUP_Editor_Signs_Config",
+	"Eden_Extended_Objects",
+	"101st_Aux_Mod_Vehicles",
+	"3AS_Prop_MB",
+	"3AS_Prop_Barricades",
+	"3AS_Structures",
+	"CUP_Misc_e_Config",
+	"3as_prop_kamino",
+	"plp_rmairport",
+	"A3_Structures_F_Ind_AirPort",
+	"3AS_Prop_Platforms",
+	"A3_Structures_F_Ind_ReservoirTank",
+	"442_misc_box",
+	"442_misc_bacta_tank",
+	"A3_Structures_F_Civ_Lamps"
+};
