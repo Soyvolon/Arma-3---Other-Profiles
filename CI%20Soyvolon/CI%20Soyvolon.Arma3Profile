@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Praestilin_AO1_Soyvolon_Full";
+lastMPMission="Triton_AO4_OBJ_JERICHO_SHOWCASE";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
