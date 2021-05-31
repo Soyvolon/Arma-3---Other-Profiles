@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Altis V512";
+lastMPMission="Praestilin_AO1_Soyvolon_Full";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.054103859,-0.0282661,0.1};
+		positionBack[]={-0.044348516,0.0086254645,0.1};
 	};
 };
 FavoriteServers[]={};
@@ -503,29 +503,29 @@ class DifficultyPresets
 	{
 		class Options
 		{
-			groupIndicators=0;
-			friendlyTags=0;
+			groupIndicators=1;
+			friendlyTags=1;
 			enemyTags=0;
-			detectedMines=0;
-			commands=0;
-			waypoints=0;
+			detectedMines=1;
+			commands=2;
+			waypoints=2;
 			weaponInfo=2;
-			stanceIndicator=0;
+			stanceIndicator=2;
 			reducedDamage=0;
-			staminaBar=0;
-			weaponCrosshair=0;
+			staminaBar=1;
+			weaponCrosshair=1;
 			visionAid=0;
-			thirdPersonView=0;
+			thirdPersonView=1;
 			cameraShake=1;
-			scoreTable=0;
-			deathMessages=0;
-			vonID=0;
-			mapContentFriendly=0;
+			scoreTable=1;
+			deathMessages=1;
+			vonID=1;
+			mapContentFriendly=1;
 			mapContentEnemy=0;
-			mapContentMines=0;
-			autoReport=0;
-			multipleSaves=0;
-			tacticalPing=0;
+			mapContentMines=1;
+			autoReport=1;
+			multipleSaves=1;
+			tacticalPing=3;
 		};
 		aiLevelPreset="AILevelMedium";
 	};
@@ -584,16 +584,21 @@ teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
+activeKeys[]=
+{
+	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done"
+};
+difficulty="Custom";
 headBob=1;
 floatingZoneArea=0;
 sceneComplexity=600000;
-shadowZDistance=152.93152;
-viewDistance=4185.7104;
-preferredObjectViewDistance=2230.8103;
+shadowZDistance=196.97664;
+viewDistance=12000.001;
+preferredObjectViewDistance=12000.001;
 terrainGrid=25;
 volumeCD=0;
-volumeFX=4.83918;
-volumeSpeech=4.8724065;
+volumeFX=2.7458787;
+volumeSpeech=2.6794243;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
 volumeMapDucking=1;

@@ -1,0 +1,20 @@
+version=54;
+name="Core Ship";
+author="SquireOP-";
+category="91st_Clones";
+requiredAddons[]=
+{
+	"442_misc_hologram",
+	"3AS_Prop_Barricades",
+	"3AS_Prop_FOB",
+	"442_misc_bottle",
+	"3AS_Prop_Terminals",
+	"3AS_Prop_Interiors",
+	"442_ships_coreship",
+	"3as_ModularPlatforms",
+	"442_misc_data_pad",
+	"442_misc_porg",
+	"442_misc_stimbox",
+	"442_misc_tseries",
+	"OPTRE_Corvette"
+};
