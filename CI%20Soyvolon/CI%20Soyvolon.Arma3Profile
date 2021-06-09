@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Operation%20Iceburg%20Map%20Markers";
+lastMPMission="Operation Iceburg | Ava 3 FTX | V4";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
