@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Takistan V511";
+lastMPMission="Operation%20Iceburg%20Map%20Markers";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.029165931,-0.029777536,0.1};
+		positionBack[]={-0.035692371,-0.027785242,0.1};
 	};
 };
 FavoriteServers[]={};
