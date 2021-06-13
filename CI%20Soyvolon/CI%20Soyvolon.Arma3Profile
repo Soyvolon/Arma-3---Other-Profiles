@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Operation Iceburg | Ava 3 FTX | V4";
+lastMPMission="501st Legion FunOp Venator: Altis V512";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.035692371,-0.027785242,0.1};
+		positionBack[]={-0.054584749,-0.027510425,0.1};
 	};
 };
 FavoriteServers[]={};
@@ -585,7 +585,8 @@ teamSwitchOffsetY=0;
 activeKeys[]=
 {
 	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done",
-	"BIS_Takistan_Venator_FunOp_v511.takistan_done"
+	"BIS_Takistan_Venator_FunOp_v511.takistan_done",
+	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done"
 };
 difficulty="Custom";
 headBob=1;
