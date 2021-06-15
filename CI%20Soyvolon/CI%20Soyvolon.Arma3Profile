@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Altis V512";
+lastMPMission="Praesitlin AO2 Cyclone 3 Week 3";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
