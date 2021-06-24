@@ -13,7 +13,7 @@ class Identity
 };
 tripleHead=0;
 bootCampWarning=1;
-browsingSource="History";
+browsingSource="Internet";
 class Filter
 {
 	serverName="501st Legion Star";
@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Orto Plutonia V512";
+lastMPMission="501st Legion FunOp Venator: Altis V512";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.051975951,-0.025567323,0.1};
+		positionBack[]={-0.0438007,0.00081325788,0.1};
 	};
 };
 FavoriteServers[]={};
