@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Praesitlin AO2 Ava 3 Week 4 V2";
+lastMPMission="501st Legion FunOp Venator: Altis V512";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.043869402,0.0090571819,0.1};
+		positionBack[]={-0.043044999,0.0043169213,0.1};
 	};
 };
 FavoriteServers[]={};
