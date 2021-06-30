@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Altis V512";
+lastMPMission="Kerama_Islands_Venator_FunOp_v512";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -589,10 +589,10 @@ activeKeys[]=
 	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done"
 };
 difficulty="Custom";
-headBob=1;
-floatingZoneArea=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
+headBob=1;
+floatingZoneArea=0;
 sceneComplexity=600000;
 shadowZDistance=196.97664;
 viewDistance=12000.001;
