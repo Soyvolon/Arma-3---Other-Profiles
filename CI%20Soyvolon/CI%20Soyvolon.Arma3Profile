@@ -220,7 +220,7 @@ keySetTeamGreen[]={487784508,-1659699140};
 keySetTeamBlue[]={487784509,-1659699139};
 keySetTeamYellow[]={487784510,-1659699138};
 keySetTeamWhite[]={487784511,-1659699137};
-keyNetworkStats[]={25};
+keyNetworkStats[]={487784491};
 keyNetworkPlayers[]={-1659699175};
 keySelectAll[]={41};
 keyTurbo[]={42};
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.043457206,0.025270244,0.1};
+		positionBack[]={-0.045449492,0.021423068,0.1};
 	};
 };
 FavoriteServers[]={};
@@ -550,6 +550,19 @@ tutorialHints=1;
 streamFriendlyUI=0;
 instructorFigure=1;
 showRadio=1;
+currentCampaign="A3\Missions_F_EPA\Campaign";
+lastCampaignMission="Drawdown 2035";
+teamSwitchOffsetX=0;
+teamSwitchOffsetY=0;
+activeKeys[]=
+{
+	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done",
+	"BIS_Takistan_Venator_FunOp_v511.takistan_done",
+	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done"
+};
+difficulty="Custom";
+headBob=1;
+floatingZoneArea=0;
 class JoysticksList
 {
 	class Joystick1
@@ -578,21 +591,8 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-currentCampaign="A3\Missions_F_EPA\Campaign";
-lastCampaignMission="Drawdown 2035";
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
-activeKeys[]=
-{
-	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done",
-	"BIS_Takistan_Venator_FunOp_v511.takistan_done",
-	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done"
-};
-difficulty="Custom";
 mouseSensitivityX=1;
 mouseSensitivityY=1;
-headBob=1;
-floatingZoneArea=0;
 sceneComplexity=600000;
 shadowZDistance=196.97664;
 viewDistance=12000.001;
