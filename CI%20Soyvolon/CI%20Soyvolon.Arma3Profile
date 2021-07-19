@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Praestilin_Core_Ship_Interior_Masterfile";
+lastMPMission="501st_Kerama_Ambush";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.045449492,0.021423068,0.1};
+		positionBack[]={-0.054762874,-0.022064835,0.1};
 	};
 };
 FavoriteServers[]={};
@@ -550,7 +550,7 @@ tutorialHints=1;
 streamFriendlyUI=0;
 instructorFigure=1;
 showRadio=1;
-currentCampaign="A3\Missions_F_EPA\Campaign";
+currentCampaign="A3\Missions_F_Bootcamp\Campaign";
 lastCampaignMission="Drawdown 2035";
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
@@ -558,11 +558,11 @@ activeKeys[]=
 {
 	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done",
 	"BIS_Takistan_Venator_FunOp_v511.takistan_done",
-	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done"
+	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done",
+	"BIS_Montella_Terrain_Venator_FunOp_v512.MontellaV3_done",
+	"BIS_501st_Kerama_Ambush.kerama_establishingShot"
 };
 difficulty="Custom";
-headBob=1;
-floatingZoneArea=0;
 class JoysticksList
 {
 	class Joystick1
@@ -593,11 +593,8 @@ class trackIRClass
 };
 mouseSensitivityX=1;
 mouseSensitivityY=1;
-sceneComplexity=600000;
-shadowZDistance=196.97664;
-viewDistance=12000.001;
-preferredObjectViewDistance=12000.001;
-terrainGrid=25;
+headBob=1;
+floatingZoneArea=0;
 volumeCD=0;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
@@ -616,3 +613,8 @@ uiTopLeftY=0.22499999;
 uiBottomRightX=0.70625001;
 uiBottomRightY=0.77499998;
 IGUIScale=0.55000001;
+sceneComplexity=600000;
+shadowZDistance=196.97664;
+viewDistance=12000.001;
+preferredObjectViewDistance=12000.001;
+terrainGrid=25;
