@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Bunker_File_2020";
+lastMPMission="Kolgujev_Venator_FunOp_v512";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
