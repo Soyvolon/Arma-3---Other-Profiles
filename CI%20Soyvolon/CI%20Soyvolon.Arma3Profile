@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Chernarus Winter V512";
+lastMPMission="501st_Kerama_Ambush";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
