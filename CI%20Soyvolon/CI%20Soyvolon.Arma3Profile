@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Kolgujev_Venator_FunOp_v512";
+lastMPMission="501st Legion FunOp Venator: Rugosa v512";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -487,9 +487,9 @@ class MainMap
 {
 	class Compass
 	{
-		inBack=1;
-		position[]={-0.096609309,-0.053413268,0.2};
-		positionBack[]={-0.060327522,-0.025018916,0.1};
+		inBack=0;
+		position[]={-0.078926854,-0.039875146,0.2};
+		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -560,7 +560,8 @@ activeKeys[]=
 	"BIS_Takistan_Venator_FunOp_v511.takistan_done",
 	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done",
 	"BIS_Montella_Terrain_Venator_FunOp_v512.MontellaV3_done",
-	"BIS_501st_Kerama_Ambush.kerama_establishingShot"
+	"BIS_501st_Kerama_Ambush.kerama_establishingShot",
+	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done"
 };
 difficulty="Custom";
 class JoysticksList
