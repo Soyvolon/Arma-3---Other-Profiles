@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="VR_FOB_Halki_FunOp_v1%2e0%2e0";
+lastMPMission="Praestilin_Core_Ship_Interior_Masterfile";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -488,7 +488,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.078926854,-0.039875146,0.2};
+		position[]={-0.061520699,-0.050235935,0.2};
 		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
@@ -597,9 +597,9 @@ mouseSensitivityY=1;
 headBob=1;
 floatingZoneArea=0;
 sceneComplexity=600000;
-shadowZDistance=196.97664;
-viewDistance=12000.001;
-preferredObjectViewDistance=12000.001;
+shadowZDistance=132.67082;
+viewDistance=2576.4639;
+preferredObjectViewDistance=1545.4398;
 terrainGrid=25;
 volumeCD=0;
 volumeFX=2.5132897;

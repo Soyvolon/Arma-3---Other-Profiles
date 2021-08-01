@@ -1,0 +1,9 @@
+class CfgMusic
+{
+	tracks[]={};
+	class twine_WreckingBall
+	{
+		name = "Wrecking Ball - Miley Cyrus";
+		sound[] = {"\music\mc_wb.ogg", db+0, 1.0};
+	};
+};
