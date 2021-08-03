@@ -8,11 +8,11 @@ requiredAddons[]=
 	"JLTS_radios",
 	"RD501_patch_helmets",
 	"RD501_patch_clones",
-	"A3_Modules_F_Curator_Curator",
-	"mcc_sandbox",
 	"A3_Characters_F",
+	"mcc_sandbox",
+	"acex_fortify",
+	"A3_Modules_F_Curator_Curator",
 	"acex_headless",
 	"ace_respawn",
-	"ace_zeus",
-	"acex_fortify"
+	"ace_zeus"
 };

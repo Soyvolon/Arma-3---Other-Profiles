@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Praestilin_Core_Ship_Interior_Masterfile";
+lastMPMission="Fob_Building";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
