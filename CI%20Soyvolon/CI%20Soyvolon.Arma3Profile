@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Sahrani v512";
+lastMPMission="Chernarus_Summer_Venator_FunOp_v1%2e0%2e1";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
