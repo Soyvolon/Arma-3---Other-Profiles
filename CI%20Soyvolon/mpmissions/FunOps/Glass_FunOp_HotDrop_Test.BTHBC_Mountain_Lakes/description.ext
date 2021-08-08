@@ -1,0 +1,14 @@
+class CfgMusic
+{
+	tracks[]={};
+	class glass_TheMountain
+	{
+		name = "The Mountain - Topic";
+		sound[] = {"\music\tm.ogg", db+0, 1.0};
+	};
+	class glass_NothingIsAsitSeems
+	{
+		name = "Nothing Is As It Seems - Hidden Citizens ft. Ruelle";
+		sound[] = {"\music\niais.ogg", db+0, 1.0};
+	};
+};

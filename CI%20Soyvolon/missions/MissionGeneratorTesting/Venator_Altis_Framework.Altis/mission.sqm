@@ -324,7 +324,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={400.98001,540.35199,15501.057};
-			name="venator_center";
+			name="venator";
 			type="Empty";
 			id=0;
 			atlOffset=726.32202;
