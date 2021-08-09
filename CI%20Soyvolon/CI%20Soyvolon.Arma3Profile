@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Chernarus Summer V1.0.1";
+lastMPMission="501st%20Legion%20FunOp%20Venator%3a%20Esseker%20V1%2e0%2e2";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
