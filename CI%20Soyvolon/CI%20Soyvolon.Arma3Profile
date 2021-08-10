@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Praestilin_Core_Ship_Engine_Room_Test";
+lastMPMission="Soyvolons Murders Ava 3 Traning on Friday the 13th";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
