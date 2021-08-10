@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st%20Legion%20FunOp%20Venator%3a%20Esseker%20V1%2e0%2e2";
+lastMPMission="Praestilin_Core_Ship_Engine_Room_Test";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -601,7 +601,7 @@ shadowZDistance=200;
 viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
 terrainGrid=25;
-volumeCD=1.1509826;
+volumeCD=0.7190311;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;
