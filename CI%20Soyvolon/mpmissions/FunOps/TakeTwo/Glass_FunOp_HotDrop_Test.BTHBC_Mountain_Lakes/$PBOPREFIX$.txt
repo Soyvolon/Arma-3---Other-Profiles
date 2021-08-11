@@ -1,0 +1,5 @@
+//<'Glass_FunOp_HotDrop_Test.BTHBC_Mountain_Lakes.pbo' properties via Mikero's dos tools, dll version 7.97>
+Mikero=DePbo.dll.7.97;
+version=21080800;
+//PboType=Arma Mission;
+//</properties>

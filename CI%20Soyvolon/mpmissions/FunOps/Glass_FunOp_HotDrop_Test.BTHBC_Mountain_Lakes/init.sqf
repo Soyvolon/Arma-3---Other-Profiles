@@ -21,3 +21,9 @@ _EndSplashScreen = {
     };
 };
 [] spawn _EndSplashScreen;
+
+laats = [];
+publicVariable "laats";
+
+laat_counter = 0;
+publicVariable "laat_counter";

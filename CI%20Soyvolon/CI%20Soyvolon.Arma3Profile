@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Soyvolons Murders Ava 3 Traning on Friday the 13th";
+lastMPMission="Glass_FunOp_HotDrop_Test";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -552,8 +552,6 @@ instructorFigure=1;
 showRadio=1;
 currentCampaign="A3\Missions_F_Bootcamp\Campaign";
 lastCampaignMission="Drawdown 2035";
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
 activeKeys[]=
 {
 	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done",
@@ -596,6 +594,8 @@ mouseSensitivityX=1;
 mouseSensitivityY=1;
 headBob=1;
 floatingZoneArea=0;
+teamSwitchOffsetX=0;
+teamSwitchOffsetY=0;
 sceneComplexity=600000;
 shadowZDistance=200;
 viewDistance=12000.001;

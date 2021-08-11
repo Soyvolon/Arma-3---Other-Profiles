@@ -12,3 +12,35 @@ class CfgMusic
 		sound[] = {"\music\niais.ogg", db+0, 1.0};
 	};
 };
+class CfgFunctions
+{
+	class SVLN
+	{
+		tag = "SVLN";
+
+		class hotDrop
+		{
+			file = "hotdrop";
+			class SVLN_fnc_deployLaunchRail
+			{
+				file = "hotdrop\deploy.sqf";
+			};
+			class SVLN_fnc_populateLAATs
+			{
+				file = "hotdrop\populate.sqf";
+			};
+			class SVLN_fnc_reloadLaunchRail
+			{
+				file = "hotdrop\reload.sqf";
+			};
+			class SVLN_fnc_spawnLAAT
+			{
+				file = "hotdrop\spawn.sqf";
+			};
+			class SVLN_fnc_hotdropInit
+			{
+				file = "hotdrop\hotdrop.sqf";
+			};
+		}
+	}
+};
