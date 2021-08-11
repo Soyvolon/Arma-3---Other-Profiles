@@ -21,23 +21,23 @@ class CfgFunctions
 		class hotDrop
 		{
 			file = "hotdrop";
-			class SVLN_fnc_deployLaunchRail
+			class deployLaunchRail
 			{
 				file = "hotdrop\deploy.sqf";
 			};
-			class SVLN_fnc_populateLAATs
+			class populateLAATs
 			{
 				file = "hotdrop\populate.sqf";
 			};
-			class SVLN_fnc_reloadLaunchRail
+			class reloadLaunchRail
 			{
 				file = "hotdrop\reload.sqf";
 			};
-			class SVLN_fnc_spawnLAAT
+			class spawnLAAT
 			{
 				file = "hotdrop\spawn.sqf";
 			};
-			class SVLN_fnc_hotdropInit
+			class hotdropInit
 			{
 				file = "hotdrop\hotdrop.sqf";
 			};
