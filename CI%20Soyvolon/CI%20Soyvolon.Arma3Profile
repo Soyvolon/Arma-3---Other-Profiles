@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Venator_Editing";
+lastMPMission="Veantor";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
