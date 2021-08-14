@@ -1,9 +1,9 @@
 // TO ENABLE:
 // 1. Place convoy vehicles on the road, in the order you want them to be lined up.
-// 2. Group all the vehicles together, with the first vehicle being the first in the group and 
+// 2. Group all the vehicle drivers together, with the first vehicle being the first in the group and 
 // the last vehicle being the last. The order you add to the group is important, as that is the
 // order the vehicles will take when driving.
-// 3. Set the group AI to careless. The gunners will still fire but this prevents them from going offroad.
+// 3. Set the drivers AI to careless. The gunners will still fire but this prevents them from going offroad.
 // You can skip this if you want the AI to drive offroad when they get engaged.
 // 4. Open an execute code window and paste the code under the script section into it. Run it on Global.
 // 5. Open the convoy group and paste the Enbale script into the text box. Replace convoyGroup with _this.

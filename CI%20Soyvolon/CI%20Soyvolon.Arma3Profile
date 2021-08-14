@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Veantor";
+lastMPMission="Soyvolons Murders Ava 3 Traning on Friday the 13th";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -488,7 +488,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.095504098,-0.050926641,0.2};
+		position[]={-0.11525868,-0.051617358,0.2};
 		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
@@ -562,6 +562,12 @@ activeKeys[]=
 	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done"
 };
 difficulty="Custom";
+headBob=1;
+floatingZoneArea=0;
+teamSwitchOffsetX=0;
+teamSwitchOffsetY=0;
+mouseSensitivityX=1;
+mouseSensitivityY=1;
 class JoysticksList
 {
 	class Joystick1
@@ -590,18 +596,12 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-headBob=1;
-floatingZoneArea=0;
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
-mouseSensitivityX=1;
-mouseSensitivityY=1;
 sceneComplexity=600000;
 shadowZDistance=200;
 viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
 terrainGrid=25;
-volumeCD=0.7190311;
+volumeCD=0.32030746;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;
