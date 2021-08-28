@@ -4,11 +4,6 @@ author="Soyvolon";
 category="OPTRE_ARS_Buildings";
 requiredAddons[]=
 {
-	"CUP_CAMisc",
-	"A3_Supplies_F_Heli_Slingload",
-	"ace_refuel",
-	"OPTRE_UNSC_Structure_Elevator",
-	"A3_Air_F_Heli_Heli_Transport_04",
 	"A3_Modules_F",
 	"3AS_Prop_FOB",
 	"OPTRE_UNSC_Structure_Walls",
@@ -17,5 +12,6 @@ requiredAddons[]=
 	"3AS_Prop_Crates",
 	"OPTRE_BW_WarehouseRamps",
 	"OPTRE_BW_WarehouseRS",
-	"A3_Structures_F_Mil_TentHangar"
+	"A3_Structures_F_Mil_TentHangar",
+	"OPTRE_UNSC_Structure_Elevator"
 };

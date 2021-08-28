@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Kerama Islands V512";
+lastMPMission="501st Legion FunOp Venator: Altis V1.1.0";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -488,14 +488,14 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.11525868,-0.051617358,0.2};
+		position[]={-0.054751087,-0.00061568129,0.2};
 		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
 FavoriteServers[]={};
 anisoFilter=16;
-textureQuality=2;
-shadowQuality=5;
+textureQuality=1;
+shadowQuality=1;
 maxSamplesPlayed=96;
 class DifficultyPresets
 {
@@ -559,11 +559,10 @@ activeKeys[]=
 	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done",
 	"BIS_Montella_Terrain_Venator_FunOp_v512.MontellaV3_done",
 	"BIS_501st_Kerama_Ambush.kerama_establishingShot",
-	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done"
+	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done",
+	"BIS_501st%20Legion%20FunOp%20Venator%3A%20Altis%20V1%2e1%2e0.Altis_done"
 };
 difficulty="Custom";
-headBob=1;
-floatingZoneArea=0;
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
 mouseSensitivityX=1;
@@ -596,12 +595,14 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
+headBob=1;
+floatingZoneArea=0;
 sceneComplexity=600000;
-shadowZDistance=200;
-viewDistance=12000.001;
-preferredObjectViewDistance=12000.001;
+shadowZDistance=85.983017;
+viewDistance=2936.0471;
+preferredObjectViewDistance=1707.45;
 terrainGrid=25;
-volumeCD=0.32030746;
+volumeCD=0;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;
