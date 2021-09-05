@@ -488,7 +488,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.054751087,-0.00061568129,0.2};
+		position[]={-0.082794294,-0.056563959,0.2};
 		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
