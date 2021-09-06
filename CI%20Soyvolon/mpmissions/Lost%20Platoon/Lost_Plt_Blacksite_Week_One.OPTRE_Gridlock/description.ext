@@ -1,0 +1,13 @@
+class CfgFunctions {
+	class SVLN {
+		tag = "SVLN";
+
+		class gatekeeper {
+			file = "gatekeeper";
+			class registerKey {
+				file = "gatekeeper\register_key.sqf";
+			};
+			
+		};
+	};
+};
