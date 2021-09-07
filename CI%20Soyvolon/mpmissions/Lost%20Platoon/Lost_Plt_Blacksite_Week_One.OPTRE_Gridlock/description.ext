@@ -7,7 +7,15 @@ class CfgFunctions {
 			class registerKey {
 				file = "gatekeeper\register_key.sqf";
 			};
-			
+			class pickupKey {
+				file = "gatekeeper\pickup_key.sqf";
+			};
+			class dropKey {
+				file = "gatekeeper\drop_key.sqf";
+			};
+			class resetKey {
+				file = "gatekeeper\reset_key.sqf";
+			};
 		};
 	};
 };
