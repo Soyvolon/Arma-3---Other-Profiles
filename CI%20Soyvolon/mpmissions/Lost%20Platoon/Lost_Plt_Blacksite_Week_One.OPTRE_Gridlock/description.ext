@@ -16,6 +16,12 @@ class CfgFunctions {
 			class resetKey {
 				file = "gatekeeper\reset_key.sqf";
 			};
+			class registerDoor {
+				file = "gatekeeper\register_door.sqf";
+			};
+			class checkColors {
+				file = "gatekeeper\check_colors.sqf";
+			};
 		};
 	};
 };

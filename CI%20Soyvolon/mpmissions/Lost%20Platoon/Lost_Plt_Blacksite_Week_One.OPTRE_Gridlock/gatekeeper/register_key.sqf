@@ -13,7 +13,7 @@ _light attachTo [_key_object, [0, 0, 0]];
 
 // Save params to hash map
 
-key_store set [_key_name, [_key_object, _attach_offset, _attach_vdir, _attach_point, _key_name]];
+key_store set [_key_name, [_key_object, _attach_offset, _attach_vdir, _attach_point, _key_name, _key_color]];
 _key_object setVariable ["SVLN_key_name", _key_name];
 
 // regisert inital pickup action.
