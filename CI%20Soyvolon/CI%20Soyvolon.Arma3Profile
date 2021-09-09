@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Veantor";
+lastMPMission="Checkpoints_RP_2021_Ver2";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
