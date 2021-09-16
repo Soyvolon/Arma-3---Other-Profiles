@@ -1,4 +1,4 @@
-params ["_door_object", "_door_color"];
+params ["_door_object", "_door_name", "_door_color"];
 
 // Init trigger
 
@@ -14,13 +14,16 @@ _trg setTriggerStatements [
 	""
 ];
 
+// Color sensitive helper
+_door_object addAction [_door_name, {}];
+
 // Init door color light
 
 private _light = "#lightpoint" createVehicleLocal (_door_object modelToworld [0, 0, 0.1]);
 _light setLightColor _door_color;
 _light setLightAmbient _door_color;
-_light setLightBrightness 150;
+_light setLightBrightness 500;
 _light setLightIntensity 150;
 _light setLightDayLight true;
 
-_light attachTo [_door_object, [0, 0, 2]];
+_light attachTo [_door_object, [0, 0, 0.5]];

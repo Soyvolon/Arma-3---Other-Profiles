@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Checkpoints_RP_2021_Ver2";
+lastMPMission="tempMissionMP";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -488,7 +488,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.082794294,-0.056563959,0.2};
+		position[]={-0.065250017,-0.047170166,0.2};
 		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
