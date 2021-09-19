@@ -23,5 +23,13 @@ class CfgFunctions {
 				file = "gatekeeper\check_colors.sqf";
 			};
 		};
+		class teleports {
+			class registerIterativeTeleporter {
+				file = "teleports\register_iterative_teleporter.sqf";
+			};
+			class iterativeTeleport {
+				file = "teleports\iterative_teleport.sqf";
+			};
+		};
 	};
 };

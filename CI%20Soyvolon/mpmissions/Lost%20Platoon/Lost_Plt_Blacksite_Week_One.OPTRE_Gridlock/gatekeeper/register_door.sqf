@@ -3,7 +3,7 @@ params ["_door_object", "_door_name", "_door_color"];
 // Init trigger
 
 private _trg = createTrigger ["EmptyDetector", getPosWorld _door_object, true];
-_trg setTriggerArea [5, 5, 0, false, 5];
+_trg setTriggerArea [7, 7, 0, false, 5];
 _trg setTriggerActivation ["ANYPLAYER", "PRESENT", true];
 _trg setTriggerTimeout [5, 7, 10, true];
 _trg setVariable ["door_color", _door_color, true];

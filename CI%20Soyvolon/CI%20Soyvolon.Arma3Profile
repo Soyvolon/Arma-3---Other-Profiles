@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="tempMissionMP";
+lastMPMission="My20test20Range";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -560,7 +560,8 @@ activeKeys[]=
 	"BIS_Montella_Terrain_Venator_FunOp_v512.MontellaV3_done",
 	"BIS_501st_Kerama_Ambush.kerama_establishingShot",
 	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done",
-	"BIS_501st%20Legion%20FunOp%20Venator%3A%20Altis%20V1%2e1%2e0.Altis_done"
+	"BIS_501st%20Legion%20FunOp%20Venator%3A%20Altis%20V1%2e1%2e0.Altis_done",
+	"BIS_501st_Legion_FunOp_Venator%3A_Altis_V1-2-0.Altis_done"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
