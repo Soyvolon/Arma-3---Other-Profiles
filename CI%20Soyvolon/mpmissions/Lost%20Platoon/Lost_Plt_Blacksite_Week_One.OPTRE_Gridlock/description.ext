@@ -31,5 +31,10 @@ class CfgFunctions {
 				file = "teleports\iterative_teleport.sqf";
 			};
 		};
+		class lighting {
+			class registerLight {
+				file = "lighting\register_light.sqf";
+			};
+		};
 	};
 };

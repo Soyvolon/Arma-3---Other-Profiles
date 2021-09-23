@@ -2,14 +2,14 @@ params ["_key_object", "_key_color", "_attach_offset", "_attach_vdir", "_attach_
 
 // do light registration.
 
-private _light = "#lightpoint" createVehicleLocal (_key_object modelToworld [0, 0, 0.1]);
-_light setLightColor _key_color;
-_light setLightAmbient _key_color;
-_light setLightBrightness 50;
-_light setLightIntensity 50;
-_light setLightDayLight true;
+private _light = "#lightpoint" createVehicle (_key_object modelToworld [0, 0, 0.1]);
+[_light, _key_color] remoteExec ["setLightColor", client];
+[_light, _key_color] remoteExec ["setLightAmbient", client];
+[_light, 50] remoteExec ["setLightBrightness", client];
+[_light, 50] remoteExec ["setLightIntensity", client];
+[_light, true] remoteExec ["setLightDayLight", client];
 
-_light attachTo [_key_object, [0, 0, 0]];
+[_light, _key_object, [0, 0, 0]] remoteExec ["attachTo", client];
 
 // Save params to hash map
 

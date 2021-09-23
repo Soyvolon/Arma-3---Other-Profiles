@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="My20test20Range";
+lastMPMission="Lost_Plt_Blacksite_Week_One_Archangel";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -488,7 +488,7 @@ class MainMap
 	class Compass
 	{
 		inBack=0;
-		position[]={-0.065250017,-0.047170166,0.2};
+		position[]={-0.08956334,-0.045374289,0.2};
 		positionBack[]={-0.11221951,-0.052169956,0.2};
 	};
 };
@@ -603,7 +603,7 @@ shadowZDistance=85.983017;
 viewDistance=2936.0471;
 preferredObjectViewDistance=1707.45;
 terrainGrid=25;
-volumeCD=0;
+volumeCD=1.3171172;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;
