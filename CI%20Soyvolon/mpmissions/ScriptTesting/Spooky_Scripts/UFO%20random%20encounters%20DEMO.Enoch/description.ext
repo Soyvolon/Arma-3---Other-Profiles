@@ -1,0 +1,64 @@
+overviewPicture = "Img\Snapshot.jpg";
+onLoadName 		= UFOs Random Encounters;
+author 			= ALIAS;									
+onLoadMission 	= UFOs Random Encounters;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class final_boom
+	{
+		name = "final_boom";
+		sound[] = {"\sound\final_boom.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class charge_complete
+	{
+		name = "charge_complete";
+		sound[] = {"\sound\charge_complete.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class static
+	{
+		name = "static";
+		sound[] = {"\sound\static.ogg",0.05,1};
+		titles[] = {1, ""};
+	};
+	class charge_1
+	{
+		name = "charge_1";
+		sound[] = {"\sound\charge_1.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class charge_2
+	{
+		name = "charge_2";
+		sound[] = {"\sound\charge_2.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class ufo_cross
+	{
+		name = "ufo_cross";
+		sound[] = {"\sound\ufo_cross.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class crop_me
+	{
+		name = "crop_me";
+		sound[] = {"\sound\crop_me.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class aterizat
+	{
+		name = "aterizat";
+		sound[] = {"\sound\aterizat.ogg",1,1};
+		titles[] = {1, ""};
+	};
+	class cutremur
+	{
+		name = "cutremur";
+		sound[] = {"\sound\cutremur.ogg",1,1};
+		titles[] = {1, ""};
+	};
+
+};

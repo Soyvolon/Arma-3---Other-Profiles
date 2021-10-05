@@ -6,3 +6,5 @@ _light setLightAmbient (_this select 1);
 _light setLightBrightness 250;
 _light setLightIntensity 250;
 _light setLightDayLight true;
+
+_light attachTo [_object];

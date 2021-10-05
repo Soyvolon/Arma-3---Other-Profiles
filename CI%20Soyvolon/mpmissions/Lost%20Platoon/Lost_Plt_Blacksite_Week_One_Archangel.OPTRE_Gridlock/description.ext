@@ -56,4 +56,9 @@ class CfgMusic
 		name = "Welcome to the Party";
 		sound[] = {"\music\wttp.ogg", db+0, 1.0};
 	};
+	class soy_uprise
+	{
+		name = "Uprising - Muse";
+		sound[] = {"\music\uprise.ogg", db+0, 1.0};
+	};
 };

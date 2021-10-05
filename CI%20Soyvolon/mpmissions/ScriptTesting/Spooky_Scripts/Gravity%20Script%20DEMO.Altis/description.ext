@@ -1,0 +1,52 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "Gravity DEMO";	// mission summary
+overviewPicture = "Img\Snapshot.jpg";
+
+// === LOAD SCREEN
+
+onLoadName 		= Gravity DEMO;
+author 			= ALIAS;									
+onLoadMission 	= Gravity Generator and Gravity Weapon DEMO mission;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class vum
+	{
+		name = "vum";
+		sound[] = {"\sound\vum.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class up_impact
+	{
+		name = "up_impact";
+		sound[] = {"\sound\up_impact.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class ecou
+	{
+		name = "ecou";
+		sound[] = {"\sound\ecou.ogg", db+20, 1};
+		titles[] = {};
+	};		
+	class oscilatie
+	{
+		name = "oscilatie";
+		sound[] = {"\sound\oscilatie.ogg", db+15, 1};
+		titles[] = {};
+	};	
+	class eco_ray	
+	{
+		name = "eco_ray";
+		sound[] = {"\sound\eco_ray.ogg", db+3, 1};
+		titles[] = {};
+	};
+	class earthquakes	
+	{
+		name = "earthquakes";
+		sound[] = {"\sound\earthquakes.ogg", 1, 1};
+		titles[] = {};
+	};		
+
+};

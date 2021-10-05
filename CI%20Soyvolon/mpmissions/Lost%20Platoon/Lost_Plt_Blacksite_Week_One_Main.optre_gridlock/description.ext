@@ -41,10 +41,10 @@ class CfgFunctions {
 class CfgMusic
 {
 	tracks[]={};
-	class glass_destroyMe
+	class glass_resurection
 	{
-		name = "Destroy Me - Mr. Kitty";
-		sound[] = {"\music\destroy_me.ogg", db+0, 1.0};
+		name = "Resurection - Mr. Kitty";
+		sound[] = {"\music\res.ogg", db+0, 1.0};
 	};
 	class glass_theSword
 	{
@@ -55,5 +55,10 @@ class CfgMusic
 	{
 		name = "Neo Tokyo - Scandroid";
 		sound[] = {"\music\scandroid.ogg", db+0, 1.0};
+	};
+	class soy_uprise
+	{
+		name = "Uprising - Muse";
+		sound[] = {"\music\uprise.ogg", db+0, 1.0};
 	};
 };

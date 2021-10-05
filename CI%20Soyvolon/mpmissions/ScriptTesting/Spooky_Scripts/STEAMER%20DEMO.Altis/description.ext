@@ -1,0 +1,173 @@
+// === MISSION OVERVIEW
+enableDebugConsole = 2;
+
+overviewText 	= "THE STEAMER DEMO";	// mission summary
+overviewPicture = "Img\Snapshot.jpg";
+
+// === LOAD SCREEN
+
+onLoadName 		= THE STEAMER DEMO;
+author 			= ALIAS;									
+onLoadMission 	= THE STEAMER DEMO mission;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class explozie_3
+	{
+		name = "explozie_3";
+		sound[] = {"\Sound\explozie_3.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class explozie_2
+	{
+		name = "explozie_2";
+		sound[] = {"\Sound\explozie_2.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class explozie_1
+	{
+		name = "explozie_1";
+		sound[] = {"\Sound\explozie_1.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class gheizer_4
+	{
+		name = "gheizer_4";
+		sound[] = {"\sound\gheizer_4.ogg", db+5, 1};
+		titles[] = {1, ""};
+	};	
+	class gheizer_3
+	{
+		name = "gheizer_3";
+		sound[] = {"\sound\gheizer_3.ogg", db+5, 1};
+		titles[] = {1, ""};
+	};		
+	class gheizer_2
+	{
+		name = "gheizer_2";
+		sound[] = {"\sound\gheizer_2.ogg", db+5, 1};
+		titles[] = {1, ""};
+	};		
+	class gheizer_1
+	{
+		name = "gheizer_1";
+		sound[] = {"\sound\gheizer_1.ogg", db+5, 1};
+		titles[] = {1, ""};
+	};
+	class al_boil
+	{
+		name = "al_boil";
+		sound[] = {"\sound\al_boil.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class boil_mic
+	{
+		name = "boil_mic";
+		sound[] = {"\sound\boil_mic.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class vapori_01
+	{
+		name = "vapori_01";
+		sound[] = {"\sound\vapori_01.ogg",0.3, 1};
+		titles[] = {1, ""};
+	};
+	class vapori_02
+	{
+		name = "vapori_02";
+		sound[] = {"\sound\vapori_02.ogg",0.5, 1};
+		titles[] = {1, ""};
+	};
+	class vapori_03
+	{
+		name = "vapori_03";
+		sound[] = {"\sound\vapori_03.ogg",0.2, 1};
+		titles[] = {1, ""};
+	};
+	class drops_01
+	{
+		name = "drops_01";
+		sound[] = {"\sound\drops_01.ogg",db+5, 1};
+		titles[] = {1, ""};
+	};
+	class drops_02
+	{
+		name = "drops_02";
+		sound[] = {"\sound\drops_02.ogg",db+5, 1};
+		titles[] = {1, ""};
+	};
+	class drops_03
+	{
+		name = "drops_03";
+		sound[] = {"\sound\drops_03.ogg",db+5, 1};
+		titles[] = {1, ""};
+	};
+	class debris
+	{
+		name = "debris";
+		sound[] = {"\sound\debris.ogg",0.3, 1};
+		titles[] = {1, ""};
+	};
+	class steamer_01
+	{
+		name = "steamer_01";
+		sound[] = {"\sound\steamer_01.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class steamer_02
+	{
+		name = "steamer_02";
+		sound[] = {"\sound\steamer_02.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class tip_01
+	{
+		name = "tip_01";
+		sound[] = {"\sound\tip_01.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class tip_02
+	{
+		name = "tip_02";
+		sound[] = {"\sound\tip_02.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class tip_03
+	{
+		name = "tip_03";
+		sound[] = {"\sound\tip_03.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class tip_04
+	{
+		name = "tip_04";
+		sound[] = {"\sound\tip_04.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class tip_05
+	{
+		name = "tip_05";
+		sound[] = {"\sound\tip_05.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class tip_06
+	{
+		name = "tip_06";
+		sound[] = {"\sound\tip_06.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class eko_01
+	{
+		name = "eko_01";
+		sound[] = {"\sound\eko_01.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class eko_02
+	{
+		name = "eko_02";
+		sound[] = {"\sound\eko_02.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+
+};

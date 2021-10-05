@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Lost_Plt_Blacksite_Week_One_Archangel";
+lastMPMission="Funky_Shit_Creation";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -487,9 +487,9 @@ class MainMap
 {
 	class Compass
 	{
-		inBack=0;
-		position[]={-0.08956334,-0.045374289,0.2};
-		positionBack[]={-0.11221951,-0.052169956,0.2};
+		inBack=1;
+		position[]={-0.00066477503,-0.0071793897,0.2};
+		positionBack[]={-0.10855518,-0.056082286,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -561,7 +561,9 @@ activeKeys[]=
 	"BIS_501st_Kerama_Ambush.kerama_establishingShot",
 	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done",
 	"BIS_501st%20Legion%20FunOp%20Venator%3A%20Altis%20V1%2e1%2e0.Altis_done",
-	"BIS_501st_Legion_FunOp_Venator%3A_Altis_V1-2-0.Altis_done"
+	"BIS_501st_Legion_FunOp_Venator%3A_Altis_V1-2-0.Altis_done",
+	"BIS_501st_Legion_FunOp_Venator%3A_Tembelan_Island_V1-2-0.Tembelan_done",
+	"BIS_Lost_Plt_Blacksite_Week_One_Main_V4.optre_gridlock_done"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
@@ -603,7 +605,7 @@ shadowZDistance=85.983017;
 viewDistance=2936.0471;
 preferredObjectViewDistance=1707.45;
 terrainGrid=25;
-volumeCD=1.3171172;
+volumeCD=0.88516647;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;

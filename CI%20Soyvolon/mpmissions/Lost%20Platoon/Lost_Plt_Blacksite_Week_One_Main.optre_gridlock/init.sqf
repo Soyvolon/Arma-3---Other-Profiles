@@ -27,6 +27,8 @@ publicVariable "client";
 
 [white_key, [1,1,1], [0, -0.15, 0], [[0, -1, 0], [1, 0, 0]], "pelvis", "Artifact"] call SVLN_fnc_registerKey;
 
+[global_key, [2,2,2], [0, -0.15, 0], [[0, -1, 0], [1, 0, 0]], "pelvis", "Override Key"] call SVLN_fnc_registerKey;
+
 // Load doors
 // blue_door
 

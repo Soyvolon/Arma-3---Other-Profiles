@@ -1,0 +1,4 @@
+//drop [["\a3\Data_f\ParticleEffects\Universal\Universal",16,7,48,1],"","Billboard",1,6,_this,[0,0,0],0,10.2,7.9,0,[10,30],[[1,1,1,1],[1,1,1,0]],[0.8],0,0,"","",_this];
+//drop [["\A3\data_f\cl_basic",1,0,1],"","Billboard",1,7,_this,[0,0,0],0,10,8,3,[10,40],[[1,1,1,0.5],[1,1,1,0]],[1],1,0,"","",_this];
+//drop [["\A3\data_f\ParticleEffects\Universal\Universal",16,12,8,1],"","Billboard",1,10,[_this#0+(selectrandom[random 3,random -3]),_this#1+(selectrandom[random 3,random -3]),_this#2],[0,0,0],7,10,8,3,[21-trail_evo,31-trail_evo,51-trail_evo],[[1,1,1,0.5],[1,1,1,0.3],[1,1,1,0]],[0.5],1,0,"","",_this];
+drop [["\A3\data_f\ParticleEffects\Universal\Universal",16,12,8,1],"","Billboard",1,5+(random 10),[_this#0+(selectrandom[random 3,random -3]),_this#1+(selectrandom[random 3,random -3]),_this#2],[0,0,0],7,10,8,3,[31-trail_evo,41-trail_evo,51-trail_evo],[[1,1,1,0.5],[1,1,1,0.3],[1,1,1,0]],[0.5],1,0,"","",_this];

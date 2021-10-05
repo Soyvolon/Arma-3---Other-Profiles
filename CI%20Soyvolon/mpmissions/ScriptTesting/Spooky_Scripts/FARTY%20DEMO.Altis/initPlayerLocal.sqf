@@ -1,0 +1,1 @@
+execVM "AL_farty\al_ini_fnc_toxic.sqf"
