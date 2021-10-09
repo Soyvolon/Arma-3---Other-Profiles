@@ -3,7 +3,7 @@
 
 private [
 "_object_name","_slide_vel","_slide_dist","_bounce_speed","_bounce_altitude","_rot_vel","_rot_dir","_al_rock",
-"_roll_vel","_orbit_radius","_obrit_speed","_orbit_clock_wise","_dist_dependent","_poz_obj","_alt_obj"
+"_roll_vel","_orbit_radius","_obrit_speed","_orbit_clock_wise","_dist_dependent","_poz_obj","_alt_obj", "_delete_tree"
 ];
 
 if (!hasInterface) exitWith {};
@@ -32,8 +32,18 @@ _orbit_clock_wise=_orbit_move select 2;
 _dist_dependent	=_this select 6;
 _poz_obj		=_this select 7;
 _alt_obj		=_this select 8;
+try {
+	_delete_tree=_this select 9;
+} catch {
+	_delete_tree = -1;
+};
 
 _al_rock = _object_name createVehicleLocal _poz_obj;
+if (_delete_tree != -1) then {
+	items = delete_tree getOrDefault [_delete_tree, []];
+	items + [_al_rock];
+	delete_tree set [_delete_tree, items];
+};
 _poz_obj = [getposATL _al_rock select 0,getposATL _al_rock select 1,_alt_obj];
 _al_rock setPosATL _poz_obj;
 

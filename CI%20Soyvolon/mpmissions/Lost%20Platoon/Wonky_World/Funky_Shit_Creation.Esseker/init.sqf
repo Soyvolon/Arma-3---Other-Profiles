@@ -12,6 +12,7 @@ _EndSplashScreen = {
 
 // START CUSTOM INIT
 
-
+delete_tree = createHashMap;
+publicVariable "delete_tree";
 
 // END CUSTOM INIT

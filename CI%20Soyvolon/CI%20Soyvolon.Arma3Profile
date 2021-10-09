@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Funky_Shit_Creation";
+lastMPMission="Av3_Week1_V1";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.10855518,-0.056082286,0.2};
+		positionBack[]={-0.092116021,-0.06188434,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -563,7 +563,8 @@ activeKeys[]=
 	"BIS_501st%20Legion%20FunOp%20Venator%3A%20Altis%20V1%2e1%2e0.Altis_done",
 	"BIS_501st_Legion_FunOp_Venator%3A_Altis_V1-2-0.Altis_done",
 	"BIS_501st_Legion_FunOp_Venator%3A_Tembelan_Island_V1-2-0.Tembelan_done",
-	"BIS_Lost_Plt_Blacksite_Week_One_Main_V4.optre_gridlock_done"
+	"BIS_Lost_Plt_Blacksite_Week_One_Main_V4.optre_gridlock_done",
+	"BIS_Av3_Week1_V1.Altis_done"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
@@ -604,8 +605,9 @@ sceneComplexity=600000;
 shadowZDistance=85.983017;
 viewDistance=2936.0471;
 preferredObjectViewDistance=1707.45;
+pipViewDistance=500;
 terrainGrid=25;
-volumeCD=0.88516647;
+volumeCD=0;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;

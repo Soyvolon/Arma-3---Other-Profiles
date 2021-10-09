@@ -1,0 +1,8 @@
+- radius
+- obiecte
+- plasare aleator pe harta
+- plasare aleator pe markere
+- mobile - miscare in timp
+- teleportare
+- damage
+- afects player/AI
