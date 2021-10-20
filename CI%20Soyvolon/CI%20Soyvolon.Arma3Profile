@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Av3_Week1_V1";
+lastMPMission="Bunker_File_2020";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -339,7 +339,7 @@ keyTeamSwitch[]={22};
 keyTeamSwitchPrev[]={};
 keyTeamSwitchNext[]={};
 keyGear[]={23};
-keyCuratorInterface[]={74};
+keyCuratorInterface[]={55};
 keyCuratorDelete[]={211};
 keyCuratorDestroy[]={207};
 keyCuratorMoveCamTo[]={33};
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.092116021,-0.06188434,0.2};
+		positionBack[]={-0.088524282,-0.060641032,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -569,8 +569,6 @@ activeKeys[]=
 difficulty="Custom";
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
-mouseSensitivityX=1;
-mouseSensitivityY=1;
 class JoysticksList
 {
 	class Joystick1
@@ -601,11 +599,13 @@ class trackIRClass
 };
 headBob=1;
 floatingZoneArea=0;
+mouseSensitivityX=1;
+mouseSensitivityY=1;
 sceneComplexity=600000;
-shadowZDistance=85.983017;
-viewDistance=2936.0471;
-preferredObjectViewDistance=1707.45;
-pipViewDistance=500;
+shadowZDistance=50;
+viewDistance=12000.001;
+preferredObjectViewDistance=12000.001;
+pipViewDistance=5791;
 terrainGrid=25;
 volumeCD=0;
 volumeFX=2.5132897;

@@ -40,9 +40,10 @@ try {
 
 _al_rock = _object_name createVehicleLocal _poz_obj;
 if (_delete_tree != -1) then {
-	items = delete_tree getOrDefault [_delete_tree, []];
-	items + [_al_rock];
-	delete_tree set [_delete_tree, items];
+	item_list = delete_tree getOrDefault [_delete_tree, []];
+	item_list append [_al_rock];
+	diag_log format ["Registered %1 into delete tree %2", _al_rock, _delete_tree];
+	delete_tree set [_delete_tree, item_list];
 };
 _poz_obj = [getposATL _al_rock select 0,getposATL _al_rock select 1,_alt_obj];
 _al_rock setPosATL _poz_obj;

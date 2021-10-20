@@ -12,12 +12,12 @@ _gravi = true;
 if (isNull _al_gravity) exitWith {};
 
 [_gravi,_al_gravity] spawn {
-_gravi_sound = _this select 0;
-_al_gravity_emiter = _this select 1;
-while {alive _al_gravity_emiter} do {
-	[_al_gravity_emiter,["vum",3000]] remoteExec ["say3d"];
-	sleep 11;
-};
+	_gravi_sound = _this select 0;
+	_al_gravity_emiter = _this select 1;
+	while {alive _al_gravity_emiter} do {
+		[_al_gravity_emiter,["vum",3000]] remoteExec ["say3d"];
+		sleep 11;
+	};
 };
 
 _ele = "#particlesource" createVehicleLocal (getpos _al_gravity);
@@ -55,7 +55,8 @@ while {alive _al_gravity} do
 		_i = _i-0.2;
 		sleep 0.1;
 	};	
-	sleep random 4;
+	_handle = [] spawn { sleep random 4; };
+	waitUntil { scriptDone _handle || not (alive _al_gravity); };
 };
 
 deleteVehicle _ele;
