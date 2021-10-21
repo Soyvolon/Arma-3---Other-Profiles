@@ -10,5 +10,6 @@ requiredAddons[]=
 	"acex_headless",
 	"ace_respawn",
 	"ace_zeus",
-	"3as_JLTS_Uniforms"
+	"3as_JLTS_Uniforms",
+	"RD501_patch_opfor_human"
 };

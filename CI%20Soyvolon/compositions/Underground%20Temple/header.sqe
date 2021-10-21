@@ -1,0 +1,26 @@
+version=54;
+name="Underground Temple";
+author="Soyvolon";
+category="O_DBA_CIS_T_Series";
+requiredAddons[]=
+{
+	"CUP_Editor_Plants_Config",
+	"A3_Structures_F_Exp_Cultural_BasaltRuins",
+	"A3_Structures_F_Exp_Cultural_AncientRelics",
+	"A3_Structures_F_Enoch_Infrastructure_Roads",
+	"A3_Structures_F_Civ_Market",
+	"A3_Props_F_Exp_Commercial_Market",
+	"3as_Crystals",
+	"JLTS_C_Intel",
+	"442_misc_bottle",
+	"442_misc_data_pad",
+	"3AS_Prop_Crates",
+	"TaunusObjects",
+	"442_misc_radio",
+	"442_misc_small_computer",
+	"Jbad_Wall_L",
+	"A3_Props_F_Orange_Humanitarian_Supplies",
+	"A3_Structures_F_Exp_Military_Emplacements",
+	"A3_Structures_F_Exp_Walls_Stone",
+	"A3_Structures_F_Exp_Walls_Bamboo"
+};

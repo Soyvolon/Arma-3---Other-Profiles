@@ -20,11 +20,11 @@ Meteors
 	nul = [180+random 700] execvm "ALfallstar\alias_meteor_ini.sqf";
 	
 If you want to stop the meteor shower place lines below in a trigger or another script
-alias_meteors = true;
+alias_meteors = false;
 publicVariable "alias_meteors";
 
 To stop the shooting stars place lines below in a trigger or another script
-alias_fallingstar=true;
+alias_fallingstar=false;
 publicVariable "alias_fallingstar";
 */
 
