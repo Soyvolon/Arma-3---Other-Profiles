@@ -493,7 +493,7 @@ class MainMap
 	};
 };
 FavoriteServers[]={};
-anisoFilter=16;
+anisoFilter=0;
 textureQuality=1;
 shadowQuality=1;
 maxSamplesPlayed=96;
@@ -598,8 +598,6 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-headBob=1;
-floatingZoneArea=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 sceneComplexity=600000;
@@ -626,3 +624,5 @@ uiTopLeftY=0.22499999;
 uiBottomRightX=0.70625001;
 uiBottomRightY=0.77499998;
 IGUIScale=0.55000001;
+headBob=1;
+floatingZoneArea=0;

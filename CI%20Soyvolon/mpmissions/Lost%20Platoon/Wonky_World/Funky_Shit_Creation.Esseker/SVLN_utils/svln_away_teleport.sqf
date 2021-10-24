@@ -10,7 +10,7 @@ private _playerObject = allPlayers select ( allPlayers findIf {(name _x) isEqual
 _playerObject setVariable ["SVLN_tpback_tracking", _tracking, true];
 if (not _tracking) then {
 	_pos = getPos _playerObject;
-	_playerObject setVariable ["SVLN_tpback_location", pos, true];
+	_playerObject setVariable ["SVLN_tpback_location", _pos, true];
 };
 
 _playerObject setPos (getPos _tpTo);
