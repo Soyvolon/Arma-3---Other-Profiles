@@ -564,7 +564,8 @@ activeKeys[]=
 	"BIS_501st_Legion_FunOp_Venator%3A_Altis_V1-2-0.Altis_done",
 	"BIS_501st_Legion_FunOp_Venator%3A_Tembelan_Island_V1-2-0.Tembelan_done",
 	"BIS_Lost_Plt_Blacksite_Week_One_Main_V4.optre_gridlock_done",
-	"BIS_Av3_Week1_V1.Altis_done"
+	"BIS_Av3_Week1_V1.Altis_done",
+	"BIS_avalanche_3_week_2_v3.Altis_done"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
@@ -605,7 +606,7 @@ sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
-pipViewDistance=5791;
+pipViewDistance=5791.002;
 terrainGrid=25;
 volumeCD=0;
 volumeFX=2.5132897;

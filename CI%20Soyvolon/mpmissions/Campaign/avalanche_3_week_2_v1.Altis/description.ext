@@ -1,0 +1,16 @@
+class CfgMusic
+{
+	tracks[]={};
+	class twine_WreckingBall {
+		name = "Wrecking Ball - Miley Cyrus";
+		sound[] = {"\music\mc_wb.ogg", db+0, 1.0};
+	};
+	class glass_Adrenaline {
+		name = "Adrenaline - Shinedown";
+		sound[] = {"\music\sh_ad.ogg", db+0, 1.0};
+	};
+	class glass_TillIDie {
+		name = "Till I Die 2 - Tech N9ne, 2Pac & Eminem";
+		sound[] = {"\music\tid.ogg", db+0, 1.0};
+	};
+};
