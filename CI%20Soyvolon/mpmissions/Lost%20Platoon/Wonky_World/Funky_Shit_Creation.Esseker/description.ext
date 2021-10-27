@@ -405,3 +405,23 @@ class CfgSounds {
 		titles[] = {};
 	};	
 };
+
+class CfgMusic {
+	tracks[]={};
+	class glass_riseAboveIt {
+		name = "Rise Above It";
+		sound[] = {"\music\rai.ogg", db+0, 1.0};
+	};
+	class glass_farFromHome {
+		name = "Far From Home (The Raven) - Sam Tinnesz";
+		sound[] = {"\music\ffh_tr.ogg", db+0, 1.0};
+	};
+	class glass_bellTolls {
+		name = "For Whom The Bell Tolls";
+		sound[] = {"\music\fwtbt.ogg", db+0, 1.0};
+	};
+	class glass_nightmare {
+		name = "Nightmare - Avenged Sevenfold";
+		sound[] = {"\music\nm.ogg", db+0, 1.0};
+	};
+};

@@ -1,0 +1,15 @@
+class CfgMusic {
+	tracks[]={};
+	class twine_terror {
+		name = "Terror of the Acausal - Solitude Forest";
+		sound[] = {"\music\terror.ogg", db+0, 1.0};
+	};
+	class twine_monster {
+		name = "Wounded Monster Wreaking Hvaoc";
+		sound[] = {"\music\monster.ogg", db+0, 1.0};
+	};
+	class twine_toccata {
+		name = "Toccata and Fugue in D Minor";
+		sound[] = {"\music\toccata.ogg", db+0, 1.0};
+	};
+};
