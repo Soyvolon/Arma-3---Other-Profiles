@@ -24,3 +24,6 @@ null = ["my_first_burp",true,"MineDetector","B_AssaultPack_blk","O_Truck_03_devi
 - protection item not set - any unit in range will be killed
 - no neutralizing device defined
 null = ["my_first_burp",false,"","",""] execVM "AL_burpy\alias_burper.sqf";
+
+// OPTRE_Glasses_Cigar
+null = [_this,false,"","OPTRE_Glasses_Cigar",""] execVM "AL_burpy\alias_burper.sqf";
