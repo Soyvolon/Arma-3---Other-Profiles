@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Slots_Master";
+lastMPMission="Ava 3 FTX 11-04-2021";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
@@ -85,8 +85,8 @@ keyCycleThrownItems[]={487784482};
 keyReloadMagazine[]={19};
 keyLockTargets[]={487784468};
 keyLockEmptyTargets[]={};
-keyLockTarget[]={20};
-keyRevealTarget[]={20};
+keyLockTarget[]={65540};
+keyRevealTarget[]={65540};
 keyTacticalPing[]={487784473};
 keyZoomTemp[]={65537};
 keyTempRaiseWeapon[]={};
@@ -132,7 +132,7 @@ keyZeroingDown[]={209,487587844};
 keyGunElevUp[]={201};
 keyGunElevDown[]={209};
 keyGunElevSlow[]={42,54};
-keyGunElevAuto[]={20};
+keyGunElevAuto[]={65540};
 keyLookAround[]={56};
 keyLookAroundToggle[]={312,55};
 keyLookLeftDown[]={79};
@@ -566,11 +566,16 @@ activeKeys[]=
 	"BIS_Lost_Plt_Blacksite_Week_One_Main_V4.optre_gridlock_done",
 	"BIS_Av3_Week1_V1.Altis_done",
 	"BIS_avalanche_3_week_2_v3.Altis_done",
-	"BIS_Lost_Platoon_World_Walker_Part_Two_V3.Esseker_done"
+	"BIS_Lost_Platoon_World_Walker_Part_Two_V3.Esseker_done",
+	"BIS_Ava_3_Spooky_FTX_2.pulau_done"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
+headBob=1;
+floatingZoneArea=0;
+mouseSensitivityX=1;
+mouseSensitivityY=1;
 class JoysticksList
 {
 	class Joystick1
@@ -599,17 +604,13 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-mouseSensitivityX=1;
-mouseSensitivityY=1;
-headBob=1;
-floatingZoneArea=0;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
 pipViewDistance=5791;
 terrainGrid=25;
-volumeCD=0.88516647;
+volumeCD=0;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;
