@@ -3,7 +3,7 @@ blood=1;
 singleVoice=0;
 class Identity
 {
-	face="B_female_bun_01";
+	face="Default";
 	glasses="None";
 	speaker="Male04_F";
 	unitType=0;
@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Pulau V1.3.1";
+lastMPMission="501st Legion FunOp Venator: GOS Al Rayak V1.3.1";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
