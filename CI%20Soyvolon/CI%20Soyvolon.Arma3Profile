@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Ava 3 FTX 11-04-2021";
+lastMPMission="501st Legion FunOp Venator: Pulau V1.3.1";
 customScheme=1;
 controller="Default";
 sensitivity="Medium";
