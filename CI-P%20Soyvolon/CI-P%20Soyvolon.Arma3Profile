@@ -28,8 +28,8 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: GOS Al Rayak V1.3.1";
-customScheme=1;
+lastMPMission="Ava_3_Final_Exam_Mission";
+customScheme=0;
 controller="Default";
 sensitivity="Medium";
 vibrations=1;
@@ -574,6 +574,11 @@ teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
 headBob=1;
 floatingZoneArea=0;
+class trackIRClass
+{
+	enabled=0;
+	ownSettings=1;
+};
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 class JoysticksList
@@ -598,11 +603,16 @@ class JoysticksList
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
-};
-class trackIRClass
-{
-	enabled=0;
-	ownSettings=1;
+	class Joystick3
+	{
+		guid="11FF28DE-28DE-0001-0000-504944564944";
+		name="Controller (XBOX 360 For Windows)";
+		offset=768;
+		isXInput=1;
+		mode="Disabled";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
 };
 sceneComplexity=600000;
 shadowZDistance=50;

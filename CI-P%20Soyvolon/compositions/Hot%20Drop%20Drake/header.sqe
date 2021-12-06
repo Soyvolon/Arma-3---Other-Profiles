@@ -6,5 +6,6 @@ requiredAddons[]=
 {
 	"OPTRE_Corvette",
 	"OPTRE_Ins_Object_class",
-	"442_misc_terminal"
+	"442_misc_terminal",
+	"A3_Misc_F_Helpers"
 };
