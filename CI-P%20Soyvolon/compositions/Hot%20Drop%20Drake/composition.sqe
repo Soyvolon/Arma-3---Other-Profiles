@@ -1,8 +1,8 @@
 version=54;
-center[]={5967.1821,2239.6609,2219.853};
+center[]={14694.905,10866.552,13130.069};
 class items
 {
-	items=3;
+	items=1;
 	class Item0
 	{
 		dataType="Layer";
@@ -13,389 +13,384 @@ class items
 			class Item0
 			{
 				dataType="Layer";
-				name="Drake w/ HotDrop";
+				name="Hot Drop Drake";
 				class Entities
 				{
-					items=9;
+					items=1;
 					class Item0
 					{
-						dataType="Object";
-						class PositionInfo
+						dataType="Layer";
+						name="Drake w/ HotDrop";
+						class Entities
 						{
-							position[]={0.037109375,31.490967,30.019775};
-						};
-						side="Empty";
-						flags=1;
-						class Attributes
-						{
-							name="home_ship";
-						};
-						id=71;
-						type="OPTRE_UNSC_Drake";
-						atlOffset=478.70422;
-					};
-					class Item1
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.49511719,17.195068,-39.183105};
-							angles[]={3.1415927,3.1415927,0};
-						};
-						side="Empty";
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=72;
-						type="OPTRE_rail_track_long";
-						atlOffset=3.4033203;
-					};
-					class Item2
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.27490234,8.7138672,9.5771484};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							name="left_segment_one";
-						};
-						id=75;
-						type="OPTRE_rail_tunnel_long";
-						atlOffset=0.23535156;
-					};
-					class Item3
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.27490234,8.7138672,-15.04834};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							init="this attachTo [left_segment_one, [0, -26, 0]];";
-							name="left_segment_two";
-						};
-						id=76;
-						type="OPTRE_rail_tunnel_long";
-						atlOffset=0.23535156;
-					};
-					class Item4
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.49511719,17.195068,-14.240723};
-							angles[]={3.1415927,3.1415927,0};
-						};
-						side="Empty";
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=77;
-						type="OPTRE_rail_track_long";
-						atlOffset=3.4033203;
-					};
-					class Item5
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.27490234,8.7138672,-42.713623};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							name="mover_end";
-							disableSimulation=1;
-						};
-						id=78;
-						type="OPTRE_rail_tunnel_long";
-						atlOffset=0.23535156;
-						class CustomAttributes
-						{
-							class Attribute0
+							items=10;
+							class Item0
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={0.34765625,31.491211,30.145508};
+								};
+								side="Empty";
+								flags=1;
+								class Attributes
+								{
+									name="home_ship";
+								};
+								id=24;
+								type="OPTRE_UNSC_Drake";
+								atlOffset=10932.951;
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.18457031,17.195313,-39.057617};
+									angles[]={3.1415927,3.1415927,0};
+								};
+								side="Empty";
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=25;
+								type="OPTRE_rail_track_long";
+								atlOffset=3.4033203;
+							};
+							class Item2
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.036132813,8.7138672,9.703125};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									name="left_segment_one";
+								};
+								id=26;
+								type="OPTRE_rail_tunnel_long";
+								atlOffset=0.23535156;
+							};
+							class Item3
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.036132813,8.7138672,-14.922852};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									init="this attachTo [left_segment_one, [0, -26, 0]];";
+									name="left_segment_two";
+								};
+								id=27;
+								type="OPTRE_rail_tunnel_long";
+								atlOffset=0.23535156;
+							};
+							class Item4
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.18457031,17.195313,-14.114258};
+									angles[]={3.1415927,3.1415927,0};
+								};
+								side="Empty";
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=28;
+								type="OPTRE_rail_track_long";
+								atlOffset=3.4033203;
+							};
+							class Item5
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.036132813,8.7138672,-42.587891};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									name="mover_end";
+									disableSimulation=1;
+								};
+								id=29;
+								type="OPTRE_rail_tunnel_long";
+								atlOffset=0.23535156;
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
-								};
-							};
-							class Attribute1
-							{
-								property="hideObject";
-								expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-								class Value
-								{
-									class data
+									class Attribute1
 									{
-										class type
+										property="hideObject";
+										expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=1;
 											};
 										};
-										value=1;
 									};
-								};
-							};
-							class Attribute2
-							{
-								property="ENH_allowSprint";
-								expression="_this allowSprint _value";
-								class Value
-								{
-									class data
+									class Attribute2
 									{
-										class type
+										property="ENH_allowSprint";
+										expression="_this allowSprint _value";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=3;
 								};
 							};
-							nAttributes=3;
-						};
-					};
-					class Item6
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.27490234,8.7138672,9.5649414};
-						};
-						side="Empty";
-						flags=4;
-						class Attributes
-						{
-							name="mover_start";
-							disableSimulation=1;
-						};
-						id=79;
-						type="OPTRE_rail_tunnel_long";
-						atlOffset=0.23535156;
-						class CustomAttributes
-						{
-							class Attribute0
+							class Item6
 							{
-								property="allowDamage";
-								expression="_this allowdamage _value;";
-								class Value
+								dataType="Object";
+								class PositionInfo
 								{
-									class data
+									position[]={0.036132813,8.7138672,9.6904297};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									name="mover_start";
+									disableSimulation=1;
+								};
+								id=30;
+								type="OPTRE_rail_tunnel_long";
+								atlOffset=0.23535156;
+								class CustomAttributes
+								{
+									class Attribute0
 									{
-										class type
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
-								};
-							};
-							class Attribute1
-							{
-								property="hideObject";
-								expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-								class Value
-								{
-									class data
+									class Attribute1
 									{
-										class type
+										property="hideObject";
+										expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=1;
 											};
 										};
-										value=1;
 									};
-								};
-							};
-							class Attribute2
-							{
-								property="ENH_allowSprint";
-								expression="_this allowSprint _value";
-								class Value
-								{
-									class data
+									class Attribute2
 									{
-										class type
+										property="ENH_allowSprint";
+										expression="_this allowSprint _value";
+										class Value
 										{
-											type[]=
+											class data
 											{
-												"BOOL"
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
 											};
 										};
-										value=0;
 									};
+									nAttributes=3;
 								};
 							};
-							nAttributes=3;
+							class Item7
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.18457031,17.195313,11.098633};
+									angles[]={3.1415927,3.1415927,0};
+								};
+								side="Empty";
+								class Attributes
+								{
+									disableSimulation=1;
+								};
+								id=31;
+								type="OPTRE_rail_track_long";
+								atlOffset=3.4033203;
+							};
+							class Item8
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={-0.26269531,22.96875,9.5449219};
+									angles[]={0,3.1415927,0};
+								};
+								side="Empty";
+								flags=1;
+								class Attributes
+								{
+									init="[""RD501_LAAT_Mk2"", mover_start, mover_end, left_segment_one, left_segment_one, left_segment_two, launch_terminal] call SVLN_fnc_hotdropInit;";
+									name="launch_terminal";
+								};
+								id=32;
+								type="442_terminal2";
+								atlOffset=11.00293;
+							};
+							class Item9
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={0.32421875,22.959961,40.494141};
+								};
+								side="Empty";
+								flags=4;
+								class Attributes
+								{
+									name="ship_tp_endpoint";
+								};
+								id=3087;
+								type="Sign_Pointer_Green_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="allowDamage";
+										expression="_this allowdamage _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="hideObject";
+										expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=1;
+											};
+										};
+									};
+									class Attribute2
+									{
+										property="ENH_allowSprint";
+										expression="_this allowSprint _value";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"BOOL"
+													};
+												};
+												value=0;
+											};
+										};
+									};
+									nAttributes=3;
+								};
+							};
 						};
-					};
-					class Item7
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.49511719,17.195068,10.973145};
-							angles[]={3.1415927,3.1415927,0};
-						};
-						side="Empty";
-						class Attributes
-						{
-							disableSimulation=1;
-						};
-						id=80;
-						type="OPTRE_rail_track_long";
-						atlOffset=3.4033203;
-					};
-					class Item8
-					{
-						dataType="Object";
-						class PositionInfo
-						{
-							position[]={-0.57324219,22.96875,9.4189453};
-							angles[]={0,3.1415927,0};
-						};
-						side="Empty";
-						flags=1;
-						class Attributes
-						{
-							name="launch_terminal";
-						};
-						id=83;
-						type="442_terminal2";
-						atlOffset=11.00293;
+						id=23;
+						atlOffset=11.042969;
 					};
 				};
-				id=70;
-				atlOffset=5.479248;
+				id=22;
+				atlOffset=11.042969;
 			};
 		};
-		id=84;
-		atlOffset=5.479248;
-	};
-	class Item1
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={1.2177734,35.956299,-0.33496094};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			name="ship_tp_endpoint";
-		};
-		id=1959;
-		type="Sign_Pointer_Green_F";
-		atlOffset=0.049804688;
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="allowDamage";
-				expression="_this allowdamage _value;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="hideObject";
-				expression="if !(is3DEN) then {_this hideobjectglobal _value;};";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="ENH_allowSprint";
-				expression="_this allowSprint _value";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			nAttributes=3;
-		};
-	};
-	class Item2
-	{
-		dataType="Trigger";
-		position[]={1.9018555,39.839844,41.968262};
-		class Attributes
-		{
-			condition="true";
-			onActivation="[""RD501_LAAT_Mk2"", mover_start, mover_end, left_segment_one, left_segment_one, left_segment_two, launch_terminal] call SVLN_fnc_hotdropInit;";
-			sizeA=0;
-			sizeB=0;
-			isServerOnly=1;
-		};
-		id=1966;
-		type="EmptyDetector";
-		atlOffset=0.087158203;
+		id=35;
+		atlOffset=7.0039063;
 	};
 };

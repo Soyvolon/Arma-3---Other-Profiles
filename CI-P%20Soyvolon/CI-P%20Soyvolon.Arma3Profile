@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Ava_3_Final_Exam_Mission";
+lastMPMission="501st Legion FunOp Venator V1.3.1-beta (NO MCC): Kholo ";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";

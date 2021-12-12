@@ -27,6 +27,6 @@ class CfgFunctions
 			{
 				file = "hotdrop\hotdrop.sqf";
 			};
-		}
-	}
+		};
+	};
 };
