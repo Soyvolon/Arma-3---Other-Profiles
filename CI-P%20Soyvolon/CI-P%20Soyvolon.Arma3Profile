@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator V1.3.1-beta (NO MCC): Kholo ";
+lastMPMission="Venator_Catapult_Test";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -85,8 +85,8 @@ keyCycleThrownItems[]={487784482};
 keyReloadMagazine[]={19};
 keyLockTargets[]={487784468};
 keyLockEmptyTargets[]={};
-keyLockTarget[]={65540};
-keyRevealTarget[]={65540};
+keyLockTarget[]={118};
+keyRevealTarget[]={118};
 keyTacticalPing[]={487784473};
 keyZoomTemp[]={65537};
 keyTempRaiseWeapon[]={};
@@ -132,7 +132,7 @@ keyZeroingDown[]={209,487587844};
 keyGunElevUp[]={201};
 keyGunElevDown[]={209};
 keyGunElevSlow[]={42,54};
-keyGunElevAuto[]={65540};
+keyGunElevAuto[]={487784466};
 keyLookAround[]={56};
 keyLookAroundToggle[]={312,55};
 keyLookLeftDown[]={79};
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.088524282,-0.060641032,0.2};
+		positionBack[]={-0.10054281,-0.059397731,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -572,15 +572,6 @@ activeKeys[]=
 difficulty="Custom";
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
-headBob=1;
-floatingZoneArea=0;
-class trackIRClass
-{
-	enabled=0;
-	ownSettings=1;
-};
-mouseSensitivityX=1;
-mouseSensitivityY=1;
 class JoysticksList
 {
 	class Joystick1
@@ -614,13 +605,22 @@ class JoysticksList
 		analogClickLow=0.2;
 	};
 };
+class trackIRClass
+{
+	enabled=0;
+	ownSettings=1;
+};
+mouseSensitivityX=1;
+mouseSensitivityY=1;
+headBob=1;
+floatingZoneArea=0;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
-preferredObjectViewDistance=12000.001;
+preferredObjectViewDistance=4108.3115;
 pipViewDistance=5791;
 terrainGrid=25;
-volumeCD=0;
+volumeCD=0.41998833;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;

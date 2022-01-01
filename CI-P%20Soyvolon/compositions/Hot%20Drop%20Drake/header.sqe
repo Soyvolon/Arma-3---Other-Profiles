@@ -4,8 +4,9 @@ author="Soyvolon";
 category="442_planes";
 requiredAddons[]=
 {
-	"OPTRE_Corvette",
+	"CUP_Misc_e_Config",
 	"OPTRE_Ins_Object_class",
+	"A3_Misc_F_Helpers",
 	"442_misc_terminal",
-	"A3_Misc_F_Helpers"
+	"OPTRE_Corvette"
 };
