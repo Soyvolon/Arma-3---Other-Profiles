@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Venator_Catapult_Test";
+lastMPMission="Venator_Catapult_Testing_Bay";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -550,7 +550,7 @@ tutorialHints=1;
 streamFriendlyUI=0;
 instructorFigure=1;
 showRadio=1;
-currentCampaign="A3\Missions_F_Bootcamp\Campaign";
+currentCampaign="A3\Missions_F_Orange\Campaign";
 lastCampaignMission="Drawdown 2035";
 activeKeys[]=
 {

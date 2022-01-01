@@ -1,7 +1,7 @@
 // Example call
 // [launch_pad_one, 180, 50, 750, -15, 5, 500] call SVLN_fnc_launchCatapult;
 
-params ["_pad", "_dir", "_speed", "_launch_speed", "_launch_rot", "_launch_height", "_max_dist"];
+params ["_pad", "_dir", "_speed", "_launch_speed", "_launch_rot", "_launch_height", "_max_dist", "_hover_cycles", "_sleep_timer"];
 
 diag_log text (["[SVLN]", "[CATAPULT]", "DEBUG:", "Attempting launch with params:", _pad, _dir, _speed, _launch_speed, _launch_rot, _launch_height] joinString " ");
 
@@ -9,6 +9,18 @@ private _vic = [_pad] call SVLN_fnc_detectVic;
 
 if (!(isNil "_vic")) then {
 	// [_vic, _dir] call BIS_fnc_aircraftCatapultLaunch;
+
+	// Save settings for next launch:
+	if (isNil 'launch_settings') then {
+		launch_settings = createHashMap;
+		publicVariable "launch_settings";
+	};
+
+	item_list = launch_settings getOrDefault ["last_use", []];
+	item_list set [0, _this];
+	launch_settings set ["last_use", item_list];
+
+	// Start the launch process.
 
 	diag_log text (["[SVLN]", "[CATAPULT]", "DEBUG:", "Found vic:", _vic] joinString " ");
 
@@ -27,7 +39,7 @@ if (!(isNil "_vic")) then {
 	private _cos = cos _dir;
 	private _vert = cos _launch_rot;
 
-	private _counter = 20;
+	private _counter = _hover_cycles;
 	while { _counter > 0 } do {
 		_vic setVectorDir [
 			_sin,
@@ -41,7 +53,7 @@ if (!(isNil "_vic")) then {
 			1
 		];
 
-		sleep 0.1;
+		sleep _sleep_timer;
 
 		_counter = _counter - 1;
 	};
@@ -77,7 +89,7 @@ if (!(isNil "_vic")) then {
 
 		diag_log text (["[SVLN]", "[CATAPULT]", "DEBUG:", "Pushed vic to:", getPos _vic] joinString " ");
 
-		sleep 0.1;
+		sleep _sleep_timer;
 	};
 } else {
 	diag_log text (["[SVLN]", "[CATAPULT]", "DEBUG:", "No vic found."] joinString " ");

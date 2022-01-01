@@ -22,9 +22,13 @@ class CfgFunctions
 			class openMenu
 			{
 				file = "catapult\menu.sqf";
-			}
+			};
+			class loadMenuDefaults
+			{
+				file = "catapult\menu_defaults.sqf";
+			};
 		};
 	};
 };
 
-#include "SVLN_CTPL_LaunchController.hpp"
+#include "SVLN_CTPL_LaunchController.hh"
