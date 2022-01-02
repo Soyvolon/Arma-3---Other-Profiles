@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=96;
+		nextID=128;
 	};
 	class Camera
 	{
-		pos[]={2781.2412,1128.6432,3932.4673};
-		dir[]={0.17309032,-0.5017404,0.84752363};
-		up[]={0.10039835,0.86501825,0.49159291};
-		aside[]={0.97977543,0,-0.2001002};
+		pos[]={2794.7607,1568.8618,3459.3416};
+		dir[]={-0.03860689,-0.78849244,0.6138401};
+		up[]={-0.049493961,0.61504185,0.78693879};
+		aside[]={0.99803323,1.3063254e-007,0.062769473};
 	};
 };
 binarizationWanted=0;
@@ -641,14 +641,14 @@ class Mission
 	};
 	class Entities
 	{
-		items=4;
+		items=1;
 		class Item0
 		{
 			dataType="Layer";
 			name="VenatorV1.5.0";
 			class Entities
 			{
-				items=8;
+				items=11;
 				class Item0
 				{
 					dataType="Layer";
@@ -66645,19 +66645,19 @@ class Mission
 												};
 											};
 											id=593;
-											atlOffset=554.65814;
+											atlOffset=0.2265625;
 										};
 									};
 									id=592;
-									atlOffset=554.65814;
+									atlOffset=0.2265625;
 								};
 							};
 							id=591;
-							atlOffset=554.65814;
+							atlOffset=0.2265625;
 						};
 					};
 					id=0;
-					atlOffset=825.92029;
+					atlOffset=1148.3506;
 				};
 				class Item1
 				{
@@ -66794,63 +66794,63 @@ class Mission
 						nAttributes=1;
 					};
 				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2792.658,1099.974,3605.384};
+						angles[]={0.0086219264,1.5707964,6.2811952};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this, ""Catapult One""] call SVLN_fnc_registerPad;";
+						name="launch_pad_one";
+					};
+					id=1189;
+					type="3as_Landingpad_prop";
+					atlOffset=1126.968;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2792.658,1100.6208,3521.866};
+						angles[]={0.0086219264,1.5707964,6.2811952};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this, ""Catapult Two""] call SVLN_fnc_registerPad;";
+						name="launch_pad_two";
+					};
+					id=1191;
+					type="3as_Landingpad_2_prop";
+					atlOffset=1126.782;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2792.658,1101.3148,3437.844};
+						angles[]={0.0086219264,1.5707964,6.2811952};
+					};
+					side="Empty";
+					class Attributes
+					{
+						init="[this, ""Catapult Three""] call SVLN_fnc_registerPad;";
+						name="launch_pad_three";
+					};
+					id=1193;
+					type="3as_Landingpad_3_prop";
+					atlOffset=1126.0601;
+				};
 			};
 			id=1174;
-			atlOffset=1145.6802;
-		};
-		class Item1
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2792.658,1099.974,3605.384};
-				angles[]={0.0086219264,1.5707964,6.2811952};
-			};
-			side="Empty";
-			class Attributes
-			{
-				init="[this, ""Catapult One""] call SVLN_fnc_registerPad;";
-				name="launch_pad_one";
-			};
-			id=1189;
-			type="3as_Landingpad_prop";
-			atlOffset=1126.968;
-		};
-		class Item2
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2792.658,1100.6208,3521.866};
-				angles[]={0.0086219264,1.5707964,6.2811952};
-			};
-			side="Empty";
-			class Attributes
-			{
-				init="[this, ""Catapult Two""] call SVLN_fnc_registerPad;";
-				name="launch_pad_two";
-			};
-			id=1191;
-			type="3as_Landingpad_2_prop";
-			atlOffset=1126.782;
-		};
-		class Item3
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={2792.658,1101.3148,3437.844};
-				angles[]={0.0086219264,1.5707964,6.2811952};
-			};
-			side="Empty";
-			class Attributes
-			{
-				init="[this, ""Catapult Three""] call SVLN_fnc_registerPad;";
-				name="launch_pad_three";
-			};
-			id=1193;
-			type="3as_Landingpad_3_prop";
-			atlOffset=1126.0601;
+			atlOffset=1127.0239;
 		};
 	};
 	class Connections
