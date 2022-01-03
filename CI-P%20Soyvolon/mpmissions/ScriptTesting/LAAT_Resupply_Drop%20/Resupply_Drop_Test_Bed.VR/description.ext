@@ -1,0 +1,16 @@
+class CfgFunctions
+{
+	class SVLN
+	{
+		tag = "SVLN";
+
+		class resupplyPods
+		{
+			file = "resupply_pods";
+			class resupply_spawnLAAT
+			{
+				file = "resupply_pods_spawn_laat.sqf";
+			};
+		};
+	};
+};

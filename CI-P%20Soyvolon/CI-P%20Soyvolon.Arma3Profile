@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Venator_Catapult_Testing_Bay";
+lastMPMission="501st Legion FunOp Venator: Altis V1.6.1";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -83,10 +83,10 @@ keyActionInMap[]={65536};
 keyThrow[]={290};
 keyCycleThrownItems[]={487784482};
 keyReloadMagazine[]={19};
-keyLockTargets[]={487784468};
+keyLockTargets[]={109};
 keyLockEmptyTargets[]={};
-keyLockTarget[]={118};
-keyRevealTarget[]={118};
+keyLockTarget[]={107};
+keyRevealTarget[]={106};
 keyTacticalPing[]={487784473};
 keyZoomTemp[]={65537};
 keyTempRaiseWeapon[]={};
@@ -327,7 +327,7 @@ keyCommandBack[]={31,208};
 keyCommandFast[]={286457898};
 keyCommandSlow[]={286457885,487784465};
 keySwitchGunnerWeapon[]={487784481};
-keyVehLockTargets[]={19};
+keyVehLockTargets[]={108};
 keyVehLockEmptyTargets[]={};
 keySwapGunner[]={};
 keyHeliManualFire[]={40};
@@ -567,7 +567,9 @@ activeKeys[]=
 	"BIS_Av3_Week1_V1.Altis_done",
 	"BIS_avalanche_3_week_2_v3.Altis_done",
 	"BIS_Lost_Platoon_World_Walker_Part_Two_V3.Esseker_done",
-	"BIS_Ava_3_Spooky_FTX_2.pulau_done"
+	"BIS_Ava_3_Spooky_FTX_2.pulau_done",
+	"BIS_Showcase_Future.Altis_titlecard",
+	"BIS_Showcase_Future.Altis_establishingShot"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
@@ -614,10 +616,15 @@ mouseSensitivityX=1;
 mouseSensitivityY=1;
 headBob=1;
 floatingZoneArea=0;
+lastSPMission="Cultural Property";
+playedKeys[]=
+{
+	"BIS_Showcase_Future.Altis_done"
+};
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
-preferredObjectViewDistance=4108.3115;
+preferredObjectViewDistance=12000.001;
 pipViewDistance=5791;
 terrainGrid=25;
 volumeCD=0.41998833;
