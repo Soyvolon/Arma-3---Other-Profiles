@@ -1,5 +1,5 @@
 version=54;
-name="FOB Halki V1.4.0";
+name="FOB Halki V1.6.1";
 author="Soyvolon";
 category="3as_FOB";
 requiredAddons[]=
@@ -26,9 +26,10 @@ requiredAddons[]=
 	"A3_Structures_F_Mil_TentHangar",
 	"442_misc_hologram",
 	"JLTS_weapons_crates",
-	"101st_Aux_Mod",
 	"A3_Ui_F",
 	"JLTS_core",
+	"plp_containers",
+	"A3_Structures_F_Bootcamp_VR_Helpers",
 	"JLTS_characters_CloneLegions",
 	"A3_Characters_F",
 	"mcc_sandbox",
