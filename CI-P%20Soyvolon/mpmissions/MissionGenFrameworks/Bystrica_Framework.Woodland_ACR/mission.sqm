@@ -102,7 +102,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={245.368,80.272812,1756.674};
-			name="Fob%20Halki";
+			name="FOB%20Halki";
 			type="Empty";
 			id=1433;
 			atlOffset=6.508194;

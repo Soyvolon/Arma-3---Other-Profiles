@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1434;
+		nextID=1435;
 	};
 	class MarkerIDProvider
 	{
@@ -27,7 +27,7 @@ class EditorData
 		pos[]={129.5997,245.94112,910.11005};
 		dir[]={0,-0.70710683,0.70710683};
 		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		aside[]={0.99999994,0,0};
 	};
 };
 binarizationWanted=0;
@@ -101,11 +101,11 @@ class Mission
 		class Item2
 		{
 			dataType="Marker";
-			position[]={150.17799,3.8674407,1126.895};
-			name="Fob%20Halki";
+			position[]={48.018002,7.5919423,1511.713};
+			name="FOB%20Halki";
 			type="Empty";
-			id=1433;
-			atlOffset=14.108223;
+			id=1434;
+			atlOffset=1.5876808;
 		};
 	};
 };
