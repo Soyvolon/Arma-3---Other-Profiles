@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Kill_Log_Testing";
+lastMPMission="Kill Log Testing V4";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -619,6 +619,8 @@ playedKeys[]=
 {
 	"BIS_Showcase_Future.Altis_done"
 };
+headBob=1;
+floatingZoneArea=0;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
@@ -643,5 +645,3 @@ uiTopLeftY=0.22499999;
 uiBottomRightX=0.70625001;
 uiBottomRightY=0.77499998;
 IGUIScale=0.55000001;
-headBob=1;
-floatingZoneArea=0;
