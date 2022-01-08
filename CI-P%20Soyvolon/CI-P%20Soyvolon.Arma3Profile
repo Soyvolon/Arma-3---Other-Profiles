@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Kill Log Testing V7";
+lastMPMission="Veantor";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
