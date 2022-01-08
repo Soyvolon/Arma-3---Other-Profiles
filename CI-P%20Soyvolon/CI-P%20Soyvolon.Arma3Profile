@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Kill Log Testing V4";
+lastMPMission="Kill Log Testing V7";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.10054281,-0.059397731,0.2};
+		positionBack[]={-0.093083039,-0.058707006,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -627,7 +627,7 @@ viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
 pipViewDistance=5791;
 terrainGrid=25;
-volumeCD=0.41998833;
+volumeCD=0;
 volumeFX=2.5132897;
 volumeSpeech=2.5797427;
 volumeVoN=10;
