@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Veantor";
+lastMPMission="501st Legion FunOp Venator V1.8.0-beta (NO MCC): Altis ";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -235,8 +235,8 @@ keyListPrevLeftVehicleDisplay[]={};
 keyListPrevRightVehicleDisplay[]={};
 keyCloseLeftVehicleDisplay[]={};
 keyCloseRightVehicleDisplay[]={};
-keyNextModeLeftVehicleDisplay[]={-1659699174};
-keyNextModeRightVehicleDisplay[]={-1659699173};
+keyNextModeLeftVehicleDisplay[]={487784460};
+keyNextModeRightVehicleDisplay[]={487784461};
 keyHoldBreath[]={42};
 keySalute[]={43};
 keySitDown[]={40};
@@ -478,8 +478,8 @@ keyUser15[]={};
 keyUser16[]={};
 keyUser17[]={};
 keyUser18[]={};
-keyUser19[]={487784450};
-keyUser20[]={487784451};
+keyUser19[]={487784450,118};
+keyUser20[]={487784451,110};
 revMouse=0;
 mouseSmoothing=5;
 mouseAcceleration=0;
@@ -612,8 +612,6 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-mouseSensitivityX=1;
-mouseSensitivityY=1;
 lastSPMission="Cultural Property";
 playedKeys[]=
 {
@@ -621,6 +619,8 @@ playedKeys[]=
 };
 headBob=1;
 floatingZoneArea=0;
+mouseSensitivityX=1;
+mouseSensitivityY=1;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
