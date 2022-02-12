@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp FOB Halki: Altis V1.8.2";
+lastMPMission="Veantor";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -572,7 +572,8 @@ activeKeys[]=
 	"BIS_Showcase_Future.Altis_establishingShot",
 	"BIS_Avalanche3_Week_1_2022_V5.Altis_done",
 	"BIS_Lost%20Plt_graveyard_v04.eladeen_terrain_done",
-	"BIS_Avalanche3_Week_2_2022_V3.Altis_done"
+	"BIS_Avalanche3_Week_2_2022_V3.Altis_done",
+	"BIS_av3_Week_3_2022_V2.Altis_done"
 };
 difficulty="Custom";
 teamSwitchOffsetX=0;
@@ -628,7 +629,7 @@ sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
-pipViewDistance=5791.002;
+pipViewDistance=5791;
 terrainGrid=25;
 volumeCD=0;
 volumeFX=2.5132897;
