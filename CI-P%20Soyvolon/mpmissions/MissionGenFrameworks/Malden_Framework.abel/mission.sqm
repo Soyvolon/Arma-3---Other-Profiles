@@ -5,52 +5,44 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=10;
 	mods[]=
 	{
 		"3denEnhanced"
 	};
 	class ItemIDProvider
 	{
-		nextID=35;
+		nextID=4;
 	};
 	class Camera
 	{
-		pos[]={5293.0181,18.716021,2497.2537};
-		dir[]={-0.0053508328,-0.57889581,-0.81541824};
-		up[]={-0.0037996194,0.81539351,-0.57889378};
-		aside[]={-1.0000061,-4.3241926e-007,0.0065633347};
+		pos[]={1453.7555,689.89685,5468.3579};
+		dir[]={-0.36034352,-0.26825759,0.89342242};
+		up[]={-0.10034257,0.96334547,0.24878606};
+		aside[]={0.92741376,0,0.37405276};
 	};
 };
 binarizationWanted=0;
-sourceName="laat_refuel_testing";
+sourceName="Malden_Framework";
 addons[]=
 {
-	"A3_Characters_F",
-	"A3_Modules_F_Curator_Curator"
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=2;
+		items=1;
 		class Item0
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
-		{
-			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted Modules";
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
 	};
 };
-randomSeed=5981161;
+randomSeed=9455097;
 class ScenarioData
 {
 	author="Soyvolon";
@@ -397,244 +389,59 @@ class Mission
 	{
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
-		startWeather=0;
+		startWeather=0.25;
 		startWind=0.1;
 		startWaves=0.1;
-		forecastWeather=0;
+		forecastWeather=0.44999999;
+		forecastFog=0.1;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
 		wavesForced=1;
 		windForced=1;
-		year=2035;
-		day=28;
-		hour=13;
-		minute=37;
+		day=5;
+		hour=9;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
 	class Entities
 	{
-		items=2;
+		items=4;
 		class Item0
 		{
-			dataType="Group";
-			side="West";
-			class Entities
-			{
-				items=2;
-				class Item0
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5240.9629,5.0014391,2404.8235};
-					};
-					side="West";
-					flags=7;
-					class Attributes
-					{
-						name="z1";
-						isPlayer=1;
-					};
-					id=1;
-					type="B_Soldier_A_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male12ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.04;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-				class Item1
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5247.1831,5.0014391,2404.8621};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-						isPlayable=1;
-					};
-					id=22;
-					type="B_Soldier_A_F";
-					class CustomAttributes
-					{
-						class Attribute0
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="Male01ENG";
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="pitch";
-							expression="_this setpitch _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=1.03;
-								};
-							};
-						};
-						nAttributes=2;
-					};
-				};
-			};
-			class Attributes
-			{
-			};
+			dataType="Marker";
+			position[]={399.83682,4.9176054,7098.3374};
+			name="FOB%20Halki%20No%20MCC";
+			type="Empty";
 			id=0;
+			atlOffset=101.07919;
 		};
 		class Item1
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={5241.0542,5,2408.604};
-			};
-			id=11;
-			type="ModuleCurator_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ModuleCurator_F_Owner";
-					expression="_this setVariable ['Owner',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="z1";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ModuleCurator_F_Forced";
-					expression="_this setVariable ['Forced',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ModuleCurator_F_Name";
-					expression="_this setVariable ['Name',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ModuleCurator_F_Addons";
-					expression="_this setVariable ['Addons',_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=2;
-						};
-					};
-				};
-				nAttributes=4;
-			};
+			dataType="Marker";
+			position[]={399.83682,4.9176054,7098.3374};
+			name="FOB%20Halki";
+			type="Empty";
+			id=1;
+			atlOffset=101.07919;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={400.01099,632.383,7098.481};
+			name="Venator%20V1%2e3%2e1-beta%20(NO%20MCC)";
+			type="Empty";
+			id=2;
+			atlOffset=728.54565;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={400.01099,632.383,7098.481};
+			name="venator";
+			type="Empty";
+			id=3;
+			atlOffset=728.54565;
 		};
 	};
 };

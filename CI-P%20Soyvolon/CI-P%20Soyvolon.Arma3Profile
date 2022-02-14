@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Startup_File";
+lastMPMission="Radar_Jammer_Testing";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.071118169,-0.055253405,0.2};
+		positionBack[]={-0.11601491,-0.050832804,0.2};
 	};
 };
 FavoriteServers[]={};
