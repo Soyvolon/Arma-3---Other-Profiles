@@ -49,5 +49,4 @@ _insertChildren = {
 };
 
 _action = ["Zeus", "Zeus", "", {}, {true}, _insertChildren] call ace_interact_menu_fnc_createAction;
-
 [(typeOf player), 1, ["ACE_SelfActions"], _action] call ace_interact_menu_fnc_addActionToClass;

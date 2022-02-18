@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.11601491,-0.050832804,0.2};
+		positionBack[]={-0.078163482,-0.059397738,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -573,11 +573,10 @@ activeKeys[]=
 	"BIS_Avalanche3_Week_1_2022_V5.Altis_done",
 	"BIS_Lost%20Plt_graveyard_v04.eladeen_terrain_done",
 	"BIS_Avalanche3_Week_2_2022_V3.Altis_done",
-	"BIS_av3_Week_3_2022_V2.Altis_done"
+	"BIS_av3_Week_3_2022_V2.Altis_done",
+	"BIS_501st_Legion_FunOp_FOB_Halki%3A_Sahrani_V1-9-0.sara_done"
 };
 difficulty="Custom";
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
 class JoysticksList
 {
 	class Joystick1
@@ -623,6 +622,8 @@ playedKeys[]=
 };
 headBob=1;
 floatingZoneArea=0;
+teamSwitchOffsetX=0;
+teamSwitchOffsetY=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 sceneComplexity=600000;

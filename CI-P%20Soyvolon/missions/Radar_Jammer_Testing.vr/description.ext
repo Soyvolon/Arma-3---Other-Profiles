@@ -117,13 +117,21 @@ class CfgFunctions
 
 		class radarJammer
 		{
-			class RJMR_jamerInit
+			class JAMR_jammerInit
 			{
-				file = "radar_jammer\jammer_init.sqf";
+				file = "jammer\jammer_init.sqf";
 			};
-			class RJMR_areaJammer
+			class JAMR_areaJammer
 			{
-				file = "radar_jammer\area_jammer.sqf";
+				file = "jammer\area_jammer.sqf";
+			};
+			class JAMR_engineJammer
+			{
+				file = "jammer\engine_jammer.sqf";
+			};
+			class JAMR_engineJammer_setEngineSpoolActions
+			{
+				file = "jammer\engine_jammer_engine_spool.sqf";
 			};
 		};
 	};
