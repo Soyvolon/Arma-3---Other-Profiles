@@ -12,14 +12,14 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=6;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={4760.0376,30.009899,744.72919};
-		dir[]={-0.012249135,-0.5944854,0.80401319};
-		up[]={-0.0090559293,0.80410635,0.59441644};
-		aside[]={0.99988401,-9.3132257e-010,0.015233226};
+		pos[]={4765.7168,15.696829,771.92261};
+		dir[]={0.0083300564,-0.59497726,0.80372626};
+		up[]={0.0061666765,0.80373585,0.59494966};
+		aside[]={0.99997199,-9.5050609e-008,-0.01036345};
 	};
 };
 binarizationWanted=0;
@@ -508,7 +508,6 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="[_this, 1, 1, [], true] call SVLN_fnc_JAMR_jammerInit;";
 			};
 			id=3;
 			type="Land_Device_disassembled_F";
