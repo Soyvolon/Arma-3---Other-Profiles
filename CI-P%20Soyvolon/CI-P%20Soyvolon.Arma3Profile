@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Soyvolon Testing Things (02/18/2022) V4";
+lastMPMission="FOB%20FINAL%20MINUS%20TPs";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
