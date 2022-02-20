@@ -1,6 +1,6 @@
 // The area jammer script. Creates jamming signals in a bubble around the area.
 // More options
-// [_this, 1, -1, [1500]] call SVLN_fnc_JAMR_jammerInit;
+// [_this, 1, 1, [1500]] call SVLN_fnc_JAMR_jammerInit;
 
 params [
 	// The host object.

@@ -1,0 +1,11 @@
+class CfgFunctions {
+    class SLVN {
+        class Slots {
+            class SLOT_InitModule {
+                file = "slots\init_module.sqf";
+            };
+        };
+    };
+};
+
+#include "orbat\orbat.hpp"

@@ -45,7 +45,7 @@ _params params [
 ];
 
 if (_lastRunData select 0) then {
-	diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Area Jammer Init"] joinString " ");
+	diag_log text (["[SVLN]", "[AREA SENSOR JAMMER]", "DEBUG:", "Area Jammer Init"] joinString " ");
 
 	_object setVariable ["SVLN_RJMR_ActiveJammer", true, true];
 };
@@ -62,7 +62,7 @@ if (_debug and not (isNull (_lastRunData select 2))) then {
 if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_ActiveJammer", false]) then {
 	jammedCraft = _lastRunData select 1;
 
-	diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Running Vic Check Cycle"] joinString " ");
+	diag_log text (["[SVLN]", "[AREA SENSOR JAMMER]", "DEBUG:", "Running Vic Check Cycle"] joinString " ");
 
 	nearby = nearestObjects [_object, ["Air", "LandVehicle"], _radius, true];
 
@@ -75,16 +75,12 @@ if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_A
 				{
 					_obj enableVehicleSensor [_x, true];
 
-					if (_debug) then {
-						diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Unjammed", _obj] joinString " ");
-					};
+					diag_log text (["[SVLN]", "[AREA SENSOR JAMMER]", "DEBUG:", "Unjammed", _obj] joinString " ");
 				} forEach _deactivate;
 			} else {
 				tmpCraft pushBack _x;
 
-				if (_debug) then {
-					diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Continuing to jam", _x] joinString " ");
-				};
+				diag_log text (["[SVLN]", "[AREA SENSOR JAMMER]", "DEBUG:", "Continuing to jam", _x] joinString " ");
 
 				pos = nearby find _x;
 				if (pos > -1) then {
@@ -111,9 +107,7 @@ if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_A
 				{
 					_obj enableVehicleSensor [_x, false];
 
-					if (_debug) then {
-						diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Jammed", _obj] joinString " ");
-					};
+					diag_log text (["[SVLN]", "[AREA SENSOR JAMMER]", "DEBUG:", "Jammed", _obj] joinString " ");
 				} forEach _deactivate;
 
 				tmpCraft pushBack _x;
@@ -136,9 +130,7 @@ if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_A
 	{
 		private _obj = _x;
 		{
-			if (_debug) then {
-				diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Unjammed", _obj] joinString " ");
-			};
+			diag_log text (["[SVLN]", "[AREA JAMMER]", "DEBUG:", "Unjammed", _obj] joinString " ");
 
 			_obj enableVehicleSensor [_x, true];
 		} forEach _deactivate;

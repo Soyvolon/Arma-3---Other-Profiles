@@ -32,7 +32,7 @@ _params params [
 ];
 
 if (_lastRunData select 0) then {
-	diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Engine Jammer Init"] joinString " ");
+	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Engine Jammer Init"] joinString " ");
 
 	_object setVariable ["SVLN_RJMR_ActiveJammer", true, true];
 };
@@ -49,118 +49,111 @@ if (_debug and not (isNull (_lastRunData select 2))) then {
 if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_ActiveJammer", false]) then {
 	jammedCraft = _lastRunData select 1;
 
-	diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Running Vic Check Cycle"] joinString " ");
+	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Running Vic Check Cycle"] joinString " ");
 
 	nearby = nearestObjects [_object, ["Air", "LandVehicle"], _radius, true];
 
-	if (_debug) then {
-		diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Nearby craft", nearby] joinString " ");
-	};
+	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Nearby craft", nearby] joinString " ");
 
 	tmpCraft = [];
 	{
-		if (not isNull _x) then {
-			private _counter = _x getVariable ["SVLN_JAMR_EngineJammer_SpoolCounter", -1];
+		if (local _x) then {
+			if (not isNull _x) then {
+				private _counter = _x getVariable ["SVLN_JAMR_EngineJammer_SpoolCounter", -1];
 
-			if (not (_x in nearby)) then {
-				// On exit
-				pilot = driver _x;
-				if (not (isNull pilot)) then {
+				if (not (_x in nearby)) then {
+					// On exit
+					pilot = driver _x;
+					if (not (isNull pilot)) then {
+						if (_counter > -1) then {
+							// object left the field and the enigne deactivated.
+							tmpCraft pushBack _x;
+
+							_x setFuel 0;
+
+							diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Outside bubble, continuing fuel lock", _x] joinString " ");
+
+							_x setVariable ["SVLN_JAMR_LeftWhenDisabled", true, true];
+						} else {
+							if (not (_x getVariable ["SVLN_JAMR_LeftWhenDisabled", true])) then {
+								// Object left field and needs to be deactivated.
+								private _check = false;
+								switch (_side) do {
+									case -1: { _check = true; };
+									case 0: { _check = (side pilot) != west; };
+									case 1: { _check = (side pilot) != east; };
+									case 2: { _check = (side pilot) != independent; };
+								};
+
+								// On exit
+								if (_check) then {
+									private _oldFuel = _x getVariable ["SVLN_JAMR_EngineJammer_Fuel", -1];
+									if(_oldFuel == -1) then {
+										_x setVariable ["SVLN_JAMR_EngineJammer_Fuel", fuel _x, true];
+										_x setFuel 0;
+									};
+
+									_x setVariable ["SVLN_JAMR_EngineJammer_SpoolCounter", 0, true];
+
+									diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Exited bubble, jammed engine", _x] joinString " ");
+								};
+							};
+						};					
+					};
+				} else {
+					tmpCraft pushBack _x;
+
+					diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Inside bubble", _x] joinString " ");
+
+					pos = nearby find _x;
+					if (pos > -1) then {
+						nearby deleteAt pos;
+					};
+
 					if (_counter > -1) then {
-						// object left the field and the enigne deactivated.
-						tmpCraft pushBack _x;
-
 						_x setFuel 0;
-
-						if (_debug) then {
-							diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Outside bubble, continuing fuel lock", _x] joinString " ");
-						};
-
-						_x setVariable ["SVLN_JAMR_LeftWhenDisabled", true, true];
-					} else {
-						if (not (_x getVariable ["SVLN_JAMR_LeftWhenDisabled", true])) then {
-							// Object left field and needs to be deactivated.
-							private _check = false;
-							switch (_side) do {
-								case -1: { _check = true; };
-								case 0: { _check = (side pilot) != west; };
-								case 1: { _check = (side pilot) != east; };
-								case 2: { _check = (side pilot) != independent; };
-							};
-
-							// On exit
-							if (_check) then {
-								private _oldFuel = _x getVariable ["SVLN_JAMR_EngineJammer_Fuel", -1];
-								if(_oldFuel == -1) then {
-									_x setVariable ["SVLN_JAMR_EngineJammer_Fuel", fuel _x, true];
-									_x setFuel 0;
-								};
-
-								_x setVariable ["SVLN_JAMR_EngineJammer_SpoolCounter", 0, true];
-
-								if (_debug) then {
-									diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Exited bubble, jammed engine", _x] joinString " ");
-								};
-							};
-						};
-					};					
-				};
-			} else {
-				tmpCraft pushBack _x;
-
-				if (_debug) then {
-					diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Inside bubble", _x] joinString " ");
-				};
-
-				pos = nearby find _x;
-				if (pos > -1) then {
-					nearby deleteAt pos;
-				};
-
-				if (_counter > -1) then {
-					_x setFuel 0;
-					_x setVariable ["SVLN_JAMR_LeftWhenDisabled", false, true];
+						_x setVariable ["SVLN_JAMR_LeftWhenDisabled", false, true];
+					};
 				};
 			};
 		};
 	} forEach jammedCraft;
 
 	{
-		// On enter
-		pilot = driver _x;
-		if (not (isNull pilot)) then {
+		if (local _x) then {
+			// On enter
+			pilot = driver _x;
+			if (not (isNull pilot)) then {
 
-			private _check = false;
-			switch (_side) do {
-				case -1: { _check = true; };
-				case 0: { _check = (side pilot) != west; };
-				case 1: { _check = (side pilot) != east; };
-				case 2: { _check = (side pilot) != independent; };
-			};
-
-			if (_check) then {
-				private _oldFuel = _x getVariable ["SVLN_JAMR_EngineJammer_Fuel", -1];
-				if(_oldFuel == -1) then {
-					_x setVariable ["SVLN_JAMR_EngineJammer_Fuel", fuel _x, true];
-					_x setFuel 0;
+				private _check = false;
+				switch (_side) do {
+					case -1: { _check = true; };
+					case 0: { _check = (side pilot) != west; };
+					case 1: { _check = (side pilot) != east; };
+					case 2: { _check = (side pilot) != independent; };
 				};
 
-				_x setVariable ["SVLN_JAMR_EngineJammer_SpoolCounter", 0, true];
+				if (_check) then {
+					private _oldFuel = _x getVariable ["SVLN_JAMR_EngineJammer_Fuel", -1];
+					if(_oldFuel == -1) then {
+						_x setVariable ["SVLN_JAMR_EngineJammer_Fuel", fuel _x, true];
+						_x setFuel 0;
+					};
 
-				if (_debug) then {
-					diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Entered bubble, jammed engine", _x] joinString " ");
+					_x setVariable ["SVLN_JAMR_EngineJammer_SpoolCounter", 0, true];
+					_x setVariable ["SVLN_JAMR_LeftWhenDisabled", false, true];
+
+					diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Entered bubble, jammed engine", _x] joinString " ");
+
+					tmpCraft pushBack _x;
 				};
-
-				tmpCraft pushBack _x;
 			};
 		};
 	} forEach nearby;
 
 	jammedCraft = tmpCraft;
 
-	if (_debug) then {
-		diag_log text (["[SVLN]", "[RADAR JAMMER]", "DEBUG:", "Jammed craft", jammedCraft] joinString " ");
-	};
+	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Jammed craft", jammedCraft] joinString " ");
 
 	sleep 0.5;
 
