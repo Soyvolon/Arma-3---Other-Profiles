@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Slots_Master";
+lastMPMission="Soyvolon Testing Things (02/18/2022) V6";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
