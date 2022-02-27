@@ -2,6 +2,9 @@
 // More options
 // [_this, 1, -1, [1500]] call SVLN_fnc_JAMR_jammerInit;
 
+// TODO local scope does not allow for vehicle group to pass between runs properly.
+// need to move it to a variable.
+
 params [
 	// The host object.
 	"_object",
@@ -24,8 +27,6 @@ _params params [
 	["_lastRunData", [
 		// Is this the first run?
 		true,
-		// Jammed Craft placeholder
-		[],
 		// debug object
 		objNull
 	]]
@@ -35,6 +36,9 @@ if (_lastRunData select 0) then {
 	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Engine Jammer Init"] joinString " ");
 
 	_object setVariable ["SVLN_RJMR_ActiveJammer", true, true];
+	_jmed = createHashMap;
+	_jmed set ["jammed", []];
+	_object setVariable ["SVLN_RJMR_EngineJammedList", _jmed, true];
 };
 
 if (_debug and not (isNull (_lastRunData select 2))) then {
@@ -43,11 +47,15 @@ if (_debug and not (isNull (_lastRunData select 2))) then {
 	indi setObjectScale _radius * 2;
 	indi setObjectTexture [0, "#(rgb,8,8,3)color(0,1,0,0.01)"];
 } else {
-	indi = _lastRunData select 2;
+	indi = _lastRunData select 1;
 };
 
 if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_ActiveJammer", false]) then {
-	jammedCraft = _lastRunData select 1;
+	jammedCraft = _object getVariable ["SVLN_RJMR_EngineJammedList", objNull];
+
+	if (isNull jammedCraft) exitWith { 
+		diag_log text (["[SVLN]", "[ENGINE JAMMER]", "ERROR:", "No jammed craft hash map found."] joinString " ");
+	};
 
 	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Running Vic Check Cycle"] joinString " ");
 
@@ -117,7 +125,7 @@ if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_A
 				};
 			};
 		};
-	} forEach jammedCraft;
+	} forEach (jammedCraft getOrDefault ["jammed", []]);
 
 	{
 		if (local _x) then {
@@ -151,7 +159,9 @@ if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_A
 		};
 	} forEach nearby;
 
-	jammedCraft = tmpCraft;
+	{
+		// todo
+	} forEach tmpCraft;
 
 	diag_log text (["[SVLN]", "[ENGINE JAMMER]", "DEBUG:", "Jammed craft", jammedCraft] joinString " ");
 
@@ -160,7 +170,6 @@ if ((not isNull _object) and alive _object and _object getVariable ["SVLN_RJMR_A
 	if (isServer) then {
 		[_object, _side, [_radius, [
 			false,
-			jammedCraft,
 			indi
 		]], _debug] remoteExec ["SVLN_fnc_JAMR_engineJammer", 0];
 	};

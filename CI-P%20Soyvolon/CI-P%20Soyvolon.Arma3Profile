@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Soyvolon Testing Things (02/18/2022) V6";
+lastMPMission="Lost Platoon - Operation Outrider (02/28/2022) V2";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -471,7 +471,7 @@ keyUser8[]={};
 keyUser9[]={};
 keyUser10[]={};
 keyUser11[]={};
-keyUser12[]={};
+keyUser12[]={705888332};
 keyUser13[]={};
 keyUser14[]={};
 keyUser15[]={};
@@ -577,6 +577,15 @@ activeKeys[]=
 	"BIS_501st_Legion_FunOp_FOB_Halki%3A_Sahrani_V1-9-0.sara_done"
 };
 difficulty="Custom";
+lastSPMission="Cultural Property";
+playedKeys[]=
+{
+	"BIS_Showcase_Future.Altis_done"
+};
+headBob=1;
+floatingZoneArea=0;
+teamSwitchOffsetX=0;
+teamSwitchOffsetY=0;
 class JoysticksList
 {
 	class Joystick1
@@ -615,15 +624,6 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-lastSPMission="Cultural Property";
-playedKeys[]=
-{
-	"BIS_Showcase_Future.Altis_done"
-};
-headBob=1;
-floatingZoneArea=0;
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 sceneComplexity=600000;
