@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Lost Platoon - Operation Outrider (02/28/2022) V2";
+lastMPMission="Diablo%20FOB%20Final%202%2e5";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -339,7 +339,7 @@ keyTeamSwitch[]={22};
 keyTeamSwitchPrev[]={};
 keyTeamSwitchNext[]={};
 keyGear[]={23};
-keyCuratorInterface[]={55};
+keyCuratorInterface[]={55,299};
 keyCuratorDelete[]={211};
 keyCuratorDestroy[]={207};
 keyCuratorMoveCamTo[]={33};
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.078163482,-0.059397738,0.2};
+		positionBack[]={-0.11532415,-0.070034787,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -574,7 +574,9 @@ activeKeys[]=
 	"BIS_Lost%20Plt_graveyard_v04.eladeen_terrain_done",
 	"BIS_Avalanche3_Week_2_2022_V3.Altis_done",
 	"BIS_av3_Week_3_2022_V2.Altis_done",
-	"BIS_501st_Legion_FunOp_FOB_Halki%3A_Sahrani_V1-9-0.sara_done"
+	"BIS_501st_Legion_FunOp_FOB_Halki%3A_Sahrani_V1-9-0.sara_done",
+	"BIS_cyclone3_week2_2022_v1.Altis_done",
+	"BIS_cyclone2_week2_2022_v1.Altis_done"
 };
 difficulty="Custom";
 lastSPMission="Cultural Property";
