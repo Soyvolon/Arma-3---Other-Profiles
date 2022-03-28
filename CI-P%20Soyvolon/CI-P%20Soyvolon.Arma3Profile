@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Diablo%20FOB%20Final%202%2e5";
+lastMPMission="Veantor";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -579,7 +579,7 @@ activeKeys[]=
 	"BIS_cyclone2_week2_2022_v1.Altis_done"
 };
 difficulty="Custom";
-lastSPMission="Cultural Property";
+lastSPMission="Art of War";
 playedKeys[]=
 {
 	"BIS_Showcase_Future.Altis_done"

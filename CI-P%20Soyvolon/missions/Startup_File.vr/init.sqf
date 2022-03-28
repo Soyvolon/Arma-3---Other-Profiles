@@ -27,59 +27,59 @@ if(isServer) then {
     if(isDedicated) then {
         addMissionEventHandler ["EntityKilled", {
             params ["_a", "_b", "_c", "_d"];
-            [_a, _b, _c, _d, false] remoteExecCall ["SVLN_fnc_saveNewKill", -2];
+            [_a, _b, _c, _d, false] remoteExecCall ["RD501_fnc_KT_saveNewKill", -2];
         }];
     } else {
         addMissionEventHandler ["EntityKilled", {
             params ["_a", "_b", "_c", "_d"];
-            [_a, _b, _c, _d, false] remoteExecCall ["SVLN_fnc_saveNewKill", 0];
+            [_a, _b, _c, _d, false] remoteExecCall ["RD501_fnc_KT_saveNewKill", 0];
         }];
     };
 };
 
 // Register Spawn Pad Vics
 
-["", "----------"] call SVLN_fnc_registerVicSpawnOptions;
-["", "Aircraft"] call SVLN_fnc_registerVicSpawnOptions;
-["", "----------"] call SVLN_fnc_registerVicSpawnOptions;
+["", "----------"] call RD501_fnc_VSM_registerSpawnOptions;
+["", "Aircraft"] call RD501_fnc_VSM_registerSpawnOptions;
+["", "----------"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_arc_170_blue", "ARC-170 (Blue)"] call SVLN_fnc_registerVicSpawnOptions;
-["RD501_arc_170_razor", "ARC-170 (Razor)"] call SVLN_fnc_registerVicSpawnOptions;
-["RD501_arc_170_red", "ARC-170 (Red)"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_arc_170_blue", "ARC-170 (Blue)"] call RD501_fnc_VSM_registerSpawnOptions;
+["RD501_arc_170_razor", "ARC-170 (Razor)"] call RD501_fnc_VSM_registerSpawnOptions;
+["RD501_arc_170_red", "ARC-170 (Red)"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_YWing", "Y-Wing Mk.X"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_YWing", "Y-Wing Mk.X"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_v19_MKI", "Republic V19 Torrent"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_v19_MKI", "Republic V19 Torrent"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_z95_blue", "Republic Z95"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_z95_blue", "Republic Z95"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_LAAT_MKIII_Balls", "LAAT/I MK.III"] call SVLN_fnc_registerVicSpawnOptions;
-["RD501_LAAT_C", "Republic LAAT/C"] call SVLN_fnc_registerVicSpawnOptions;
-["RD501_LAAT_LE", "Republic LAAT/LE"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_LAAT_MKIII_Balls", "LAAT/I MK.III"] call RD501_fnc_VSM_registerSpawnOptions;
+["RD501_LAAT_C", "Republic LAAT/C"] call RD501_fnc_VSM_registerSpawnOptions;
+["RD501_LAAT_LE", "Republic LAAT/LE"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_nuclass_mk1", "Republic NuClass Mk.I"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_nuclass_mk1", "Republic NuClass Mk.I"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", "----------"] call SVLN_fnc_registerVicSpawnOptions;
-["", "Vehicles"] call SVLN_fnc_registerVicSpawnOptions;
-["", "----------"] call SVLN_fnc_registerVicSpawnOptions;
+["", "----------"] call RD501_fnc_VSM_registerSpawnOptions;
+["", "Vehicles"] call RD501_fnc_VSM_registerSpawnOptions;
+["", "----------"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_warden_tank_mobile", "Republic Overseer ASV"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_warden_tank_mobile", "Republic Overseer ASV"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_MASH_Truck", "Republic M*A*S*H Truck"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_MASH_Truck", "Republic M*A*S*H Truck"] call RD501_fnc_VSM_registerSpawnOptions;
 
-["", ""] call SVLN_fnc_registerVicSpawnOptions;
+["", ""] call RD501_fnc_VSM_registerSpawnOptions;
 
-["RD501_fast_infantry_transport_republic", "Republic Pathfinder"] call SVLN_fnc_registerVicSpawnOptions;
-["RD501_fast_infantry_transport_republic_medic", "Republic Pathfinder (Medical)"] call SVLN_fnc_registerVicSpawnOptions;
+["RD501_fast_infantry_transport_republic", "Republic Pathfinder"] call RD501_fnc_VSM_registerSpawnOptions;
+["RD501_fast_infantry_transport_republic_medic", "Republic Pathfinder (Medical)"] call RD501_fnc_VSM_registerSpawnOptions;
