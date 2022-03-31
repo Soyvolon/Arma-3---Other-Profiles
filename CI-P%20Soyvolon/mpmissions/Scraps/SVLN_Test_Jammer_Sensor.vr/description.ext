@@ -1,0 +1,11 @@
+class CfgFunctions {
+    class RD501 {
+        tag = "RD501";
+
+        class jammer_sensor {
+            class JMRSNSR_disable {};
+            class JMRSNSR_enable {};
+            class JMRSNSR_listener {};
+        };
+    };
+};
