@@ -6,7 +6,7 @@ _args params ["_player"];
 // If the player is dead, remove the event handlers.
 if (not (alive _player) or not (localnamespace getVariable ["RD501_JMRSNSR_enabled", false])) exitWith {
 	[["Tripped location PFH exit", _player, not (alive _player), not (localnamespace getVariable ["RD501_JMRSNSR_enabled", false])] joinString " ", LOG_DEBUG, "JMRSNSR"] call RD501_fnc_logMessage;
-	
+
 	_handle call CBA_fnc_removePerFrameHandler;
 	[_player] call RD501_fnc_JMRSNSR_disable;
 };
@@ -18,7 +18,7 @@ private _signals = [];
 private _range = localNamespace getVariable ["RD501_JMRSNSR_sensorRange", 100];
 private _width = localNamespace getVariable ["RD501_JMRSNSR_sensorWidth", 180];
 
-private _mod = 1.25;
+private _mod = 1;
 
 [["Location PFH:", _range, _width] joinString " ", LOG_TRACE, "JMRSNSR"] call RD501_fnc_logMessage;
 
@@ -29,27 +29,73 @@ private _mod = 1.25;
 		[_node] call RD501_EWAR_removeSignalNode;
 	};
 
+	// _targetDir = _player getDir _node;
+	// _dirDiff = abs ((direction _player) - _targetDir);
+
+	// _dist = _player distance _node;
+
+	// _dirStr = abs(round((_nodeStrength / _width) * (_width - _dirDiff)));
+
+	// _distStr = round((_nodeStrength / _dist) * (_range - _dist));
+
+	// _dirStr = abs(round((_nodeStrength / _width) * (1 - (_width - _dirDiff) / 100)));
+
+	// // TODO work on mapping the _sigStr value to something between
+	// // 0 and -90.
+
+	// _dirWeight = (_width / 360);
+	// _distWeight = (1 - _dirWeight);
+
+	// _sigStr = ((_distWeight * _distStr) + ((_dirWeight * _dirStr) * _dirMod)) * (-1);
+
+	// _sigStr = _sigStr * _mod;
+
+	// // -------------------------------
+
+	// Direction cacls.
 	_targetDir = _player getDir _node;
-	_dirDiff = abs ((direction _player) - _targetDir);
+	_dir = direction _player;
 
-	_dist = _player distance _node;
-
-	_distStr = round((_nodeStrength / _range) * (_range - _dist));
-	_dirStr = abs(round((_nodeStrength / _width) * (_width - _dirDiff)));
-
-	if (_dirDiff > _width) then {
-		_dirDiff = _dirDiff - _width;
+	_dirB = _targetDir;
+	if(_targetDir < _dir) then {
+		_dirB = _dir;
+		_dir = _targetDir;
 	};
 
-	_sigStr = (100 - ((_distStr + _dirStr) / 2)) * (-1);
+	_dirCompA = _dirB - _dir;
+	_dirCompB = 360 + _dir - _dirB;
 
-	_sigStr = _sigStr * _mod;
+	_dirDiff = _dirCompA;
+	if (_dirCompB < _dirCompA) then {
+		_dirDiff = _dirCompB;
+	};
+
+	[["Dir math dump for:", _node, "dir", _dir, "dirB", _dirB, "trgt dir", _targetDir, "_dirCompA", _dirCompA, "_dirCompB", _dirCompB, "diff", _dirDiff] joinString " ", LOG_TRACE, "JMRSNSR"] call RD501_fnc_logMessage;
+
+	_widthPart = _width / 2;
+	_dirStr = abs(_widthPart / (_widthPart + _dirDiff));
+	_dirMod = 1;
+
+	if (_dirDiff > _widthPart) then {
+		_dirMod = (0.5 + (_width / 360)) / 3;
+	};
+
+	_dirStr = _dirMod * _dirStr;
+
+	// Get the distance between the player and the node.
+	_dist = _player distance _node;
+
+	// At target = 100. Far from target = smaller numbers.
+
+	// Get the distance modified by the node strength.
+	_distStr = (_range / _dist) * (_nodeStrength / _dist) * _dist;
+
+	_sigStr = _dirStr * _distStr;
 
 	_signals append [_freq, _sigStr];
 
 	[["Node Dump for", _node, "dir", _targetDir, "dir diff", _dirDiff, "dist", _dist, "dist str", _distStr, "dir str", _dirStr, "sig str", _sigStr] joinString " ", LOG_TRACE, "JMRSNSR"] call RD501_fnc_logMessage;
 
 } forEach RD501_EWAR_emissionNodes;
-
 
 missionNamespace setVariable ["#EM_Values", _signals];

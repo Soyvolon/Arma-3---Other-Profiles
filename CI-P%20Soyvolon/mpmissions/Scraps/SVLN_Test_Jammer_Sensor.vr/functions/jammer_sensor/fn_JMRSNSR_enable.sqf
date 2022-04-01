@@ -8,8 +8,8 @@ localnamespace setVariable ["RD501_JMRSNSR_enabled", true];
 missionNamespace setVariable ["#EM_FMin", 100];
 missionNamespace setVariable ["#EM_FMax", 500];
 
-missionNamespace setVariable ["#EM_SMin", -100];
-missionNamespace setVariable ["#EM_SMax", -10];
+missionNamespace setVariable ["#EM_SMin", 50];
+missionNamespace setVariable ["#EM_SMax", 550];
 
 missionNamespace setVariable ["#EM_SelMin", 245];
 missionNamespace setVariable ["#EM_SelMax", 255];
