@@ -3,9 +3,24 @@ class CfgFunctions {
         tag = "RD501";
 
         class jammer_sensor {
+            class JMRSNSR_adjustRange {};
             class JMRSNSR_disable {};
             class JMRSNSR_enable {};
-            class JMRSNSR_listener {};
+
+            class internal_JMRSNSR_listener {};
+            class internal_JMRSNSR_locationPFH {};
+            class internal_JMRSNSR_selectionPFH {};
+        };
+
+        class emissions {
+            class EWAR_registerSignalNode {};
+            class EWAR_removeSignalNode {};
+            
+            class internal_EWAR_signalNodeRegistration {};
+        };
+
+        class util {
+            class logMessage {};
         };
     };
 };
