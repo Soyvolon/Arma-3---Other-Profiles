@@ -11,8 +11,8 @@ missionNamespace setVariable ["#EM_FMax", 500];
 missionNamespace setVariable ["#EM_SMin", 50];
 missionNamespace setVariable ["#EM_SMax", 550];
 
-missionNamespace setVariable ["#EM_SelMin", 245];
-missionNamespace setVariable ["#EM_SelMax", 255];
+missionNamespace setVariable ["#EM_SelMin", 240];
+missionNamespace setVariable ["#EM_SelMax", 260];
 
 missionNamespace setVariable ["#EM_Progress", 0];
 missionNamespace setVariable ["#EM_Transmit", false];

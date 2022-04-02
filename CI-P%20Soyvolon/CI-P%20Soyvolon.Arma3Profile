@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.10012829,0.013680412,0.2};
+		positionBack[]={0.055421744,-0.017678255,0.2};
 	};
 };
 FavoriteServers[]={};

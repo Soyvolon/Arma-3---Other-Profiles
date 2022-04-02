@@ -14,6 +14,7 @@ if (not (alive _player) or not (localnamespace getVariable ["RD501_JMRSNSR_enabl
 // Otherwise, handle the location PFH
 
 private _signals = [];
+private _nodes = [];
 
 private _range = localNamespace getVariable ["RD501_JMRSNSR_sensorRange", 100];
 private _width = localNamespace getVariable ["RD501_JMRSNSR_sensorWidth", 180];
@@ -28,29 +29,6 @@ private _mod = 1;
 	if (isNull _node or not (alive _node)) exitWith {
 		[_node] call RD501_EWAR_removeSignalNode;
 	};
-
-	// _targetDir = _player getDir _node;
-	// _dirDiff = abs ((direction _player) - _targetDir);
-
-	// _dist = _player distance _node;
-
-	// _dirStr = abs(round((_nodeStrength / _width) * (_width - _dirDiff)));
-
-	// _distStr = round((_nodeStrength / _dist) * (_range - _dist));
-
-	// _dirStr = abs(round((_nodeStrength / _width) * (1 - (_width - _dirDiff) / 100)));
-
-	// // TODO work on mapping the _sigStr value to something between
-	// // 0 and -90.
-
-	// _dirWeight = (_width / 360);
-	// _distWeight = (1 - _dirWeight);
-
-	// _sigStr = ((_distWeight * _distStr) + ((_dirWeight * _dirStr) * _dirMod)) * (-1);
-
-	// _sigStr = _sigStr * _mod;
-
-	// // -------------------------------
 
 	// Direction cacls.
 	_targetDir = _player getDir _node;
@@ -92,14 +70,15 @@ private _mod = 1;
 
 	_sigStr = _dirStr * _distStr;
 
-	_sigStrMod = _dist / (random _dist);
+	// mod the value to add a bit of random weight to it.
+	_sigStr = _sigStr * (1 + (random 0.25) - random 0.5);
 
-	_sigStr = _sigStr * _sigStrMod;
-
-	_signals append [_freq, _sigStr];
+	_signals append [_freq, _sigStr, 100 + random 400, _sigStr * (1 + random .5 - random 1)];
+	_nodes append [[_freq, _node]];
 
 	[["Node Dump for", _node, "dir", _targetDir, "dir diff", _dirDiff, "dist", _dist, "dist str", _distStr, "dir str", _dirStr, "sig str", _sigStr] joinString " ", LOG_TRACE, "JMRSNSR"] call RD501_fnc_logMessage;
 
 } forEach RD501_EWAR_emissionNodes;
 
 missionNamespace setVariable ["#EM_Values", _signals];
+missionNamespace setVariable ["#EM_ValueNodes", _nodes];

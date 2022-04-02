@@ -17,3 +17,5 @@
 RD501_EWAR_emissionNodes = createHashMap;
 publicVariable "RD501_EWAR_emissionNodes";
 
+RD501_EWAR_emissionTrackingPerTick = 0.05;
+publicVariable "RD501_EWAR_emissionTrackingPerTick";
