@@ -92,6 +92,10 @@ private _mod = 1;
 
 	_sigStr = _dirStr * _distStr;
 
+	_sigStrMod = _dist / (random _dist);
+
+	_sigStr = _sigStr * _sigStrMod;
+
 	_signals append [_freq, _sigStr];
 
 	[["Node Dump for", _node, "dir", _targetDir, "dir diff", _dirDiff, "dist", _dist, "dist str", _distStr, "dir str", _dirStr, "sig str", _sigStr] joinString " ", LOG_TRACE, "JMRSNSR"] call RD501_fnc_logMessage;
