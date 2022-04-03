@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="SVLN_Test_Jammer_Sensor";
+lastMPMission="SVLN_Test_Jammer_File_v0%2e1";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
