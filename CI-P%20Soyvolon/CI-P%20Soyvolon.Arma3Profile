@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="SVLN_Test_Jammer_File_v0%2e1";
+lastMPMission="radar_jammer_testing";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={0.055421744,-0.017678255,0.2};
+		positionBack[]={0.11620504,-0.058292568,0.2};
 	};
 };
 FavoriteServers[]={};
