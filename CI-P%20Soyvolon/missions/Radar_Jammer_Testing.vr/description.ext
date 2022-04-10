@@ -1,20 +1,18 @@
 class CfgFunctions {
     class RD501 {
         tag = "RD501";
-        
-        class engineJammer {
-            file = "functions\engine_jammer";
 
-            class ENGJMR_add {};
-            class ENGJMR_registerSpoolActions {};
-            class ENGJMR_remove {};
+        class spotlightJammer {
+            file = "functions\spotlight_jammer";
 
-            class internal_ENGJMR_add {};
-            class internal_ENGJMR_clientPFH {};
-            class internal_ENGJMR_nodePFH {};
-            class internal_ENGJMR_remove {};
-            class internal_ENGJMR_serverPFH {};
-            class internal_ENGJMR_updateClients {};
+            class SPTJMR_add {};
+            class SPTJMR_remove {};
+
+            class internal_SPTJMR_add {};
+            class internal_SPTJMR_clientPFH {};
+            class internal_SPTJMR_remove {};
+            class internal_SPTJMR_serverPFH {};
+            class internal_SPTJMR_updateClients {};
         };
     };
 };
