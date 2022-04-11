@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="radar_jammer_testing";
+lastMPMission="Diablo_FOB_Building";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
