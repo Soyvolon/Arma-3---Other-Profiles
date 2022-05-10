@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Diablo_FOB_Building";
+lastMPMission="501st Legion FunOp FOB Nativity: Altis V1.0.3";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -584,8 +584,6 @@ playedKeys[]=
 {
 	"BIS_Showcase_Future.Altis_done"
 };
-headBob=1;
-floatingZoneArea=0;
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
 class JoysticksList
@@ -628,6 +626,8 @@ class trackIRClass
 };
 mouseSensitivityX=1;
 mouseSensitivityY=1;
+headBob=1;
+floatingZoneArea=0;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
