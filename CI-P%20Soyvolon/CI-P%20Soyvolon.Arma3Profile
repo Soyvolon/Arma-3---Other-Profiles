@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp FOB Nativity: Altis V1.0.3";
+lastMPMission="501st Legion FunOp FOB Nativity: Altis V1.0.5";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={0.11620504,-0.058292568,0.2};
+		positionBack[]={0.12048749,-0.064647183,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -624,10 +624,10 @@ class trackIRClass
 	enabled=0;
 	ownSettings=1;
 };
-mouseSensitivityX=1;
-mouseSensitivityY=1;
 headBob=1;
 floatingZoneArea=0;
+mouseSensitivityX=1;
+mouseSensitivityY=1;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
@@ -635,8 +635,8 @@ preferredObjectViewDistance=12000.001;
 pipViewDistance=5791;
 terrainGrid=25;
 volumeCD=0;
-volumeFX=2.5132897;
-volumeSpeech=2.5797427;
+volumeFX=0.95161927;
+volumeSpeech=0.95161927;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
 volumeMapDucking=1;
