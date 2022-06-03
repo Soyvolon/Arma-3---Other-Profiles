@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp FOB Nativity: Altis V1.0.5";
+lastMPMission="rd501_cruise_missile_testing";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={0.12048749,-0.064647183,0.2};
+		positionBack[]={0.11008149,-0.052696884,0.2};
 	};
 };
 FavoriteServers[]={};
@@ -586,6 +586,13 @@ playedKeys[]=
 };
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
+class trackIRClass
+{
+	enabled=0;
+	ownSettings=1;
+};
+mouseSensitivityX=1;
+mouseSensitivityY=1;
 class JoysticksList
 {
 	class Joystick1
@@ -618,16 +625,19 @@ class JoysticksList
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
-};
-class trackIRClass
-{
-	enabled=0;
-	ownSettings=1;
+	class Joystick4
+	{
+		guid="3FA483E0-CFD6-11EC-8001-444553540000";
+		name="Pro Controller";
+		offset=1024;
+		isXInput=0;
+		mode="Custom";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
 };
 headBob=1;
 floatingZoneArea=0;
-mouseSensitivityX=1;
-mouseSensitivityY=1;
 sceneComplexity=600000;
 shadowZDistance=50;
 viewDistance=12000.001;
