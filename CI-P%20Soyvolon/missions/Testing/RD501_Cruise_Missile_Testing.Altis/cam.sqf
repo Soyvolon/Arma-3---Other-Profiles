@@ -5,7 +5,7 @@ _camera = "camera" camCreate [0,0,0];
 _camera cameraeffect ["internal", "back"];
 while{alive _projectile && alive _camera}do{
 	_camera camSetTarget _projectile;
-	_camera camSetRelPos [0,-13,1.2];
+	_camera camSetRelPos [0,-25,1.2];
 	_camera camCommit 0;
 	sleep 0.001;
 };
