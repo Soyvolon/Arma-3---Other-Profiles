@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="rd501_testcruisemissile_ava3_20220616";
+lastMPMission="Ava 3 Cruise Missile Test File (Server 9)";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
