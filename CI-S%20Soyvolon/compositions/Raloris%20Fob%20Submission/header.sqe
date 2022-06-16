@@ -1,0 +1,27 @@
+version=54;
+name="Raloris Fob Submission";
+author="Raloris";
+category="3as_FOB";
+requiredAddons[]=
+{
+	"3AS_Prop_FOB",
+	"3AS_Prop_Crates",
+	"3AS_Structures",
+	"442_misc_hologram",
+	"442_misc_holotable",
+	"A3_Structures_F_EPB_Items_Documents",
+	"442_misc_data_pad",
+	"Rep_For_Base",
+	"442_misc_personal_locker",
+	"442_misc_bacta_tank",
+	"442_structures_platforms",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Modules_F_Multiplayer",
+	"JLTS_characters_CloneLegions",
+	"3AS_Prop_Platforms",
+	"plp_rmairport",
+	"A3_Structures_F_Exp_Walls_Concrete",
+	"3as_ModularPlatforms",
+	"k_structures_fobwalls",
+	"A3_Structures_F_Exp_Military_Trenches"
+};

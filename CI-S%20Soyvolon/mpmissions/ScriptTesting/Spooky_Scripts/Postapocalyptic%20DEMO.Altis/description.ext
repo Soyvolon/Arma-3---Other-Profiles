@@ -1,0 +1,88 @@
+enableDebugConsole = 2; // you don't want to have this line in your descritpion.ext
+overviewPicture = "Img\Snapshot.jpg";
+onLoadName 		= Post-apocalyptic script;
+author 			= ALIAS;									
+onLoadMission 	= Post-apocalyptic script;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class earthquake_03
+	{
+		name = "earthquake_03";
+		sound[] = {"\sound\earthquake_03.ogg",0.7,1};
+		titles[] = {1, ""};
+	};
+	class earthquake_02
+	{
+		name = "earthquake_02";
+		sound[] = {"\sound\earthquake_02.ogg",0.7, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_com
+	{
+		name = "ambient_com";
+		sound[] = {"\sound\ambient_com.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_fantoma
+	{
+		name = "ambient_fantoma";
+		sound[] = {"\sound\ambient_fantoma.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_fundal
+	{
+		name = "ambient_fundal";
+		sound[] = {"\sound\ambient_fundal.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_hall
+	{
+		name = "ambient_hall";
+		sound[] = {"\sound\ambient_hall.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_industrial
+	{
+		name = "ambient_industrial";
+		sound[] = {"\sound\ambient_industrial.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_jet
+	{
+		name = "ambient_jet";
+		sound[] = {"\sound\ambient_jet.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_spike
+	{
+		name = "ambient_spike";
+		sound[] = {"\sound\ambient_spike.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_steps
+	{
+		name = "ambient_steps";
+		sound[] = {"\sound\ambient_steps.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_tehnic
+	{
+		name = "ambient_tehnic";
+		sound[] = {"\sound\ambient_tehnic.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_vuumm
+	{
+		name = "ambient_vuumm";
+		sound[] = {"\sound\ambient_vuumm.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class ambient_wind
+	{
+		name = "ambient_wind";
+		sound[] = {"\sound\ambient_wind.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+};

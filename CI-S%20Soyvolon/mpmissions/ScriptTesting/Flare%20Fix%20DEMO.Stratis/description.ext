@@ -1,0 +1,11 @@
+// === MISSION OVERVIEW
+
+overviewText 	= "Flare Fix DEMO";	// mission summary
+overviewPicture = "Img\Snapshot.jpg";
+
+// === LOAD SCREEN
+
+onLoadName 		= Flare Fix DEMO;
+author 			= ALIAS;									
+onLoadMission 	= Flare Fix Script for vanilla;
+loadScreen 		= "Img\Overlay.jpg";

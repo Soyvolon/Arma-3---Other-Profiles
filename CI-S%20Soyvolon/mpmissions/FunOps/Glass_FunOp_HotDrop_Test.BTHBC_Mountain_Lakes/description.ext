@@ -1,0 +1,46 @@
+class CfgMusic
+{
+	tracks[]={};
+	class glass_TheMountain
+	{
+		name = "The Mountain - Topic";
+		sound[] = {"\music\tm.ogg", db+0, 1.0};
+	};
+	class glass_NothingIsAsitSeems
+	{
+		name = "Nothing Is As It Seems - Hidden Citizens ft. Ruelle";
+		sound[] = {"\music\niais.ogg", db+0, 1.0};
+	};
+};
+class CfgFunctions
+{
+	class SVLN
+	{
+		tag = "SVLN";
+
+		class hotDrop
+		{
+			file = "hotdrop";
+			class deployLaunchRail
+			{
+				file = "hotdrop\deploy.sqf";
+			};
+			class populateLAATs
+			{
+				file = "hotdrop\populate.sqf";
+			};
+			class reloadLaunchRail
+			{
+				file = "hotdrop\reload.sqf";
+			};
+			class spawnLAAT
+			{
+				file = "hotdrop\spawn.sqf";
+			};
+			class hotdropInit
+			{
+				file = "hotdrop\hotdrop.sqf";
+			};
+		}
+	}
+};

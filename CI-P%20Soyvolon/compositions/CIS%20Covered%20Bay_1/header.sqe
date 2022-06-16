@@ -1,9 +1,0 @@
-version=54;
-name="CIS Covered Bay";
-author="Soyvolon";
-category="91st_Clones";
-requiredAddons[]=
-{
-	"3AS_Prop_FOB",
-	"A3_Structures_F_Mil_TentHangar"
-};

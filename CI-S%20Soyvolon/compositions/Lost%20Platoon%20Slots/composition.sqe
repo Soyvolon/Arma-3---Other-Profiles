@@ -1,0 +1,7677 @@
+version=54;
+center[]={6061.0571,65.4608,3721.2146};
+class items
+{
+	items=1;
+	class Item0
+	{
+		dataType="Layer";
+		name="Lost Platoon Slots";
+		class Entities
+		{
+			items=2;
+			class Item0
+			{
+				dataType="Layer";
+				name="Lost Platoon Slots";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Layer";
+						name="Lost Platoon Slots_1";
+						class Entities
+						{
+							items=1;
+							class Item0
+							{
+								dataType="Layer";
+								name="Lost Platoon Slots_2";
+								class Entities
+								{
+									items=29;
+									class Item0
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={25.188477,2.4732437,6.2785645};
+											angles[]={0.085788846,4.9394073,0.066899881};
+										};
+										name="HC1_2";
+										isPlayable=1;
+										id=3983;
+										type="HeadlessClient_F";
+									};
+									class Item1
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={23.423828,2.3496399,6.3410645};
+											angles[]={0.085788846,4.9394073,0.066899881};
+										};
+										name="HC2_2";
+										isPlayable=1;
+										id=3984;
+										type="HeadlessClient_F";
+									};
+									class Item2
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={21.212891,2.1979675,6.3664551};
+											angles[]={0.07684838,4.9394073,0.075855196};
+										};
+										name="HC3_2";
+										isPlayable=1;
+										id=3985;
+										type="HeadlessClient_F";
+									};
+									class Item3
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={19.202148,2.0408173,6.4230957};
+											angles[]={0.07684838,4.9394073,0.075855196};
+										};
+										name="HC4_2";
+										isPlayable=1;
+										id=3986;
+										type="HeadlessClient_F";
+									};
+									class Item4
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={19.599609,3.4099579,-8.3278809};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=3987;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z1";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item5
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={20.599609,3.4919815,-8.3278809};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=3988;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z2";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item6
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={21.599609,3.573967,-8.3278809};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=3989;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z3";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item7
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={22.599609,3.6559448,-8.3278809};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=3990;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z4";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item8
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={23.599609,3.7379761,-8.3278809};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=3991;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z5";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item9
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={19.204102,2.1978073,4.3859863};
+											angles[]={0.07684838,4.9394121,0.075855196};
+										};
+										id=3992;
+										type="acex_headless_module";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="acex_headless_module_delay";
+												expression="_this setVariable ['delay',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=60;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="acex_headless_module_log";
+												expression="_this setVariable ['log',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="acex_headless_module_enabled";
+												expression="_this setVariable ['enabled',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="acex_headless_module_endMission";
+												expression="_this setVariable ['endMission',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item10
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={21.193359,2.3550034,4.3078613};
+											angles[]={0.07684838,4.9394121,0.075855196};
+										};
+										id=3993;
+										type="acex_headless_module";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="acex_headless_module_delay";
+												expression="_this setVariable ['delay',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=60;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="acex_headless_module_log";
+												expression="_this setVariable ['log',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="acex_headless_module_enabled";
+												expression="_this setVariable ['enabled',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="acex_headless_module_endMission";
+												expression="_this setVariable ['endMission',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item11
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={23.356445,2.524971,4.2355957};
+											angles[]={0.07684838,4.9394121,0.075855196};
+										};
+										id=3994;
+										type="acex_headless_module";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="acex_headless_module_delay";
+												expression="_this setVariable ['delay',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=60;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="acex_headless_module_log";
+												expression="_this setVariable ['log',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="acex_headless_module_enabled";
+												expression="_this setVariable ['enabled',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="acex_headless_module_endMission";
+												expression="_this setVariable ['endMission',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item12
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={25.226563,2.6568451,4.1730957};
+											angles[]={0.085788846,4.9394121,0.066899881};
+										};
+										id=3995;
+										type="acex_headless_module";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="acex_headless_module_delay";
+												expression="_this setVariable ['delay',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=60;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="acex_headless_module_log";
+												expression="_this setVariable ['log',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="acex_headless_module_enabled";
+												expression="_this setVariable ['enabled',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="acex_headless_module_endMission";
+												expression="_this setVariable ['endMission',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item13
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={23.539063,3.28405,-4.1472168};
+											angles[]={0.11054765,4.9393868,0.075854406};
+										};
+										name="respawn_1";
+										id=3996;
+										type="ACE_ModuleRespawn";
+										atlOffset=7.6293945e-006;
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ACE_ModuleRespawn_RemoveDeadBodiesDisconnected";
+												expression="_this setVariable ['RemoveDeadBodiesDisconnected',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ACE_ModuleRespawn_SavePreDeathGear";
+												expression="_this setVariable ['SavePreDeathGear',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											nAttributes=2;
+										};
+									};
+									class Item14
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={23.214844,3.0266495,-2.0505371};
+											angles[]={0.11054765,2.3780808,0.075854406};
+										};
+										id=3997;
+										type="ace_zeus_moduleSettings";
+										atlOffset=7.6293945e-006;
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ace_zeus_moduleSettings_remoteWind";
+												expression="_this setVariable ['remoteWind',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ace_zeus_moduleSettings_zeusAscension";
+												expression="_this setVariable ['zeusAscension',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ace_zeus_moduleSettings_radioOrdnance";
+												expression="_this setVariable ['radioOrdnance',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ace_zeus_moduleSettings_revealMines";
+												expression="_this setVariable ['revealMines',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute4
+											{
+												property="ace_zeus_moduleSettings_zeusBird";
+												expression="_this setVariable ['zeusBird',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute5
+											{
+												property="ace_zeus_moduleSettings_autoAddObjects";
+												expression="_this setVariable ['autoAddObjects',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+											nAttributes=6;
+										};
+									};
+									class Item15
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=5;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.136719,0.0014419556,9.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Platoon Lead@Lost Platoon HQ";
+													isPlayable=1;
+												};
+												id=3999;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.94999999;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.136719,0.12989807,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Platoon CS-M";
+													isPlayable=1;
+												};
+												id=4000;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.136719,0.26190186,5.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Platoon Mike";
+													isPlayable=1;
+												};
+												id=4001;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.136719,0.39390564,3.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Platoon Romeo";
+													isPlayable=1;
+												};
+												id=4002;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.136719,0.52589417,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Platoon ARC";
+													isPlayable=1;
+												};
+												id=4003;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.95999998;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=3998;
+									};
+									class Item16
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=11;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-9.6367188,0.12029266,9.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Squad Leader@Frozen Squad";
+													isPlayable=1;
+												};
+												id=4005;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.136719,0.23654175,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad RT";
+													isPlayable=1;
+												};
+												id=4006;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-9.1367188,0.28484344,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad ARC";
+													isPlayable=1;
+												};
+												id=4007;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.136719,0.33555603,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Team Leader";
+													isPlayable=1;
+												};
+												id=4008;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.98000002;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.136719,0.43454742,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 2IC";
+													isPlayable=1;
+												};
+												id=4009;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.04;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item5
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.136719,0.53354645,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 3IC";
+													isPlayable=1;
+												};
+												id=4010;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item6
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.136719,0.63253784,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Medic";
+													isPlayable=1;
+												};
+												id=4011;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item7
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-9.1367188,0.38457489,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Team Leader";
+													isPlayable=1;
+												};
+												id=4012;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item8
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-9.1367188,0.48356628,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 2IC";
+													isPlayable=1;
+												};
+												id=4013;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item9
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-9.1367188,0.58256531,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 3IC";
+													isPlayable=1;
+												};
+												id=4014;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item10
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-9.1367188,0.6815567,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Medic";
+													isPlayable=1;
+												};
+												id=4015;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4004;
+									};
+									class Item17
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=11;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-7.1367188,0.23529816,9.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Squad Leader@Scorched Squad";
+													isPlayable=1;
+												};
+												id=4017;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-7.6367188,0.35382843,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad RT";
+													isPlayable=1;
+												};
+												id=4018;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-6.6367188,0.39984131,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad ARC";
+													isPlayable=1;
+												};
+												id=4019;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-7.6367188,0.45734406,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Team Leader";
+													isPlayable=1;
+												};
+												id=4020;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.98000002;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-7.6367188,0.55705261,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 2IC";
+													isPlayable=1;
+												};
+												id=4021;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.04;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item5
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-7.6367188,0.65605164,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 3IC";
+													isPlayable=1;
+												};
+												id=4022;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item6
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-7.6367188,0.75504303,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Medic";
+													isPlayable=1;
+												};
+												id=4023;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item7
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-6.6367188,0.50335693,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Team Leader";
+													isPlayable=1;
+												};
+												id=4024;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item8
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-6.6367188,0.60607147,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 2IC";
+													isPlayable=1;
+												};
+												id=4025;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item9
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-6.6367188,0.7050705,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 3IC";
+													isPlayable=1;
+												};
+												id=4026;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item10
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-6.6367188,0.80406189,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Medic";
+													isPlayable=1;
+												};
+												id=4027;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4016;
+									};
+									class Item18
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=11;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-4.1367188,0.3733139,9.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Squad Leader@StarFall Squad";
+													isPlayable=1;
+												};
+												id=4029;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-4.6367188,0.49182129,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad RT";
+													isPlayable=1;
+												};
+												id=4030;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.6367188,0.53783417,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad ARC";
+													isPlayable=1;
+												};
+												id=4031;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-4.6367188,0.59533691,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Team Leader";
+													isPlayable=1;
+												};
+												id=4032;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.98000002;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-4.6367188,0.69882965,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 2IC";
+													isPlayable=1;
+												};
+												id=4033;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.04;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item5
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-4.6367188,0.80233002,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 3IC";
+													isPlayable=1;
+												};
+												id=4034;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item6
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-4.6367188,0.90203857,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Medic";
+													isPlayable=1;
+												};
+												id=4035;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item7
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.6367188,0.64134979,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Team Leader";
+													isPlayable=1;
+												};
+												id=4036;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+											class Item8
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.6367188,0.74484253,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 2IC";
+													isPlayable=1;
+												};
+												id=4037;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item9
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.6367188,0.8483429,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 3IC";
+													isPlayable=1;
+												};
+												id=4038;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item10
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.6367188,0.95105743,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Medic";
+													isPlayable=1;
+												};
+												id=4039;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=3;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4028;
+									};
+									class Item19
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=11;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.1367188,0.51420593,9.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Squad Leader@Archangel Squad";
+													isPlayable=1;
+												};
+												id=4041;
+												type="3as_Clone_P1_501";
+												atlOffset=-7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.6367188,0.62984467,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad RT";
+													isPlayable=1;
+												};
+												id=4042;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-0.63671875,0.68549347,7.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Squad ARC";
+													isPlayable=1;
+												};
+												id=4043;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.6367188,0.73336029,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Team Leader";
+													isPlayable=1;
+												};
+												id=4044;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.98000002;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.6367188,0.83685303,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 2IC";
+													isPlayable=1;
+												};
+												id=4045;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.04;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item5
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.6367188,0.94034576,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha 3IC";
+													isPlayable=1;
+												};
+												id=4046;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item6
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.6367188,1.0438461,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Alpha Medic";
+													isPlayable=1;
+												};
+												id=4047;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item7
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-0.63671875,0.78900909,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Team Leader";
+													isPlayable=1;
+												};
+												id=4048;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item8
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-0.63671875,0.89250183,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 2IC";
+													isPlayable=1;
+												};
+												id=4049;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item9
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-0.63671875,0.9960022,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo 3IC";
+													isPlayable=1;
+												};
+												id=4050;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item10
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-0.63671875,1.0994949,1.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo Medic";
+													isPlayable=1;
+												};
+												id=4051;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.03;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4040;
+										atlOffset=-7.6293945e-006;
+									};
+									class Item20
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=4;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={1.3632813,0.81534576,7.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Alpha@Red Line";
+													isPlayable=1;
+												};
+												id=4053;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.94999999;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={1.3632813,0.92701721,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo";
+													isPlayable=1;
+												};
+												id=4054;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={1.3632813,1.0305099,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Charlie";
+													isPlayable=1;
+												};
+												id=4055;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={1.3632813,1.1340103,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Delta";
+													isPlayable=1;
+												};
+												id=4056;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4052;
+										atlOffset=7.6293945e-006;
+									};
+									class Item21
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=4;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={3.3632813,0.93135834,7.1564941};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Alpha@Phoenix";
+													isPlayable=1;
+												};
+												id=4058;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.94999999;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={3.3632813,1.0513763,5.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Bravo";
+													isPlayable=1;
+												};
+												id=4059;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={3.3632813,1.1685181,4.1564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Charlie";
+													isPlayable=1;
+												};
+												id=4060;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={3.3632813,1.2720184,2.6564941};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Delta";
+													isPlayable=1;
+												};
+												id=4061;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="ace_isMedic";
+														expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="ace_isEngineer";
+														expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=2;
+															};
+														};
+													};
+													class Attribute2
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.97000003;
+															};
+														};
+													};
+													class Attribute3
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													nAttributes=4;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4057;
+										atlOffset=7.6293945e-006;
+									};
+									class Item22
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=10;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.636719,1.0593033,-6.3435059};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													name="z1";
+													description="Zeus@Zeus";
+													isPlayable=1;
+												};
+												id=4063;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.95999998;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.470703,1.1762009,-6.244873};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z2";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4064;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-8.5014648,1.3041687,-6.1940918};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z3";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4065;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-5.8632813,1.4748993,-6.1618652};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z4";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4066;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.8115234,1.5678253,-6.0827637};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z5";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4067;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item5
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-1.8007813,1.691391,-6.3435059};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z1_1";
+													description="Zeus@Zeus";
+													isPlayable=1;
+												};
+												id=4068;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.95999998;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item6
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={0.36523438,1.8108215,-6.244873};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z2_1";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4069;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item7
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={2.3339844,1.9339066,-6.1940918};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z3_1";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4070;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item8
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={4.972168,2.1064377,-6.1618652};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z4_1";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4071;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item9
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={7.0244141,2.2407532,-6.0827637};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													name="z5_1";
+													description="Zeus";
+													isPlayable=1;
+												};
+												id=4072;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4062;
+										atlOffset=7.6293945e-006;
+									};
+									class Item23
+									{
+										dataType="Group";
+										side="West";
+										class Entities
+										{
+											items=10;
+											class Item0
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-12.636719,1.2153091,-8.3435059};
+												};
+												side="West";
+												flags=7;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4074;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.95999998;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item1
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-10.470703,1.3322144,-8.244873};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4075;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item2
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-8.5014648,1.4601593,-8.1940918};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4076;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item3
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-5.8632813,1.6344376,-8.1618652};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4077;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item4
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-3.8115234,1.7598114,-8.0827637};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4078;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item5
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={4.6801758,2.2753143,-8.1618652};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4079;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item6
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={6.7319336,2.4045639,-8.0827637};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4080;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.02;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item7
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={-2.0927734,1.8690796,-8.3435059};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4081;
+												type="3as_Clone_P1_501";
+												atlOffset=7.6293945e-006;
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.95999998;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item8
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={0.072753906,1.9837952,-8.244873};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4082;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=0.99000001;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+											class Item9
+											{
+												dataType="Object";
+												class PositionInfo
+												{
+													position[]={2.0419922,2.106926,-8.1940918};
+												};
+												side="West";
+												flags=5;
+												class Attributes
+												{
+													description="Actor@Actors";
+													isPlayable=1;
+												};
+												id=4083;
+												type="3as_Clone_P1_501";
+												class CustomAttributes
+												{
+													class Attribute0
+													{
+														property="face";
+														expression="_this setface _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"STRING"
+																	};
+																};
+																value="";
+															};
+														};
+													};
+													class Attribute1
+													{
+														property="pitch";
+														expression="_this setpitch _value;";
+														class Value
+														{
+															class data
+															{
+																class type
+																{
+																	type[]=
+																	{
+																		"SCALAR"
+																	};
+																};
+																value=1.01;
+															};
+														};
+													};
+													nAttributes=2;
+												};
+											};
+										};
+										class Attributes
+										{
+										};
+										id=4073;
+										atlOffset=7.6293945e-006;
+									};
+									class Item24
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={19.599609,3.5812988,-9.9597168};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=4084;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z1_1";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item25
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={20.599609,3.6633224,-9.9597168};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=4085;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z2_1";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item26
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={21.599609,3.7453079,-9.9597168};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=4086;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z3_1";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item27
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={22.599609,3.8272858,-9.9597168};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=4087;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z4_1";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+									class Item28
+									{
+										dataType="Logic";
+										class PositionInfo
+										{
+											position[]={23.599609,3.909317,-9.9597168};
+											angles[]={0.10461744,0,0.081817582};
+										};
+										id=4088;
+										type="ModuleCurator_F";
+										class CustomAttributes
+										{
+											class Attribute0
+											{
+												property="ModuleCurator_F_Owner";
+												expression="_this setVariable ['Owner',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="z5_1";
+													};
+												};
+											};
+											class Attribute1
+											{
+												property="ModuleCurator_F_Forced";
+												expression="_this setVariable ['Forced',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+											};
+											class Attribute2
+											{
+												property="ModuleCurator_F_Name";
+												expression="_this setVariable ['Name',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"STRING"
+															};
+														};
+														value="";
+													};
+												};
+											};
+											class Attribute3
+											{
+												property="ModuleCurator_F_Addons";
+												expression="_this setVariable ['Addons',_value,true];";
+												class Value
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=2;
+													};
+												};
+											};
+											nAttributes=4;
+										};
+									};
+								};
+								id=3982;
+								atlOffset=0.014923096;
+							};
+						};
+						id=3981;
+						atlOffset=0.014923096;
+					};
+				};
+				id=3980;
+				atlOffset=0.014923096;
+			};
+			class Item1
+			{
+				dataType="Group";
+				side="East";
+				class Entities
+				{
+					items=10;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-12.554688,1.3433075,-10.005615};
+						};
+						side="East";
+						flags=7;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4090;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-10.439941,1.4772949,-10.078857};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4091;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-8.5053711,1.6073074,-10.08374};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4092;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-5.9741211,1.7723923,-10.026123};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4093;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-3.90625,1.9069214,-9.9743652};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4094;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-2.1191406,2.0221863,-9.9519043};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4095;
+						type="RD501_opfor_unit_human_rifleman";
+						atlOffset=7.6293945e-006;
+					};
+					class Item6
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={-0.13867188,2.1302643,-9.9138184};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4096;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item7
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={1.8979492,2.2541199,-9.8249512};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4097;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item8
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={4.4360352,2.4172974,-9.8063965};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4098;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+					class Item9
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={6.6972656,2.5469437,-9.6257324};
+						};
+						side="East";
+						flags=5;
+						class Attributes
+						{
+							description="Actor@Actors";
+							isPlayable=1;
+						};
+						id=4099;
+						type="RD501_opfor_unit_human_rifleman";
+					};
+				};
+				class Attributes
+				{
+				};
+				id=4089;
+			};
+		};
+		id=4100;
+		atlOffset=0.11555481;
+	};
+};
+class connections
+{
+	class LinkIDProvider
+	{
+		nextID=4;
+	};
+	class Links
+	{
+		items=4;
+		class Item0
+		{
+			linkID=0;
+			item0=3985;
+			item1=3993;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item1
+		{
+			linkID=1;
+			item0=3986;
+			item1=3992;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=3983;
+			item1=3995;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item3
+		{
+			linkID=3;
+			item0=3984;
+			item1=3994;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+	};
+};

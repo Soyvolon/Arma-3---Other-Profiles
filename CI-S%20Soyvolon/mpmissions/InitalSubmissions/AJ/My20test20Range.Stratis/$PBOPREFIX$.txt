@@ -1,0 +1,3 @@
+//<'My20test20Range.Stratis.pbo' properties via Mikero's dos tools, dll version 7.97>
+//PboType=Arma Mission;
+//</properties>

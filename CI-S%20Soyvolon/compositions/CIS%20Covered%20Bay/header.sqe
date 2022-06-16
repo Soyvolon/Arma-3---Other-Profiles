@@ -1,0 +1,9 @@
+version=54;
+name="CIS Small Outpost";
+author="Soyvolon";
+category="91st_Clones";
+requiredAddons[]=
+{
+	"3AS_Prop_FOB",
+	"3AS_Prop_Trenches"
+};

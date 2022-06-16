@@ -1,0 +1,10 @@
+version=54;
+name="Spawn Nodes (optre pad large vic spawner)";
+author="Soyvolon";
+category="91st_vultures";
+requiredAddons[]=
+{
+	"A3_Structures_F_Bootcamp_VR_Helpers",
+	"OPTRE_BW_DoorConsole",
+	"A3_Structures_F_Mil_Flags"
+};

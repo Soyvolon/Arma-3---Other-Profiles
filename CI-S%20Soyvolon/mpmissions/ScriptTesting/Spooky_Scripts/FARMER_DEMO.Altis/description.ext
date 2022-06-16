@@ -1,0 +1,77 @@
+// === MISSION OVERVIEW
+enableDebugConsole = 2; // DON'T forget to remove this line in your public mission
+
+overviewText 	= "THE FARMER DEMO";	// mission summary
+overviewPicture = "Img\Snapshot.jpg";
+
+// === LOAD SCREEN
+
+onLoadName 		= THE FARMER DEMO;
+author 			= ALIAS;									
+onLoadMission 	= THE FARMER DEMO mission;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class explozie_3
+	{
+		name = "explozie_3";
+		sound[] = {"\Sound\explozie_3.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class eko
+	{
+		name = "eko";
+		sound[] = {"\Sound\eko.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class pietre
+	{
+		name = "pietre";
+		sound[] = {"\Sound\pietre.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_1
+	{
+		name = "punch_1";
+		sound[] = {"\Sound\punch_1.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_2
+	{
+		name = "punch_2";
+		sound[] = {"\Sound\punch_2.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_3
+	{
+		name = "punch_3";
+		sound[] = {"\Sound\punch_3.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_4
+	{
+		name = "punch_4";
+		sound[] = {"\Sound\punch_4.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_5
+	{
+		name = "punch_5";
+		sound[] = {"\Sound\punch_5.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_6
+	{
+		name = "punch_6";
+		sound[] = {"\Sound\punch_6.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+	class punch_7
+	{
+		name = "punch_7";
+		sound[] = {"\Sound\punch_7.ogg", 1, 1.0};
+		titles[] = {0, ""};	
+	};
+
+};

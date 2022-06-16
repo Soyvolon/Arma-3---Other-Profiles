@@ -1,0 +1,336 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=53;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
+	};
+	class Camera
+	{
+		pos[]={11437.881,362.26746,8398.9795};
+		dir[]={0.048419796,-0.46433961,0.88444102};
+		up[]={0.025384322,0.88563228,0.46366718};
+		aside[]={0.99860424,-1.0122349e-006,-0.054668792};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Characters_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=6829205;
+class ScenarioData
+{
+	author="ALIAScartoons";
+};
+class Mission
+{
+	class Intel
+	{
+		resistanceWest=0;
+		timeOfChanges=1800.0002;
+		startWeather=0.15000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.15000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		rainForced=1;
+		year=2035;
+		month=6;
+		hour=3;
+		minute=0;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+		class CustomAttributes
+		{
+			name="Intel";
+			class Attribute0
+			{
+				property="Enh_disableGrass";
+				expression="if (((parseNumber _value) > 0) && !is3DEN) then {setTerrainGrid (parseNumber _value)}";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="-1";
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Entities
+	{
+		items=3;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={11693.261,39.703579,8982.5078};
+			name="strigoi_1";
+			text="strigoi_1";
+			type="Empty";
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=8;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11293.484,166.82175,8661.3281};
+						angles[]={0,1.6612567,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						init="this setSpeaker ""NoVoice"";";
+						isPlayable=1;
+					};
+					id=21;
+					type="B_Soldier_F";
+					atlOffset=-1.5258789e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11286.813,168.41888,8663.2686};
+						angles[]={0,1.6612567,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setSpeaker ""NoVoice"";";
+						isPlayable=1;
+					};
+					id=43;
+					type="B_Soldier_F";
+					atlOffset=0.00024414063;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11295.068,166.33047,8657.1162};
+						angles[]={0,1.6612567,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setSpeaker ""NoVoice"";";
+						isPlayable=1;
+					};
+					id=37;
+					type="B_Soldier_F";
+					atlOffset=1.5258789e-005;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11294.265,166.58228,8659.3047};
+						angles[]={0,1.6612567,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setSpeaker ""NoVoice"";";
+						isPlayable=1;
+					};
+					id=39;
+					type="B_Soldier_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11290.068,167.58636,8661.3115};
+						angles[]={0,1.6612567,0};
+					};
+					side="West";
+					flags=5;
+					class Attributes
+					{
+						init="this setSpeaker ""NoVoice"";";
+						isPlayable=1;
+					};
+					id=41;
+					type="B_Soldier_F";
+					atlOffset=-1.5258789e-005;
+				};
+				class Item5
+				{
+					dataType="Waypoint";
+					position[]={11578.169,70.040543,8835.5732};
+					formation="LINE";
+					speed="NORMAL";
+					combat="AWARE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=45;
+					type="Move";
+				};
+				class Item6
+				{
+					dataType="Waypoint";
+					position[]={11651.184,53.182915,8902.2773};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=46;
+					type="Move";
+					atlOffset=0.00022888184;
+				};
+				class Item7
+				{
+					dataType="Waypoint";
+					position[]={11676.533,46.381466,8927.9717};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+					id=47;
+					type="Move";
+					atlOffset=3.8146973e-006;
+				};
+			};
+			class Attributes
+			{
+				formation="COLUMN";
+			};
+			id=1;
+			atlOffset=-1.5258789e-005;
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={11275.877,171.23499,8657.0547};
+						angles[]={0,1.0088377,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=52;
+					type="B_soldier_AR_F";
+					atlOffset=1.5258789e-005;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male05ENG";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=51;
+			atlOffset=1.5258789e-005;
+		};
+	};
+};

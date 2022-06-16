@@ -1,8 +1,0 @@
-class CfgFunctions
-{
-	class RD501 {
-		tag = "RD501";
-
-		class 
-	};
-};

@@ -1,0 +1,16 @@
+version=54;
+name="Lost Platoon Stealth Ship";
+author="Soyvolon";
+category="GAR_LAATCatNSub";
+requiredAddons[]=
+{
+	"A3_Characters_F",
+	"mcc_sandbox",
+	"A3_Modules_F_Curator_Curator",
+	"acex_headless",
+	"ace_respawn",
+	"ace_zeus",
+	"3as_JLTS_Uniforms",
+	"OPTRE_Corvette",
+	"A3_Ui_F"
+};

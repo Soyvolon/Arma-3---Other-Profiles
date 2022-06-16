@@ -1,0 +1,99 @@
+// === MISSION OVERVIEW
+enableDebugConsole = 2;
+overviewText 	= "FLAMER DEMO";
+overviewPicture = "Img\Snapshot.jpg";
+
+// === LOAD SCREEN
+
+onLoadName 		= FLAMER DEMO;
+author 			= ALIAS;									
+onLoadMission 	= FLAMER DEMO mission;
+loadScreen 		= "Img\Overlay.jpg";
+
+class CfgSounds
+{
+	class flamer_voice
+	{
+		name = "flamer_voice";
+		sound[] = {"\sound\flamer_voice.ogg", db+5, 1};
+		titles[] = {};
+	};
+	class 01_blast
+	{
+		name = "01_blast";
+		sound[] = {"\sound\01_blast.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class 02_blast
+	{
+		name = "2";
+		sound[] = {"\sound\02_blast.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class 03_blast
+	{
+		name = "03_blast";
+		sound[] = {"\sound\03_blast.ogg", db+10, 1};
+		titles[] = {};
+	};
+	class furnal
+	{
+		name = "furnal";
+		sound[] = {"\sound\furnal.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class burned
+	{
+		name = "burned";
+		sound[] = {"\sound\burned.ogg", 1, 1};
+		titles[] = {1, ""};
+	};
+	class close_bomb
+	{
+		name = "close_bomb";
+		sound[] = {"\sound\close_bomb.ogg",db+30, 1};
+		titles[] = {};
+	};
+	class eko_sharp
+	{
+		name = "eko_sharp";
+		sound[] = {"\sound\eko_sharp.ogg",1, 1};
+		titles[] = {};
+	};
+	class eko_bomb
+	{
+		name = "eko_bomb";
+		sound[] = {"\sound\eko_bomb.ogg",1, 1};
+		titles[] = {};
+	};
+	class foc_initial
+	{
+		name = "foc_initial";
+		sound[] = {"\sound\foc_initial.ogg",1, 1};
+		titles[] = {};
+	};
+	class NoSound 
+	{
+		name = "NoSound";
+		sound[] = {"", 0, 1};
+		titles[] = {0, ""};
+	};	
+	class 02
+	{
+		name = "02";
+		sound[] = {"\sound\02.ogg",1, 1};
+		titles[] = {1, ""};
+	};	
+	class 04
+	{
+		name = "04";
+		sound[] = {"\sound\04.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+	class 03
+	{
+		name = "03";
+		sound[] = {"\sound\03.ogg",1, 1};
+		titles[] = {1, ""};
+	};
+};

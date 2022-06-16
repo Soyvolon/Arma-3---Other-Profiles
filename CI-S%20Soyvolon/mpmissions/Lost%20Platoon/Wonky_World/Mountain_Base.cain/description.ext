@@ -1,0 +1,15 @@
+class CfgMusic {
+	tracks[]={};
+	class glass_rideTheLightning {
+		name = "Ride the Lightning - Warren Zeiders";
+		sound[] = {"\music\rtl.ogg", db+0, 1.0};
+	};
+	class glass_theMountain {
+		name = "The Mountain - Three Days Grace";
+		sound[] = {"\music\tm.ogg", db+0, 1.0};
+	};
+	class glass_aintNoGrave {
+		name = "Ain't No Grave - Adam Christopher";
+		sound[] = {"\music\ang.ogg", db+0, 1.0};
+	};
+};

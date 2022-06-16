@@ -1,0 +1,131 @@
+version=54;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=138;
+	mods[]=
+	{
+		"3denEnhanced"
+	};
+	class ItemIDProvider
+	{
+		nextID=1067;
+	};
+	class MarkerIDProvider
+	{
+		nextID=2;
+	};
+	class LayerIndexProvider
+	{
+		nextID=11;
+	};
+	class Camera
+	{
+		pos[]={284.84854,472.76828,11475.88};
+		dir[]={-0.0035704898,-0.56401372,0.8258844};
+		up[]={-0.0024392488,0.82573396,0.56404084};
+		aside[]={1.000085,2.3929897e-007,0.0043212143};
+	};
+};
+binarizationWanted=0;
+sourceName="Uzbin_Valley_Framework";
+addons[]=
+{
+	"A3_Ui_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=1;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=9556076;
+class ScenarioData
+{
+	author="Soyvolon";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		wavesForced=1;
+		windForced=1;
+		year=2019;
+		month=11;
+		day=26;
+		hour=17;
+		minute=0;
+		startFogBase=250;
+		forecastFogBase=250;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=5;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={2993.1499,1469.433,7008.9731};
+			name="venator";
+			type="Empty";
+			id=0;
+			atlOffset=874.32825;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={2993.1499,1469.433,7008.9731};
+			name="Venator%20V1%2e3%2e1-beta%20(NO%20MCC)";
+			type="Empty";
+			id=0;
+			atlOffset=874.32825;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={164.16942,370.9834,11710.313};
+			name="FOB%20Halki";
+			type="Empty";
+			id=717;
+			atlOffset=17.646698;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={164.16942,370.9834,11710.313};
+			name="FOB%20Halki%20No%20MCC";
+			type="Empty";
+			id=717;
+			atlOffset=17.646698;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={264.57718,376.91409,11702.267};
+			name="FOB_Nativity";
+			type="Empty";
+			id=1066;
+			atlOffset=17.590118;
+		};
+	};
+};
