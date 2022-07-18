@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Ava 3 Cruise Missile Test File (Server 9)";
+lastMPMission="veantor";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,12 +489,12 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={0.1022073,-0.06167623,0.2};
+		positionBack[]={-0.090107851,0.027370295,0.2};
 	};
 };
 FavoriteServers[]={};
 anisoFilter=0;
-textureQuality=1;
+textureQuality=3;
 shadowQuality=1;
 maxSamplesPlayed=96;
 class DifficultyPresets
@@ -577,7 +577,10 @@ activeKeys[]=
 	"BIS_501st_Legion_FunOp_FOB_Halki%3A_Sahrani_V1-9-0.sara_done",
 	"BIS_cyclone3_week2_2022_v1.Altis_done",
 	"BIS_cyclone2_week2_2022_v1.Altis_done",
-	"BIS_RD501_TestCruiseMissiles_Cyc1.OPTRE_Madrigal_done"
+	"BIS_RD501_TestCruiseMissiles_Cyc1.OPTRE_Madrigal_done",
+	"BIS_MPEnded_Event_Testing.vr_done",
+	"BIS_Allanteen_Week1_CYC3_07%2f15%2f2022.UMB_Colombia_done",
+	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_Colombia_V-Latest.UMB_Colombia_done"
 };
 difficulty="Custom";
 lastSPMission="Art of War";
@@ -635,16 +638,16 @@ class JoysticksList
 		analogClickLow=0.2;
 	};
 };
-headBob=1;
-floatingZoneArea=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
-sceneComplexity=600000;
+headBob=1;
+floatingZoneArea=0;
+sceneComplexity=1300000;
 shadowZDistance=50;
 viewDistance=12000.001;
 preferredObjectViewDistance=12000.001;
 pipViewDistance=5791;
-terrainGrid=25;
+terrainGrid=6.25;
 volumeCD=0.25385457;
 volumeFX=0.95161927;
 volumeSpeech=0.95161927;
