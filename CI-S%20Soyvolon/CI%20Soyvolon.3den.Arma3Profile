@@ -41,3 +41,8 @@ class CustomAttributes
 	};
 	nAttributes=2;
 };
+class freeTrackClass
+{
+	enabled=1;
+	ownSettings=1;
+};

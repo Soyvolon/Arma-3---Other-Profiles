@@ -616,3 +616,8 @@ volumeSpeech=4.8724065;
 volumeVoN=10;
 vonRecThreshold=0.029999999;
 volumeMapDucking=1;
+class freeTrackClass
+{
+	enabled=1;
+	ownSettings=1;
+};
