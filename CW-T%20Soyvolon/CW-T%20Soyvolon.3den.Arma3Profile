@@ -1,6 +1,5 @@
 version=1;
-class freeTrackClass
+class EngineAttributes
 {
-	enabled=1;
-	ownSettings=1;
+	saveBinarized=0;
 };

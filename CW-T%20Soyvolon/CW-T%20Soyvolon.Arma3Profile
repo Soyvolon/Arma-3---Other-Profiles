@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="LZG_HouseCall_Arma3Clones";
+lastMPMission="aux_scripts_migration_testing";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -634,8 +634,6 @@ playedKeys[]=
 };
 teamSwitchOffsetX=0;
 teamSwitchOffsetY=0;
-headBob=1;
-floatingZoneArea=0;
 keyPLP_LTR_ladderSlideDown[]={316};
 keyWBK_AlternativeRunningKey[]={298};
 keyOPTRE_DoAirBrake[]={};
@@ -743,6 +741,12 @@ class JoysticksList
 		analogClickLow=0.2;
 	};
 };
+wBrowserSP=0;
+class wBrowserMP
+{
+};
+headBob=1;
+floatingZoneArea=0;
 sceneComplexity=1300000;
 shadowZDistance=50;
 viewDistance=12000.001;
