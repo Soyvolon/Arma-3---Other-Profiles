@@ -12,15 +12,15 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=1151;
+		nextID=1153;
 	};
 	class LayerIndexProvider
 	{
-		nextID=432;
+		nextID=504;
 	};
 	class Camera
 	{
-		pos[]={23763.199,85.719246,18583.275};
+		pos[]={23772.867,38.429104,18603.063};
 		dir[]={-0.092177875,-0.71926963,0.68859255};
 		up[]={-0.095433719,0.69472921,0.71291274};
 		aside[]={0.99116212,-4.9025402e-08,0.13268125};
@@ -9665,7 +9665,7 @@ class Mission
 											name="501st Slots V1.14.7_2";
 											class Entities
 											{
-												items=21;
+												items=22;
 												class Item0
 												{
 													dataType="Group";
@@ -11075,21 +11075,97 @@ class Mission
 														nAttributes=6;
 													};
 												};
+												class Item21
+												{
+													dataType="Group";
+													side="West";
+													class Entities
+													{
+														items=1;
+														class Item0
+														{
+															dataType="Object";
+															class PositionInfo
+															{
+																position[]={23768.725,20.54044,18616.334};
+																angles[]={0,1.5811985,0};
+															};
+															side="West";
+															flags=6;
+															class Attributes
+															{
+																description="Zeus (Reserved for Senior Zeus)";
+																isPlayable=1;
+															};
+															id=1152;
+															type="Aux501_Units_Republic_501st_Trooper_Unit";
+															atlOffset=0.00023841858;
+															class CustomAttributes
+															{
+																class Attribute0
+																{
+																	property="speaker";
+																	expression="_this setspeaker _value;";
+																	class Value
+																	{
+																		class data
+																		{
+																			singleType="STRING";
+																			value="Male02ENGB";
+																		};
+																	};
+																};
+																class Attribute1
+																{
+																	property="pitch";
+																	expression="_this setpitch _value;";
+																	class Value
+																	{
+																		class data
+																		{
+																			singleType="SCALAR";
+																			value=1.05;
+																		};
+																	};
+																};
+																class Attribute2
+																{
+																	property="face";
+																	expression="_this setface _value;";
+																	class Value
+																	{
+																		class data
+																		{
+																			singleType="STRING";
+																			value="";
+																		};
+																	};
+																};
+																nAttributes=3;
+															};
+														};
+													};
+													class Attributes
+													{
+													};
+													id=1151;
+													atlOffset=0.00023841858;
+												};
 											};
 											id=460;
-											atlOffset=0.18151855;
+											atlOffset=0.090877533;
 										};
 									};
 									id=459;
-									atlOffset=0.18151855;
+									atlOffset=0.090877533;
 								};
 							};
 							id=458;
-							atlOffset=0.18151855;
+							atlOffset=0.090877533;
 						};
 					};
 					id=457;
-					atlOffset=0.18151855;
+					atlOffset=0.090877533;
 				};
 				class Item14
 				{
@@ -11317,7 +11393,7 @@ class Mission
 				};
 			};
 			id=1150;
-			atlOffset=0.25200081;
+			atlOffset=0.25198936;
 		};
 	};
 	class Connections

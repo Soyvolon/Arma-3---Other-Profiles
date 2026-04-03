@@ -3,3 +3,8 @@ class EngineAttributes
 {
 	saveBinarized=0;
 };
+class freeTrackClass
+{
+	enabled=1;
+	ownSettings=1;
+};

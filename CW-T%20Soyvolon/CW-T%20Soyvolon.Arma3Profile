@@ -16,7 +16,7 @@ bootCampWarning=1;
 browsingSource="Internet";
 class Filter
 {
-	serverName="LZG Server";
+	serverName="501st Legion";
 	missionType="";
 	missionName="";
 	maxPing=0;
@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="aux_scripts_migration_testing";
+lastMPMission="501st Legion FunOp Venator: Montella Terrain V1.15.5";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.079828933,-0.048710123,0.2};
+		positionBack[]={-0.094023228,-0.04871013,0.2};
 	};
 };
 FavoriteServers[]=
@@ -527,6 +527,41 @@ FavoriteServers[]=
 	
 	{
 		"199.33.118.6:5122",
+		2
+	},
+	
+	{
+		"136.243.123.206:2302",
+		2
+	},
+	
+	{
+		"148.251.50.222:2602",
+		2
+	},
+	
+	{
+		"148.251.50.222:2402",
+		2
+	},
+	
+	{
+		"136.243.123.206:2402",
+		2
+	},
+	
+	{
+		"148.251.50.222:2702",
+		2
+	},
+	
+	{
+		"164.152.123.221:2316",
+		2
+	},
+	
+	{
+		"199.33.118.3:2702",
 		2
 	}
 };
