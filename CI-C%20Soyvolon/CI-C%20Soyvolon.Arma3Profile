@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="501st Legion FunOp Venator: Montella Terrain V1.15.5";
+lastMPMission="Alderaan Cyc 3 Week 1";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -81,13 +81,13 @@ keyFire[]={487653376};
 keyDefaultAction[]={65536};
 keyActionInMap[]={65536};
 keyThrow[]={290};
-keyCycleThrownItems[]={487784482};
+keyCycleThrownItems[]={487784482,108};
 keyReloadMagazine[]={19};
 keyLockTargets[]={109};
 keyLockEmptyTargets[]={705888365};
 keyLockTarget[]={107};
 keyRevealTarget[]={106};
-keyTacticalPing[]={487784473};
+keyTacticalPing[]={487784473,65540};
 keyZoomTemp[]={65537};
 keyTempRaiseWeapon[]={};
 keyToggleRaiseWeapon[]={285};
@@ -121,9 +121,9 @@ keyPilotCamera[]={487653505};
 keyOpticsMode[]={487653505,181};
 keyPersonView[]={156};
 keyTacticalView[]={83};
-keyZoomIn[]={78,65540};
+keyZoomIn[]={78};
 keyZoomInToggle[]={334};
-keyZoomOut[]={74,65539};
+keyZoomOut[]={74};
 keyZoomOutToggle[]={330};
 keyZoomContIn[]={524299};
 keyZoomContOut[]={524293};
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.094023228,-0.04871013,0.2};
+		positionBack[]={-0.11256905,-0.058656491,0.2};
 	};
 };
 FavoriteServers[]=
@@ -562,6 +562,11 @@ FavoriteServers[]=
 	
 	{
 		"199.33.118.3:2702",
+		2
+	},
+	
+	{
+		"136.243.123.206:2602",
 		2
 	}
 };
@@ -659,7 +664,9 @@ activeKeys[]=
 	"BIS_Arsenal.VR_done",
 	"BIS_Acklay_Milagro_Week1_V1.UMB_Colombia_done",
 	"BIS_Cyclone_3_Milagro_Week3.UMB_Colombia_done",
-	"BIS_Lost_Platoon_File_3_Final.OPTRE_Kholo_done"
+	"BIS_Lost_Platoon_File_3_Final.OPTRE_Kholo_done",
+	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_Bystrica_V-Latest.Woodland_ACR_done",
+	"BIS_Alderaan_Cyc_3_Week_1.pja310_done"
 };
 difficulty="Custom";
 lastSPMission="Art of War";
@@ -673,34 +680,20 @@ keyPLP_LTR_ladderSlideDown[]={316};
 keyWBK_AlternativeRunningKey[]={298};
 keyOPTRE_DoAirBrake[]={};
 keyOPTRE_DoAirThrust[]={};
-class trackIRClass
-{
-	enabled=0;
-	ownSettings=1;
-};
-class freeTrackClass
-{
-	enabled=1;
-	ownSettings=1;
-};
-class eyeXTrackClass
-{
-	enabled=0;
-	ownSettings=0;
-	sensitivity[]={0,0,0,0,0,0};
-	deadZone[]={0,0,0,0,0,0};
-	steepness[]={1,1,1,1,1,1};
-	restrictYaw=0;
-	deadZoneGazePoint=0.050000001;
-	curvePosition=0.80000001;
-	curveSteepness=2;
-	sensitivityGazePoint=3;
-	sensitivityScreenForGaze=2.0999999;
-	rangeResctriction=0.30000001;
-	maxTimeInacticve=10;
-};
 keybettinv_stackmove_5[]={42};
 keybettinv_stackmove_all[]={29};
+wBrowserSP=0;
+class wBrowserMP
+{
+};
+headBob=1;
+floatingZoneArea=0;
+keyrwyl_main_showSeats[]={};
+keyrwyl_main_showSeatsToggle[]={};
+keyrwyl_main_selectSeat[]={};
+keyrwyl_main_holdRelease[]={};
+keyrwyl_main_key_ffv[]={};
+keyrwyl_main_key_ffvCurator[]={};
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 class JoysticksList
@@ -776,12 +769,32 @@ class JoysticksList
 		analogClickLow=0.2;
 	};
 };
-wBrowserSP=0;
-class wBrowserMP
+class trackIRClass
 {
+	enabled=0;
+	ownSettings=1;
 };
-headBob=1;
-floatingZoneArea=0;
+class freeTrackClass
+{
+	enabled=1;
+	ownSettings=1;
+};
+class eyeXTrackClass
+{
+	enabled=0;
+	ownSettings=0;
+	sensitivity[]={0,0,0,0,0,0};
+	deadZone[]={0,0,0,0,0,0};
+	steepness[]={1,1,1,1,1,1};
+	restrictYaw=0;
+	deadZoneGazePoint=0.050000001;
+	curvePosition=0.80000001;
+	curveSteepness=2;
+	sensitivityGazePoint=3;
+	sensitivityScreenForGaze=2.0999999;
+	rangeResctriction=0.30000001;
+	maxTimeInacticve=10;
+};
 sceneComplexity=1300000;
 shadowZDistance=50;
 viewDistance=12000.001;

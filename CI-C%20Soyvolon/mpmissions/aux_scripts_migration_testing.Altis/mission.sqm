@@ -8,6 +8,7 @@ class EditorData
 	toggles=2;
 	mods[]=
 	{
+		"RD501_patch_3den_core",
 		"3denEnhanced"
 	};
 	class ItemIDProvider
@@ -16,14 +17,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=504;
+		nextID=1278;
 	};
 	class Camera
 	{
-		pos[]={23772.867,38.429104,18603.063};
-		dir[]={-0.092177875,-0.71926963,0.68859255};
-		up[]={-0.095433719,0.69472921,0.71291274};
-		aside[]={0.99116212,-4.9025402e-08,0.13268125};
+		pos[]={23779.402,38.429104,18614.701};
+		dir[]={-0.54350585,-0.66924268,0.50667453};
+		up[]={-0.48952267,0.74304205,0.4563497};
+		aside[]={0.68188947,1.9076106e-07,0.731457};
 	};
 };
 binarizationWanted=0;
