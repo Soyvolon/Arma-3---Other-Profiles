@@ -28,7 +28,7 @@ class Filter
 	battleyeRequired=0;
 	expansions=1;
 };
-lastMPMission="Alderaan Cyc 3 Week 1";
+lastMPMission="501st_legion_funop_fob_nativity%3a_altis_v-latest";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -489,7 +489,7 @@ class MainMap
 	{
 		inBack=1;
 		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.11256905,-0.058656491,0.2};
+		positionBack[]={-0.12168653,-0.062593587,0.2};
 	};
 };
 FavoriteServers[]=
@@ -666,7 +666,10 @@ activeKeys[]=
 	"BIS_Cyclone_3_Milagro_Week3.UMB_Colombia_done",
 	"BIS_Lost_Platoon_File_3_Final.OPTRE_Kholo_done",
 	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_Bystrica_V-Latest.Woodland_ACR_done",
-	"BIS_Alderaan_Cyc_3_Week_1.pja310_done"
+	"BIS_Alderaan_Cyc_3_Week_1.pja310_done",
+	"BIS_Alderaan_All_Cyclone_Platoons_Week_3.pja310_done",
+	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_GOS_NZiwasogo_V-Latest.pja305_done",
+	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_GOS_Al_Rayak_V-Latest.pja310_done"
 };
 difficulty="Custom";
 lastSPMission="Art of War";
@@ -694,6 +697,36 @@ keyrwyl_main_selectSeat[]={};
 keyrwyl_main_holdRelease[]={};
 keyrwyl_main_key_ffv[]={};
 keyrwyl_main_key_ffvCurator[]={};
+class trackIRClass
+{
+	enabled=0;
+	ownSettings=1;
+};
+class freeTrackClass
+{
+	enabled=1;
+	ownSettings=1;
+};
+class eyeXTrackClass
+{
+	enabled=0;
+	ownSettings=0;
+	sensitivity[]={0,0,0,0,0,0};
+	deadZone[]={0,0,0,0,0,0};
+	steepness[]={1,1,1,1,1,1};
+	restrictYaw=0;
+	deadZoneGazePoint=0.050000001;
+	curvePosition=0.80000001;
+	curveSteepness=2;
+	sensitivityGazePoint=3;
+	sensitivityScreenForGaze=2.0999999;
+	rangeResctriction=0.30000001;
+	maxTimeInacticve=10;
+};
+keyDBA_Impulsor[]={};
+keyDBA_RepulsorBrake[]={};
+keyDBA_MagClamp[]={};
+keyDBA_Afterburner[]={};
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 class JoysticksList
@@ -768,32 +801,56 @@ class JoysticksList
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
-};
-class trackIRClass
-{
-	enabled=0;
-	ownSettings=1;
-};
-class freeTrackClass
-{
-	enabled=1;
-	ownSettings=1;
-};
-class eyeXTrackClass
-{
-	enabled=0;
-	ownSettings=0;
-	sensitivity[]={0,0,0,0,0,0};
-	deadZone[]={0,0,0,0,0,0};
-	steepness[]={1,1,1,1,1,1};
-	restrictYaw=0;
-	deadZoneGazePoint=0.050000001;
-	curvePosition=0.80000001;
-	curveSteepness=2;
-	sensitivityGazePoint=3;
-	sensitivityScreenForGaze=2.0999999;
-	rangeResctriction=0.30000001;
-	maxTimeInacticve=10;
+	class Joystick8
+	{
+		guid="E13178E0-2B71-11F0-8002-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
+		offset=2048;
+		isXInput=1;
+		mode="Disabled";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
+	class Joystick9
+	{
+		guid="E1319FF0-2B71-11F0-8003-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
+		offset=2304;
+		isXInput=1;
+		mode="Disabled";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
+	class Joystick10
+	{
+		guid="E131EE10-2B71-11F0-8004-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
+		offset=2560;
+		isXInput=1;
+		mode="Disabled";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
+	class Joystick11
+	{
+		guid="E1321520-2B71-11F0-8005-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
+		offset=2816;
+		isXInput=1;
+		mode="Disabled";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
+	class Joystick12
+	{
+		guid="E1321520-2B71-11F0-8006-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
+		offset=3072;
+		isXInput=1;
+		mode="Disabled";
+		analogClickHigh=0.40000001;
+		analogClickLow=0.2;
+	};
 };
 sceneComplexity=1300000;
 shadowZDistance=50;

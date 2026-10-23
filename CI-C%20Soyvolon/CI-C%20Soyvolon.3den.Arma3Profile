@@ -1,6 +1,1 @@
 version=1;
-class freeTrackClass
-{
-	enabled=1;
-	ownSettings=1;
-};
