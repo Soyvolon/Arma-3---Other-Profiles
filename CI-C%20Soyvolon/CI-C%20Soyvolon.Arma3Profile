@@ -1,34 +1,6 @@
-version=2;
+version=1;
 blood=1;
 singleVoice=0;
-class Identity
-{
-	face="Default";
-	glasses="None";
-	speaker="Male04_F";
-	unitType=0;
-	squad="";
-	unitId=-1;
-	pitch=1.0875028;
-};
-tripleHead=0;
-bootCampWarning=1;
-browsingSource="Internet";
-class Filter
-{
-	serverName="501st Legion";
-	missionType="";
-	missionName="";
-	maxPing=0;
-	minPlayers=0;
-	maxPlayers=0;
-	fullServers=1;
-	passwordedServers=1;
-	monetizedServers=1;
-	battleyeRequired=0;
-	expansions=1;
-};
-lastMPMission="501st_legion_funop_fob_nativity%3a_altis_v-latest";
 customScheme=0;
 controller="Default";
 sensitivity="Medium";
@@ -80,14 +52,14 @@ keySwitchWeaponGrp4[]={5};
 keyFire[]={487653376};
 keyDefaultAction[]={65536};
 keyActionInMap[]={65536};
-keyThrow[]={290};
-keyCycleThrownItems[]={487784482,108};
+keyThrow[]={34};
+keyCycleThrownItems[]={487784482};
 keyReloadMagazine[]={19};
-keyLockTargets[]={109};
-keyLockEmptyTargets[]={705888365};
-keyLockTarget[]={107};
-keyRevealTarget[]={106};
-keyTacticalPing[]={487784473,65540};
+keyLockTargets[]={};
+keyLockEmptyTargets[]={};
+keyLockTarget[]={20};
+keyRevealTarget[]={20};
+keyTacticalPing[]={705888276};
 keyZoomTemp[]={65537};
 keyTempRaiseWeapon[]={};
 keyToggleRaiseWeapon[]={285};
@@ -108,11 +80,11 @@ keyMiniMap[]={};
 keyMiniMapToggle[]={-1659699150};
 keyShowMap[]={50};
 keyHideMap[]={50};
-keyUavView[]={};
-keyUavViewToggle[]={487784719};
+keyUavView[]={15};
+keyUavViewToggle[]={271};
 keyDeployWeaponAuto[]={46};
 keyDeployWeaponManual[]={};
-keyHelp[]={};
+keyHelp[]={35};
 keyTimeInc[]={13};
 keyTimeDec[]={12};
 keyOptics[]={65665,82};
@@ -121,9 +93,9 @@ keyPilotCamera[]={487653505};
 keyOpticsMode[]={487653505,181};
 keyPersonView[]={156};
 keyTacticalView[]={83};
-keyZoomIn[]={78};
+keyZoomIn[]={78,65540};
 keyZoomInToggle[]={334};
-keyZoomOut[]={74};
+keyZoomOut[]={74,65539};
 keyZoomOutToggle[]={330};
 keyZoomContIn[]={524299};
 keyZoomContOut[]={524293};
@@ -132,18 +104,18 @@ keyZeroingDown[]={209,487587844};
 keyGunElevUp[]={201};
 keyGunElevDown[]={209};
 keyGunElevSlow[]={42,54};
-keyGunElevAuto[]={487784466};
+keyGunElevAuto[]={20};
 keyLookAround[]={56};
 keyLookAroundToggle[]={312,55};
-keyLookLeftDown[]={};
-keyLookDown[]={};
-keyLookRightDown[]={};
-keyLookLeft[]={};
-keyLookCenter[]={};
-keyLookRight[]={};
-keyLookLeftUp[]={};
-keyLookUp[]={};
-keyLookRightUp[]={};
+keyLookLeftDown[]={79};
+keyLookDown[]={80};
+keyLookRightDown[]={81};
+keyLookLeft[]={75};
+keyLookCenter[]={76};
+keyLookRight[]={77};
+keyLookLeftUp[]={71};
+keyLookUp[]={72};
+keyLookRightUp[]={73};
 keyLookLeftCont[]={524289};
 keyLookRightCont[]={524295};
 keyLookDownCont[]={524288};
@@ -156,22 +128,22 @@ keyLookShiftForwardCont[]={};
 keyLookShiftBackCont[]={};
 keyLookRollLeftCont[]={524290};
 keyLookRollRightCont[]={524296};
-keyLookShiftLeft[]={};
-keyLookShiftRight[]={};
+keyLookShiftLeft[]={487784523};
+keyLookShiftRight[]={487784525};
 keyLookShiftUp[]={487784649};
 keyLookShiftDown[]={487784657};
-keyLookShiftForward[]={};
-keyLookShiftBack[]={};
-keyLookRollLeft[]={};
-keyLookRollRight[]={};
-keyLookShiftCenter[]={};
+keyLookShiftForward[]={487784520};
+keyLookShiftBack[]={487784528};
+keyLookRollLeft[]={487784519};
+keyLookRollRight[]={487784521};
+keyLookShiftCenter[]={487784524};
 keyFreeHeadMove[]={};
 keyVehLockTurretView[]={487784468};
 keyPrevChannel[]={51};
 keyNextChannel[]={52};
 keyChat[]={53};
 keyVoiceOverNet[]={};
-keyPushToTalk[]={};
+keyPushToTalk[]={58};
 keyPushToTalkAll[]={};
 keyPushToTalkSide[]={};
 keyPushToTalkCommand[]={};
@@ -197,7 +169,7 @@ keyCommandingMenu6[]={};
 keyCommandingMenu7[]={};
 keyCommandingMenu8[]={};
 keyCommandingMenu9[]={};
-keyCommandingMenu0[]={11,487784459};
+keyCommandingMenu0[]={11};
 keySelectGroupUnit1[]={59};
 keySelectGroupUnit2[]={60};
 keySelectGroupUnit3[]={61};
@@ -220,7 +192,7 @@ keySetTeamGreen[]={487784508,-1659699140};
 keySetTeamBlue[]={487784509,-1659699139};
 keySetTeamYellow[]={487784510,-1659699138};
 keySetTeamWhite[]={487784511,-1659699137};
-keyNetworkStats[]={940769323};
+keyNetworkStats[]={25};
 keyNetworkPlayers[]={-1659699175};
 keySelectAll[]={41};
 keyTurbo[]={42};
@@ -235,8 +207,8 @@ keyListPrevLeftVehicleDisplay[]={};
 keyListPrevRightVehicleDisplay[]={};
 keyCloseLeftVehicleDisplay[]={};
 keyCloseRightVehicleDisplay[]={};
-keyNextModeLeftVehicleDisplay[]={487784460};
-keyNextModeRightVehicleDisplay[]={487784461};
+keyNextModeLeftVehicleDisplay[]={-1659699174};
+keyNextModeRightVehicleDisplay[]={-1659699173};
 keyHoldBreath[]={42};
 keySalute[]={43};
 keySitDown[]={40};
@@ -275,8 +247,8 @@ keyHeliThrottlePos[]={};
 keyHeliThrottleNeg[]={};
 keyHeliBrakes[]={};
 keyAirPlaneBrake[]={45};
-keyHeliCyclicForward[]={17,200,1048578};
-keyHeliCyclicBack[]={31,208,1048579};
+keyHeliCyclicForward[]={17,200,1048579};
+keyHeliCyclicBack[]={31,208,1048578};
 keyHeliCyclicLeft[]={30,203};
 keyHeliCyclicRight[]={32,205};
 keyHeliCollectiveRaise[]={42};
@@ -327,7 +299,7 @@ keyCommandBack[]={31,208};
 keyCommandFast[]={286457898};
 keyCommandSlow[]={286457885,487784465};
 keySwitchGunnerWeapon[]={487784481};
-keyVehLockTargets[]={108};
+keyVehLockTargets[]={19};
 keyVehLockEmptyTargets[]={};
 keySwapGunner[]={};
 keyHeliManualFire[]={40};
@@ -339,7 +311,7 @@ keyTeamSwitch[]={22};
 keyTeamSwitchPrev[]={};
 keyTeamSwitchNext[]={};
 keyGear[]={23};
-keyCuratorInterface[]={55,299};
+keyCuratorInterface[]={21};
 keyCuratorDelete[]={211};
 keyCuratorDestroy[]={207};
 keyCuratorMoveCamTo[]={33};
@@ -380,13 +352,13 @@ keyCameraMoveUp[]={16};
 keyCameraMoveDown[]={44};
 keyCameraMoveTurbo1[]={42,54};
 keyCameraMoveTurbo2[]={56,184};
-keyCameraZoomIn[]={};
-keyCameraZoomOut[]={};
-keyCameraLookUp[]={};
-keyCameraLookDown[]={};
-keyCameraLookLeft[]={};
-keyCameraLookRight[]={};
-keyCameraReset[]={};
+keyCameraZoomIn[]={78};
+keyCameraZoomOut[]={74};
+keyCameraLookUp[]={72};
+keyCameraLookDown[]={80};
+keyCameraLookLeft[]={75};
+keyCameraLookRight[]={77};
+keyCameraReset[]={76};
 keyCameraTarget[]={33};
 keyCameraVisionMode[]={49};
 keyCameraFlashlight[]={38};
@@ -460,7 +432,7 @@ keyBuldClearAllElevationLocks[]={705888306,907214898};
 keyDiary[]={292};
 keyTasks[]={36};
 keyTasksToggle[]={};
-keyUser1[]={6};
+keyUser1[]={};
 keyUser2[]={};
 keyUser3[]={};
 keyUser4[]={};
@@ -471,280 +443,50 @@ keyUser8[]={};
 keyUser9[]={};
 keyUser10[]={};
 keyUser11[]={};
-keyUser12[]={705888332};
+keyUser12[]={};
 keyUser13[]={};
 keyUser14[]={};
 keyUser15[]={};
 keyUser16[]={};
 keyUser17[]={};
 keyUser18[]={};
-keyUser19[]={487784450,118};
-keyUser20[]={487784451,110};
-revMouse=0;
-mouseSmoothing=5;
-mouseAcceleration=0;
-class MainMap
-{
-	class Compass
-	{
-		inBack=1;
-		position[]={-0.00066477503,-0.0071793897,0.2};
-		positionBack[]={-0.12168653,-0.062593587,0.2};
-	};
-};
-FavoriteServers[]=
-{
-	
-	{
-		"148.251.50.222:2302",
-		2
-	},
-	
-	{
-		"136.243.123.206:2502",
-		2
-	},
-	
-	{
-		"148.251.50.222:2502",
-		2
-	},
-	
-	{
-		"199.33.118.6:5132",
-		2
-	},
-	
-	{
-		"199.33.118.6:5112",
-		2
-	},
-	
-	{
-		"199.33.118.6:5102",
-		2
-	},
-	
-	{
-		"199.33.118.6:5122",
-		2
-	},
-	
-	{
-		"136.243.123.206:2302",
-		2
-	},
-	
-	{
-		"148.251.50.222:2602",
-		2
-	},
-	
-	{
-		"148.251.50.222:2402",
-		2
-	},
-	
-	{
-		"136.243.123.206:2402",
-		2
-	},
-	
-	{
-		"148.251.50.222:2702",
-		2
-	},
-	
-	{
-		"164.152.123.221:2316",
-		2
-	},
-	
-	{
-		"199.33.118.3:2702",
-		2
-	},
-	
-	{
-		"136.243.123.206:2602",
-		2
-	}
-};
-anisoFilter=0;
-textureQuality=3;
-shadowQuality=1;
-maxSamplesPlayed=96;
-class DifficultyPresets
-{
-	class CustomDifficulty
-	{
-		class Options
-		{
-			groupIndicators=1;
-			friendlyTags=1;
-			enemyTags=0;
-			detectedMines=1;
-			commands=2;
-			waypoints=2;
-			weaponInfo=2;
-			stanceIndicator=2;
-			reducedDamage=0;
-			staminaBar=1;
-			weaponCrosshair=1;
-			visionAid=0;
-			thirdPersonView=1;
-			cameraShake=1;
-			scoreTable=1;
-			deathMessages=1;
-			vonID=1;
-			mapContentFriendly=1;
-			mapContentEnemy=0;
-			mapContentMines=1;
-			autoReport=1;
-			multipleSaves=1;
-			tacticalPing=3;
-		};
-		aiLevelPreset="AILevelMedium";
-	};
-	class CustomAILevel
-	{
-		skillAI=0.5;
-		precisionAI=0.5;
-	};
-};
-adaptiveCrosshair=1;
-RTDEnabled=0;
-RTDFullHUD=1;
-RTDRoughLanding=1;
-RTDWindDynamic=0;
-RTDAutoTrim=1;
-RTDStressDamage=0;
-showTitles=1;
-useImperialSystem=0;
-vehicleFreelook=0;
-useIncapacitatedState=1;
-tutorialHints=1;
-streamFriendlyUI=0;
-instructorFigure=1;
-showRadio=1;
-currentCampaign="A3\Missions_F_Orange\Campaign";
-lastCampaignMission="Drawdown 2035";
-activeKeys[]=
-{
-	"BIS_Avalanche%203%20Week%201%20V1.lingor3_done",
-	"BIS_Takistan_Venator_FunOp_v511.takistan_done",
-	"BIS_GOS_Al_Rayak_Venator_FunOp_v512.pja310_done",
-	"BIS_Montella_Terrain_Venator_FunOp_v512.MontellaV3_done",
-	"BIS_501st_Kerama_Ambush.kerama_establishingShot",
-	"BIS_Chernarus_Winter_Venator_FunOp_v512.Chernarus_Winter_done",
-	"BIS_501st%20Legion%20FunOp%20Venator%3A%20Altis%20V1%2e1%2e0.Altis_done",
-	"BIS_501st_Legion_FunOp_Venator%3A_Altis_V1-2-0.Altis_done",
-	"BIS_501st_Legion_FunOp_Venator%3A_Tembelan_Island_V1-2-0.Tembelan_done",
-	"BIS_Lost_Plt_Blacksite_Week_One_Main_V4.optre_gridlock_done",
-	"BIS_Av3_Week1_V1.Altis_done",
-	"BIS_avalanche_3_week_2_v3.Altis_done",
-	"BIS_Lost_Platoon_World_Walker_Part_Two_V3.Esseker_done",
-	"BIS_Ava_3_Spooky_FTX_2.pulau_done",
-	"BIS_Showcase_Future.Altis_titlecard",
-	"BIS_Showcase_Future.Altis_establishingShot",
-	"BIS_Avalanche3_Week_1_2022_V5.Altis_done",
-	"BIS_Lost%20Plt_graveyard_v04.eladeen_terrain_done",
-	"BIS_Avalanche3_Week_2_2022_V3.Altis_done",
-	"BIS_av3_Week_3_2022_V2.Altis_done",
-	"BIS_501st_Legion_FunOp_FOB_Halki%3A_Sahrani_V1-9-0.sara_done",
-	"BIS_cyclone3_week2_2022_v1.Altis_done",
-	"BIS_cyclone2_week2_2022_v1.Altis_done",
-	"BIS_RD501_TestCruiseMissiles_Cyc1.OPTRE_Madrigal_done",
-	"BIS_MPEnded_Event_Testing.vr_done",
-	"BIS_Allanteen_Week1_CYC3_07%2f15%2f2022.UMB_Colombia_done",
-	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_Colombia_V-Latest.UMB_Colombia_done",
-	"BIS_Operation_Winter_Contingency.3AS_Orto_Plut_done",
-	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_Altis_V-Latest.Altis_done",
-	"BIS_501st_Legion_FunOp_Venator%3A_Saint_Kapaulio_V-Latest.Kapaulio_done",
-	"BIS_Arsenal.VR_done",
-	"BIS_Acklay_Milagro_Week1_V1.UMB_Colombia_done",
-	"BIS_Cyclone_3_Milagro_Week3.UMB_Colombia_done",
-	"BIS_Lost_Platoon_File_3_Final.OPTRE_Kholo_done",
-	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_Bystrica_V-Latest.Woodland_ACR_done",
-	"BIS_Alderaan_Cyc_3_Week_1.pja310_done",
-	"BIS_Alderaan_All_Cyclone_Platoons_Week_3.pja310_done",
-	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_GOS_NZiwasogo_V-Latest.pja305_done",
-	"BIS_501st_Legion_FunOp_FOB_Nativity%3A_GOS_Al_Rayak_V-Latest.pja310_done"
-};
-difficulty="Custom";
-lastSPMission="Art of War";
-playedKeys[]=
-{
-	"BIS_Showcase_Future.Altis_done"
-};
-teamSwitchOffsetX=0;
-teamSwitchOffsetY=0;
+keyUser19[]={};
+keyUser20[]={};
 keyPLP_LTR_ladderSlideDown[]={316};
-keyWBK_AlternativeRunningKey[]={298};
-keyOPTRE_DoAirBrake[]={};
-keyOPTRE_DoAirThrust[]={};
-keybettinv_stackmove_5[]={42};
-keybettinv_stackmove_all[]={29};
-wBrowserSP=0;
-class wBrowserMP
-{
-};
-headBob=1;
-floatingZoneArea=0;
 keyrwyl_main_showSeats[]={};
 keyrwyl_main_showSeatsToggle[]={};
 keyrwyl_main_selectSeat[]={};
 keyrwyl_main_holdRelease[]={};
 keyrwyl_main_key_ffv[]={};
 keyrwyl_main_key_ffvCurator[]={};
-class trackIRClass
-{
-	enabled=0;
-	ownSettings=1;
-};
-class freeTrackClass
-{
-	enabled=1;
-	ownSettings=1;
-};
-class eyeXTrackClass
-{
-	enabled=0;
-	ownSettings=0;
-	sensitivity[]={0,0,0,0,0,0};
-	deadZone[]={0,0,0,0,0,0};
-	steepness[]={1,1,1,1,1,1};
-	restrictYaw=0;
-	deadZoneGazePoint=0.050000001;
-	curvePosition=0.80000001;
-	curveSteepness=2;
-	sensitivityGazePoint=3;
-	sensitivityScreenForGaze=2.0999999;
-	rangeResctriction=0.30000001;
-	maxTimeInacticve=10;
-};
+keyWBK_AlternativeRunningKey[]={298};
+keyOPTRE_DoAirBrake[]={};
+keyOPTRE_DoAirThrust[]={};
 keyDBA_Impulsor[]={};
 keyDBA_RepulsorBrake[]={};
 keyDBA_MagClamp[]={};
 keyDBA_Afterburner[]={};
+revMouse=0;
+mouseSmoothing=5;
+mouseAcceleration=0;
 mouseSensitivityX=1;
 mouseSensitivityY=1;
 class JoysticksList
 {
 	class Joystick1
 	{
-		guid="3DA4F7A0-8AFA-11EA-8001-444553540000";
-		name="TWCS Throttle";
+		guid="E13178E0-2B71-11F0-8002-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
 		offset=256;
-		isXInput=0;
-		mode="Custom";
+		isXInput=1;
+		mode="Disabled";
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
 	class Joystick2
 	{
-		guid="3DA545C0-8AFA-11EA-8002-444553540000";
-		name="T.16000M";
+		guid="6363F3C0-6C90-11EF-8002-444553540000";
+		name="vJoy Device";
 		offset=512;
 		isXInput=0;
 		mode="Custom";
@@ -753,8 +495,8 @@ class JoysticksList
 	};
 	class Joystick3
 	{
-		guid="11FF28DE-28DE-0001-0000-504944564944";
-		name="Controller (XBOX 360 For Windows)";
+		guid="E1319FF0-2B71-11F0-8003-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
 		offset=768;
 		isXInput=1;
 		mode="Disabled";
@@ -763,112 +505,42 @@ class JoysticksList
 	};
 	class Joystick4
 	{
-		guid="3FA483E0-CFD6-11EC-8001-444553540000";
-		name="Pro Controller";
+		guid="E131EE10-2B71-11F0-8004-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
 		offset=1024;
-		isXInput=0;
-		mode="Custom";
+		isXInput=1;
+		mode="Disabled";
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
 	class Joystick5
 	{
-		guid="6363F3C0-6C90-11EF-8002-444553540000";
-		name="vJoy Device";
+		guid="E1321520-2B71-11F0-8005-444553540000";
+		name="Controller (Wooting Two HE (ARM))";
 		offset=1280;
-		isXInput=0;
+		isXInput=1;
 		mode="Disabled";
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
 	class Joystick6
 	{
-		guid="372849F0-8488-11EE-8002-444553540000";
-		name=" VKBSim NXT SEM THQ ";
-		offset=1536;
-		isXInput=0;
-		mode="Custom";
-		analogClickHigh=0.40000001;
-		analogClickLow=0.2;
-	};
-	class Joystick7
-	{
-		guid="F9398A90-8497-11EE-8003-444553540000";
-		name=" VKBSim NXT SEM THQ ";
-		offset=1792;
-		isXInput=0;
-		mode="Custom";
-		analogClickHigh=0.40000001;
-		analogClickLow=0.2;
-	};
-	class Joystick8
-	{
-		guid="E13178E0-2B71-11F0-8002-444553540000";
-		name="Controller (Wooting Two HE (ARM))";
-		offset=2048;
-		isXInput=1;
-		mode="Disabled";
-		analogClickHigh=0.40000001;
-		analogClickLow=0.2;
-	};
-	class Joystick9
-	{
-		guid="E1319FF0-2B71-11F0-8003-444553540000";
-		name="Controller (Wooting Two HE (ARM))";
-		offset=2304;
-		isXInput=1;
-		mode="Disabled";
-		analogClickHigh=0.40000001;
-		analogClickLow=0.2;
-	};
-	class Joystick10
-	{
-		guid="E131EE10-2B71-11F0-8004-444553540000";
-		name="Controller (Wooting Two HE (ARM))";
-		offset=2560;
-		isXInput=1;
-		mode="Disabled";
-		analogClickHigh=0.40000001;
-		analogClickLow=0.2;
-	};
-	class Joystick11
-	{
-		guid="E1321520-2B71-11F0-8005-444553540000";
-		name="Controller (Wooting Two HE (ARM))";
-		offset=2816;
-		isXInput=1;
-		mode="Disabled";
-		analogClickHigh=0.40000001;
-		analogClickLow=0.2;
-	};
-	class Joystick12
-	{
 		guid="E1321520-2B71-11F0-8006-444553540000";
 		name="Controller (Wooting Two HE (ARM))";
-		offset=3072;
+		offset=1536;
 		isXInput=1;
 		mode="Disabled";
 		analogClickHigh=0.40000001;
 		analogClickLow=0.2;
 	};
 };
-sceneComplexity=1300000;
-shadowZDistance=50;
-viewDistance=12000.001;
-preferredObjectViewDistance=12000.001;
-pipViewDistance=5791;
-terrainGrid=6.25;
-volumeCD=0.12094564;
-volumeFX=0.95161927;
-volumeSpeech=0.95161927;
-volumeVoN=10;
-vonRecThreshold=0.029999999;
-volumeMapDucking=1;
-volumeUI=1;
+anisoFilter=16;
+textureQuality=4;
 gamma=1;
-ppBrightness=1;
-ppContrast=1;
-ppSaturation=1;
+shadowQuality=5;
+ppBrightness=1.01;
+ppContrast=1.0599999;
+ppSaturation=1.08;
 brightness=1;
 fovTop=0.75;
 fovLeft=1.3333334;
@@ -877,3 +549,17 @@ uiTopLeftY=0.22499999;
 uiBottomRightX=0.70625001;
 uiBottomRightY=0.77499998;
 IGUIScale=0.55000001;
+tripleHead=0;
+sceneComplexity=1800000;
+shadowZDistance=100;
+viewDistance=3800;
+preferredObjectViewDistance=2300;
+pipViewDistance=500;
+terrainGrid=3.125;
+volumeCD=5;
+volumeFX=5;
+volumeSpeech=5;
+volumeVoN=10;
+vonRecThreshold=0.029999999;
+volumeMapDucking=1;
+volumeUI=1;
